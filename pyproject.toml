@@ -11,7 +11,7 @@ python = "^3.9"
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-addopts = "--cov=openyieldtables --cov-report term --cov-report html"
+addopts = "--cov=openyieldtables --cov-report term-missing --cov-report html"
 
 [tool.black]
 line-length = 79
