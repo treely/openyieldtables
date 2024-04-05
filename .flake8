@@ -9,5 +9,7 @@ exclude =
 extend-ignore =
     # See https://github.com/PyCQA/pycodestyle/issues/373
     E203,
-ignore = E203, E266, E501, W503, W605
+ignore = E203, E266, W503, W605
 select = B,C,E,F,W,T4
+per-file-ignores =
+    __init__.py: F401
