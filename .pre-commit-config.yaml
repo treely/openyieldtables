@@ -7,16 +7,22 @@ repos:
         stages: [commit]
         language: system
         entry: poetry run black
-        types: [python]
+        types: [file, python]
       - id: flake8
         name: flake8
         stages: [commit]
         entry: poetry run flake8
         language: system
-        types: [python]
+        types: [file, python]
       - id: isort
         name: isort
         stages: [commit]
         entry: poetry run isort
+        language: system
+        types: [file, python]
+      - id: mypy
+        name: mypy
+        stages: [commit]
+        entry: poetry run mypy
         language: system
         types: [file, python]
