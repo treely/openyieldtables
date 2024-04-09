@@ -1,7 +1,7 @@
 from pydantic import ValidationError
 import pytest
 
-from models import (
+from openyieldtables.models import (
     YieldClass,
     YieldClassRow,
     YieldTable,

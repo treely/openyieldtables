@@ -1,10 +1,11 @@
-from typing import List, Optional
+from pathlib import Path
+from typing import List, Optional, Union
 
 import pandas as pd
 
 
 def find_available_columns(
-    csv_path: str, id_column: str, id_value: int
+    csv_path: Union[str, Path], id_column: str, id_value: int
 ) -> List[str]:
     """
     Find columns in a CSV file where at least one value is present for a

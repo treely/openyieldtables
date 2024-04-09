@@ -3,7 +3,9 @@ from openyieldtables.utils import find_available_columns, parse_float
 
 def test_find_available_columns():
     # Yield table with empty columns
-    empty_columns = find_available_columns("data/yield_tables.csv", "yt_id", 7)
+    empty_columns = find_available_columns(
+        "src/openyieldtables/data/yield_tables.csv", "yt_id", 7
+    )
     assert empty_columns == [
         "yt_id",
         "yt_name",
@@ -21,7 +23,9 @@ def test_find_available_columns():
     ]
 
     # Yield table without empty columns
-    empty_columns = find_available_columns("data/yield_tables.csv", "yt_id", 1)
+    empty_columns = find_available_columns(
+        "src/openyieldtables/data/yield_tables.csv", "yt_id", 1
+    )
     assert empty_columns == [
         "yt_id",
         "yt_name",

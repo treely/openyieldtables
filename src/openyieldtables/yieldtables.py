@@ -1,15 +1,20 @@
 import csv
+from pathlib import Path
 from typing import Dict, List, Optional, TypedDict, cast
 
-from models import (
+from .models import (
     YieldClass,
     YieldClassRow,
     YieldTable,
     YieldTableData,
     YieldTableMeta,
 )
-
 from .utils import find_available_columns, parse_float
+
+# Construct the path to the CSV files dynamically
+script_location = Path(__file__).resolve().parent
+csv_path_meta = script_location / "data" / "yield_tables_meta.csv"
+csv_path_yield_tables = script_location / "data" / "yield_tables.csv"
 
 
 class YieldTableMetaCSVRow(TypedDict, total=False):
@@ -40,7 +45,7 @@ def get_yield_tables_meta() -> List[YieldTableMeta]:
     yield_table_meta_list = []
 
     with open(
-        "data/yield_tables_meta.csv",
+        csv_path_meta,
         mode="r",
         encoding="utf-8",
     ) as csv_file:
@@ -69,7 +74,9 @@ def get_yield_tables_meta() -> List[YieldTableMeta]:
                         int(row["age_step"]) if row.get("age_step") else None
                     ),
                     "available_columns": find_available_columns(
-                        "data/yield_tables.csv", "yt_id", int(row["id"])
+                        csv_path_yield_tables,
+                        "yt_id",
+                        int(row["id"]),
                     ),
                 },
             )
@@ -127,7 +134,7 @@ def get_yield_table_data(yt_id: int) -> YieldTable:
     yield_table_meta = get_yield_table_meta(yt_id)
 
     with open(
-        "data/yield_tables.csv",
+        csv_path_yield_tables,
         mode="r",
         encoding="utf-8",
     ) as csv_file:
