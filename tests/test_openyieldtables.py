@@ -8,24 +8,17 @@ from openyieldtables.yieldtables import (
 
 def test_get_yield_tables_meta():
     yield_tables_meta = get_yield_tables_meta()
-    assert len(yield_tables_meta) == 78
+    assert len(yield_tables_meta) == 28
 
     assert yield_tables_meta[0].model_dump() == {
         "id": 1,
         "name": "Fichte_Hochgebirge",
-        "tree_species_id": 1000000,
-        "name_short": "Fi-HG",
         "country_codes": ["AT", "DE"],
         "type": "dgz_100",
-        "assortment_table": None,
-        "weight": 420,
         "source": "Marschall",
-        "active": True,
+        "link": "",
         "yield_value_step": 1.0,
         "age_step": 10,
-        "age_min": 10,
-        "age_max": 250,
-        "missing_columns": [],
         "available_columns": [
             "yt_id",
             "yt_name",
@@ -44,22 +37,15 @@ def test_get_yield_tables_meta():
             "mean_total_growth_per_ha",
         ],
     }
-    assert yield_tables_meta[77].model_dump() == {
+    assert yield_tables_meta[27].model_dump() == {
         "id": 93,
         "name": "Ki-SüdTirol  ",
-        "tree_species_id": 10001,
-        "name_short": "Ki-SüdTirol  ",
         "country_codes": ["AT", "DE"],
         "type": "dgz_150",
-        "assortment_table": None,
-        "weight": 460,
         "source": "ET-digital.xls",
-        "active": True,
+        "link": "",
         "yield_value_step": 1.0,
         "age_step": 10,
-        "age_min": 10,
-        "age_max": 250,
-        "missing_columns": [],
         "available_columns": [
             "yt_id",
             "yt_name",

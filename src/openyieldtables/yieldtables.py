@@ -15,19 +15,12 @@ from .utils import find_available_columns, parse_float
 class YieldTableMetaCSVRow(TypedDict, total=False):
     id: int
     name: str
-    tree_species_id: Optional[int]
-    name_short: Optional[str]
     country_codes: List[str]
     type: Optional[str]
-    assortment_table: Optional[int]
-    weight: Optional[int]
     source: str
-    active: Optional[bool]
+    link: Optional[str]
     yield_value_step: Optional[float]
     age_step: Optional[int]
-    age_min: Optional[int]
-    age_max: Optional[int]
-    missing_columns: Optional[List[str]]
     available_columns: List[str]
 
 
@@ -59,28 +52,14 @@ def get_yield_tables_meta() -> List[YieldTableMeta]:
                 {
                     "id": int(row.get("id", 0)),
                     "name": row.get("name", ""),
-                    "tree_species_id": (
-                        int(row["tree_species_id"])
-                        if row.get("tree_species_id")
-                        else None
-                    ),
-                    "name_short": row.get("name_short"),
                     "country_codes": (
                         row.get("country_codes", "").split(",")
                         if row.get("country_codes")
                         else []
                     ),
                     "type": row.get("type"),
-                    "assortment_table": (
-                        int(row["assortment_table"])
-                        if row.get("assortment_table")
-                        else None
-                    ),
-                    "weight": (
-                        int(row["weight"]) if row.get("weight") else None
-                    ),
                     "source": row.get("source", ""),
-                    "active": row.get("active", "FALSE") == "TRUE",
+                    "link": row.get("link", ""),
                     "yield_value_step": (
                         float(row["yield_value_step"])
                         if row.get("yield_value_step")
@@ -88,17 +67,6 @@ def get_yield_tables_meta() -> List[YieldTableMeta]:
                     ),
                     "age_step": (
                         int(row["age_step"]) if row.get("age_step") else None
-                    ),
-                    "age_min": (
-                        int(row["age_min"]) if row.get("age_min") else None
-                    ),
-                    "age_max": (
-                        int(row["age_max"]) if row.get("age_max") else None
-                    ),
-                    "missing_columns": (
-                        row.get("missing_columns", "").split(",")
-                        if row.get("missing_columns")
-                        else []
                     ),
                     "available_columns": find_available_columns(
                         "data/yield_tables.csv", "yt_id", int(row["id"])

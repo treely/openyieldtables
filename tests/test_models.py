@@ -15,19 +15,12 @@ def test_yield_table_meta_valid():
     data = {
         "id": 1,
         "name": "yield_table_name",
-        "tree_species_id": 1000000,
-        "name_short": "short_name",
         "country_codes": ["AT", "DE"],
         "type": "dgz_100",
-        "assortment_table": 1,
-        "weight": 420,
         "source": "source",
-        "active": True,
+        "link": "https://example.com",
         "yield_value_step": 1,
         "age_step": 10,
-        "age_min": 10,
-        "age_max": 250,
-        "missing_columns": None,
         "available_columns": [
             "id",
             "name",
@@ -40,7 +33,6 @@ def test_yield_table_meta_valid():
     assert model.name == "yield_table_name"
     assert model.country_codes == ["AT", "DE"]
     assert model.yield_value_step == 1.0
-    assert model.missing_columns is None
 
 
 def test_yield_table_meta_invalid():
@@ -48,19 +40,12 @@ def test_yield_table_meta_invalid():
     invalid_data = {
         "id": "not an int",  # Invalid type for 'id'
         "name": "yield_table_name",
-        "tree_species_id": 1000000,
-        "name_short": "short_name",
         "country_codes": "AT",  # Invalid type for 'country_codes'
         "type": "dgz_100",
-        "assortment_table": 1,
-        "weight": 420.8,  # Invalid type for 'weight'
         "source": "source",
-        "active": True,
+        "link": "https://example.com",
         "yield_value_step": 1,
         "age_step": 10,
-        "age_min": 10,
-        "age_max": 250,
-        "missing_columns": None,
         "available_columns": [],
     }
     with pytest.raises(ValidationError):
@@ -82,9 +67,10 @@ def test_yield_table_meta_defaults():
         ],
     }
     model = YieldTableMeta(**data)
-    assert model.tree_species_id is None
-    assert model.active is None
-    assert model.missing_columns is None
+    assert model.type is None
+    assert model.link is None
+    assert model.yield_value_step is None
+    assert model.age_step is None
 
 
 def test_yield_table_valid_data():

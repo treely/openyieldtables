@@ -6,19 +6,12 @@ from pydantic import BaseModel
 class YieldTableMeta(BaseModel):
     id: int
     name: str
-    tree_species_id: Optional[int] = None
-    name_short: Optional[str] = None
     country_codes: List[str]
     type: Optional[str] = None
-    assortment_table: Optional[int] = None
-    weight: Optional[int] = None
     source: str
-    active: Optional[bool] = None
+    link: Optional[str] = None
     yield_value_step: Optional[float] = None
     age_step: Optional[int] = None
-    age_min: Optional[int] = None
-    age_max: Optional[int] = None
-    missing_columns: Optional[List[str]] = None
     available_columns: List[str]
 
 
