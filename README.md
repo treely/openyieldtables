@@ -2,7 +2,7 @@
 
 An open source Python library for yield tables.
 
-## Getting Started
+## Quickstart
 
 Download the latest version of the library from PyPI:
 
@@ -10,22 +10,29 @@ Download the latest version of the library from PyPI:
 pip install openyieldtables
 ```
 
-### Usage
+Import the library and load a yield table:
 
-...
+```python
+from openyieldtables.yieldtables import (
+    get_yield_table_data,
+    get_yield_tables_meta,
+)
+
+# Get the metadata of all available yield tables
+yield_tables_meta = get_yield_tables_meta()
+
+# Get the data of a yield table by its ID
+yield_table = get_yield_table(1)
+```
 
 ## Documentation
 
-You can find the documentation [here](https://openyieldtables.readthedocs.io/en/latest/).
+You can find the documentation [here](https://openyieldtables.readthedocs.io/latest/).
 
 ## Contributing
 
-We are happy about every contribution! Please follow our [contribution guideline](CONTRIBUTING.md).
+We are happy about every contribution! Please follow our [contribution guideline](https://openyieldtables.readthedocs.io/latest/contributing).
 
-## Local Development
-
-For development on `openyieldtables` check out our [development docs](CONTRIBUTING.md#development).
-
-## Who is behind openyieldtables?
+## About
 
 `openyieldtables` is maintained by [Tree.ly](https://tree.ly) and [FMM](https://www.fmm.at/).

@@ -1,0 +1,32 @@
+site_name: openyieldtables
+site_description: An open source library for yield tables
+
+theme:
+  name: readthedocs
+
+repo_name: openyieldtables
+repo_url: https://github.com/treely/openyieldtables
+edit_uri: edit/main/docs/
+
+# https://www.mkdocs.org/user-guide/configuration/#validation
+validation:
+  omitted_files: warn
+  absolute_links: warn
+  unrecognized_links: warn
+
+nav:
+  - Overview: index.md
+  - Data model: data_model.md
+  - Functions: functions.md
+  - Contributing: contributing.md
+  - About: about.md
+
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          paths: [src]
+          options:
+            show_root_heading: true
+            show_root_full_path: false

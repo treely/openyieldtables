@@ -31,15 +31,15 @@ class YieldTableMetaCSVRow(TypedDict, total=False):
 
 def get_yield_tables_meta() -> List[YieldTableMeta]:
     """
-    Reads the yield tables metadata from 'data/yield_tables_meta.csv' and
+    Reads the yield tables metadata from `data/yield_tables_meta.csv` and
     returns a list of YieldTableMeta instances.
 
-    The CSV file is expected to be in a specific format, with columns for
-    tree_species_id, assortment table, weight, age_step, age_min, age_max, etc.
+    The CSV file is expected to be in a specific format, with columns for `id`,
+    `name`, `country_codes`, `type`, `source`, `link`, etc.
 
     Returns:
-        List[YieldTableMeta]: A list of YieldTableMeta instances, one for each
-        row in the CSV file.
+        List[YieldTableMeta]: A list of `YieldTableMeta` instances, one for
+            each row in the CSV file.
     """
 
     yield_table_meta_list = []
@@ -90,10 +90,10 @@ def get_yield_tables_meta() -> List[YieldTableMeta]:
 def get_yield_table_meta(yt_id: int) -> YieldTableMeta:
     """
     Reads the yield table metadata for a specific yield table ID from
-    'data/yield_tables_meta.csv' and returns a YieldTableMeta instance.
+     `data/yield_tables_meta.csv` and returns a YieldTableMeta instance.
 
-    The CSV file is expected to be in a specific format, with columns for
-    tree_species_id, assortment table, weight, age_step, age_min, age_max, etc.
+    The CSV file is expected to be in a specific format, with columns for `id`,
+    `name`, `country_codes`, `type`, `source`, `link`, etc.
 
     Args:
         yt_id (int): The ID of the yield table to get the metadata for.
@@ -102,8 +102,8 @@ def get_yield_table_meta(yt_id: int) -> YieldTableMeta:
         ValueError: If the yield table with the specified ID is not found.
 
     Returns:
-        YieldTableMeta: A YieldTableMeta instance for the specified yield table
-        ID.
+        YieldTableMeta: A `YieldTableMeta` instance for the specified yield
+            table ID.
     """
 
     yield_table_meta_list = get_yield_tables_meta()
@@ -118,16 +118,17 @@ def get_yield_table_meta(yt_id: int) -> YieldTableMeta:
 def get_yield_table_data(yt_id: int) -> YieldTable:
     """
     Reads the yield table data for a specific yield table ID from
-    'data/yield_tables.csv' and returns a YieldTable instance.
+    `data/yield_tables.csv` and returns a YieldTable instance.
 
     The CSV file is expected to be in a specific format, with columns for
-    yt_id, yt_name, yield_value, age, dominant_height, middle_height, etc.
+    `yt_id`, `yt_name`, `yield_value`, `age`, `dominant_height`,
+    `middle_height`, etc.
 
     Args:
         yt_id (int): The ID of the yield table to get the data for.
 
     Returns:
-        YieldTable: A YieldTable instance for the specified yield table ID.
+        YieldTable: A `YieldTable` instance for the specified yield table ID.
     """
 
     # Get the meta data

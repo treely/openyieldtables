@@ -53,14 +53,14 @@ via our websites: [Tree.ly](https://tree.ly), [FMM](https://www.fmm.at/).
 
 ### Installation
 
-1. **Clone the Repository**
+**Clone the Repository**
 
 ```bash
 git clone git@github.com:treely/openyieldtables.git
 cd path/to/openyieldtables
 ```
 
-2. **Install the dependencies**
+**Install the dependencies**
 
 ```bash
 poetry install
@@ -113,4 +113,18 @@ To run the pre-commit checks manually, use:
 
 ```bash
 poetry run pre-commit run --all-files
+```
+
+### Documentation
+
+We use `mkdocs` for documentation. To run the documenation locally at [http://127.0.0.1:8000](http://127.0.0.1:8000), use:
+
+```bash
+poetry run mkdocs serve
+```
+
+To build the documentation, use:
+
+```bash
+poetry run mkdocs build
 ```
