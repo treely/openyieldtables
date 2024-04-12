@@ -68,13 +68,13 @@ poetry install
 
 ### Environment setup
 
-For development, we recommend using an IDE with Poetry support. For python
-managing different python versions, we recommend using `pyenv`.
+For development, we recommend using an IDE with Poetry support. For managing
+different python versions, we recommend using `pyenv`.
 
 Poetry can pick up the local python version from `pyenv` automatically:
 
 ```bash
-pyenv local 3.8
+pyenv local 3.9
 poetry env use python
 ```
 
@@ -115,9 +115,19 @@ To run the pre-commit checks manually, use:
 poetry run pre-commit run --all-files
 ```
 
+### API
+
+We use `fastapi` for the API. To run the API locally at
+[http://127.0.0.1:8000](http://127.0.0.1:8000), use:
+
+```bash
+poetry run uvicorn api.main:app --reload
+```
+
 ### Documentation
 
-We use `mkdocs` for documentation. To run the documenation locally at [http://127.0.0.1:8000](http://127.0.0.1:8000), use:
+We use `mkdocs` for the documentation. To run the documenation locally at
+[http://127.0.0.1:8000](http://127.0.0.1:8000), use:
 
 ```bash
 poetry run mkdocs serve
