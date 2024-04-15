@@ -13,5 +13,15 @@ def read_root():
     }
 
 
+@app.get("/health/readiness", include_in_schema=False)
+def readiness():
+    return {"status": "ok"}
+
+
+@app.get("/health/liveness", include_in_schema=False)
+def liveness():
+    return {"status": "ok"}
+
+
 app.include_router(yieldtablesmeta.router)
 app.include_router(yieldtables.router)
