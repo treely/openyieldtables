@@ -6,7 +6,7 @@
       show_root_full_path: true
       show_source: false
 
-##Usage
+## Usage
 
 **Get the metadata of all available yield tables**
 

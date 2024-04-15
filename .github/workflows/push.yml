@@ -1,0 +1,93 @@
+name: Push an Image to ECR
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  test-and-push:
+    name: Push
+    runs-on: ubuntu-latest
+    env:
+      IMAGE: treely/yield-tables
+    steps:
+      # Generate build ID
+      - name: Get branch name (merge)
+        if: github.event_name != 'pull_request'
+        run: echo "BRANCH_NAME=$(echo ${GITHUB_REF#refs/heads/} | sed 's/\//_/g; s/-/_/g')" >> $GITHUB_ENV
+      - name: Get branch name (pull request)
+        if: github.event_name == 'pull_request'
+        run: echo "BRANCH_NAME=$(echo ${GITHUB_HEAD_REF} | sed 's/\//_/g; s/-/_/g')" >> $GITHUB_ENV
+      - name: Generate build ID
+        id: prep
+        run: echo "build_id=${BRANCH_NAME}-${GITHUB_SHA::8}-$(date +%s)" >> $GITHUB_OUTPUT
+
+      # Check-out repo
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ github.head_ref }}
+      # Install poetry
+      - name: Install poetry
+        run: pipx install poetry==1.8.2
+      # Set-up python with cache
+      - name: Setup Python 3.9
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.9"
+          cache: "poetry"
+      # Install requirements
+      - name: Install requirements
+        run: poetry install
+
+      # Run linters
+      - name: Run linters
+        run: |
+          set -o pipefail
+          poetry run pre-commit run --all-files
+
+      # Run unit tests
+      - name: Run tests
+        run: |
+          set -o pipefail
+          poetry run pytest -- --cov-report xml
+      # Add pytest coverage report to PR
+      - name: Pytest coverage comment
+        if: ${{ success() && github.event_name == 'pull_request' }}
+        id: coverageComment
+        uses: MishaKav/pytest-coverage-comment@main
+        with:
+          title: Coverage Report
+          pytest-xml-coverage-path: coverage.xml
+
+      # Configure AWS credentials
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: eu-west-1
+      # Login to Amazon ECR
+      - name: Login to Amazon ECR
+        id: login-ecr
+        uses: aws-actions/amazon-ecr-login@v1
+
+      # Build and tag image
+      - name: Build and tag image
+        env:
+          ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
+          BUILD_ID: ${{ steps.prep.outputs.build_id }}
+        run: |
+          docker build \
+            -t ${IMAGE}:${BUILD_ID} \
+            -t ${ECR_REGISTRY}/${IMAGE}:${BUILD_ID} ./
+      # Push the image to ECR
+      - name: Push
+        env:
+          ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
+          BUILD_ID: ${{ steps.prep.outputs.build_id }}
+        run: docker push ${ECR_REGISTRY}/${IMAGE}:${BUILD_ID}
