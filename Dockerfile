@@ -11,17 +11,27 @@ WORKDIR /app
 
 COPY pyproject.toml poetry.lock ./
 
+# Required for poetry to work
+RUN touch README.md
+
 RUN poetry install --with api --without dev --no-root && rm -rf $POETRY_CACHE_DIR
+
+COPY src ./src
+
+RUN poetry build
 
 # The runtime image, used to just run the code provided its virtual environment
 FROM python:3.11-slim-buster as runtime
 
 ENV VIRTUAL_ENV=/app/.venv \
+    DIST_FOLDER=/app/dist \
     PATH="/app/.venv/bin:$PATH"
 
 COPY --from=builder ${VIRTUAL_ENV} ${VIRTUAL_ENV}
+COPY --from=builder ${DIST_FOLDER} ${DIST_FOLDER}
+
+RUN pip install /app/dist/*.whl
 
 COPY api ./api
-COPY src ./src
 
 CMD ["uvicorn", "api.main:app", "--host", "0.0.0.0"]
