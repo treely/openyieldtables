@@ -7,6 +7,7 @@ client = TestClient(app)
 
 
 def test_read_yield_table_data():
+    # Read yield table data
     response = client.get("/v1/yield-tables/1")
     assert response.status_code == 200
 
@@ -26,12 +27,22 @@ def test_read_yield_table_data():
     assert row.annual_volume_grow_per_ha is None
     assert row.mean_total_growth_per_ha == 3.2
 
+    # Read yield table data where yield_value is a float
+    response = client.get("/v1/yield-tables/102")
+    assert response.status_code == 200
+
+    yield_table = YieldTable(**response.json())
+    assert yield_table.data[0].yield_classes[0].yield_value == 0.4
+    assert yield_table.data[0].yield_classes[8].yield_value == 3
+
+    # Invalid ID
     response = client.get("/v1/yield-tables/999")
     assert response.status_code == 404
     assert response.json() == {
         "detail": {"message": "Yield table with ID 999 not found."}
     }
 
+    # Non-integer ID
     response = client.get("/v1/yield-tables/not_an_int")
     assert response.status_code == 422
     assert response.json() == {

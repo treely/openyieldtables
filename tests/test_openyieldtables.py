@@ -8,7 +8,7 @@ from openyieldtables.yieldtables import (
 
 def test_get_yield_tables_meta():
     yield_tables_meta = get_yield_tables_meta()
-    assert len(yield_tables_meta) == 28
+    assert len(yield_tables_meta) == 52
 
     assert yield_tables_meta[0].model_dump() == {
         "id": 1,
@@ -39,7 +39,7 @@ def test_get_yield_tables_meta():
     }
     assert yield_tables_meta[27].model_dump() == {
         "id": 93,
-        "name": "Ki-SüdTirol  ",
+        "name": "Ki-SüdTirol",
         "country_codes": ["AT", "DE"],
         "type": "dgz_150",
         "source": "ET-digital.xls",
@@ -99,5 +99,27 @@ def test_get_yield_table_data():
         "mean_total_growth_per_ha": 1.8,
     }
 
+    yield_table_data = get_yield_table_data(144)
+    assert yield_table_data.data[0].yield_classes[0].rows[0].model_dump() == {
+        "age": 10,
+        "dominant_height": None,
+        "middle_height": None,
+        "diameter": None,
+        "taper": None,
+        "trees_per_ha": None,
+        "area": None,
+        "volume_per_ha": 0,
+        "mean_volume_growth_per_ha": None,
+        "total_volume_per_ha": None,
+        "annual_volume_grow_per_ha": None,
+        "mean_total_growth_per_ha": None,
+    }
+
+    # yield_value is a float
+    yield_table_data = get_yield_table_data(102)
+    assert yield_table_data.data[0].yield_classes[0].yield_value == 0.4
+    assert yield_table_data.data[0].yield_classes[8].yield_value == 3
+
+    # Yield table ID is not found
     with pytest.raises(ValueError):
         get_yield_table_data(999)

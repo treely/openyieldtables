@@ -8,7 +8,7 @@ client = TestClient(app)
 def test_read_yield_tables_meta():
     response = client.get("/v1/yield-tables-meta")
     assert response.status_code == 200
-    assert len(response.json()) == 28
+    assert len(response.json()) == 52
     assert response.json()[0] == {
         "id": 1,
         "name": "Fichte_Hochgebirge",
@@ -38,7 +38,7 @@ def test_read_yield_tables_meta():
     }
     assert response.json()[27] == {
         "id": 93,
-        "name": "Ki-SüdTirol  ",
+        "name": "Ki-SüdTirol",
         "country_codes": ["AT", "DE"],
         "type": "dgz_150",
         "source": "ET-digital.xls",
