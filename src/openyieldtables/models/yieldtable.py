@@ -1,4 +1,4 @@
-from typing import List, Optional
+from typing import List, Optional, Union
 
 from pydantic import BaseModel
 
@@ -31,7 +31,7 @@ class YieldClassRow(BaseModel):
 
 
 class YieldClass(BaseModel):
-    yield_value: int
+    yield_value: Union[int, float]
     rows: List[YieldClassRow]
 
 

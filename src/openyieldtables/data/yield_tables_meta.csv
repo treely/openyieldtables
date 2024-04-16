@@ -27,3 +27,42 @@ id;name;country_codes;type;source;link;yield_value_step;age_step
 91;FI-Silikat-oberesEN;AT,DE;dgz_100;ET-digital.xls;;1;10
 92;Lä-SüdTirol  ;AT,DE;dgz_150;ET-digital.xls;;1;10
 93;Ki-SüdTirol  ;AT,DE;dgz_150;ET-digital.xls;;1;10
+94;AT_Tirol_Buche;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10
+95;AT_Tirol_FichteKalkErtragsniveauMittel;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10
+96;AT_Tirol_FichteKalkErtragsniveauNieder;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10
+97;AT_Tirol_FichteSilikatErtragsniveauHoch;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10
+98;AT_Tirol_FichteSilikatErtragsniveauMittel;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10
+99;AT_Tirol_KieferSuedtirol;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10
+100;AT_Tirol_LaercheSuedtirol;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10
+101;AT_Tirol_Tanne;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10
+102;AT_Tirol_Zirbe;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;;10
+103;CZ_Cerny_Buche;CZ;;1996, Martin Černý, Jan Pařez: Růstové a taxační tabulky hlavních dřevin České republiky: (smrk, borovice, buk, dub). Jílové u Prahy: IFER.;https://katalog.mendelu.cz/records/5b86d7f6-2962-425e-b679-474a975de497;2;10
+104;CZ_Cerny_Eiche;CZ;;1996, Martin Černý, Jan Pařez: Růstové a taxační tabulky hlavních dřevin České republiky: (smrk, borovice, buk, dub). Jílové u Prahy: IFER.;https://katalog.mendelu.cz/records/5b86d7f6-2962-425e-b679-474a975de497;2;10
+105;CZ_Cerny_Fichte;CZ;;1996, Martin Černý, Jan Pařez: Růstové a taxační tabulky hlavních dřevin České republiky: (smrk, borovice, buk, dub). Jílové u Prahy: IFER.;https://katalog.mendelu.cz/records/5b86d7f6-2962-425e-b679-474a975de497;2;10
+106;CZ_Cerny_Kiefer;CZ;;1996, Martin Černý, Jan Pařez: Růstové a taxační tabulky hlavních dřevin České republiky: (smrk, borovice, buk, dub). Jílové u Prahy: IFER.;https://katalog.mendelu.cz/records/5b86d7f6-2962-425e-b679-474a975de497;2;10
+107;DE_Assmann_FichteBayern;DE;;1963, Franz Assmann;;0.5;5
+108;DE_Baumer_RoteicheBayern;DE;;1955, Baumer;;1;5
+109;DE_Baumer_RoteicheBrandenburg;DE;;1955, Baumer;;1;5
+110;DE_Bergel_DouglasieBayern;DE;;1985, Bergel;;1;5
+111;DE_Bergel_DouglasieBrandenburg;DE;;1985, Bergel;;1;5
+112;DE_Dittmar_BucheBrandenburg;DE;;1983, Dittmar;;0.5;5
+113;DE_Eckstein_StrobeBayern;DE;;1965, Eckstein;;1;5
+114;DE_Eckstein_StrobeBrandenburg;DE;;1965, Eckstein;;1;5
+115;DE_Erteld_EicheBrandenburg;DE;;1961, Erteld;;1;5
+116;DE_Gerhardt_BucheBayern;DE;;1930, Gerhardt;;1;10
+117;DE_Hausser_TanneBayern;DE;;1956, Hausser;;1;5
+118;DE_Juettner_EicheBayern;DE;;1955, Juettner;;1;5
+119;DE_Lembcke_KieferBrandenburg;DE;;1961, Lembcke;;0.5;5
+120;DE_Lockow_BirkeNordOst;DE;;1996, Karl-Willi Lockow, Forstliche Forschungsanstalt Eberswalde, Fachgebiet Waldwachstum Eberswalde;https://plan-birke.de/app/uploads/2019/01/Sandbirke_1996_Lockow.pdf;1;10
+121;DE_Lockow_ErleBrandenburg;DE;;1998, Karl-Willi Lockow;;0.25;5
+122;DE_Lockow_MoorbirkeBrandenburg;DE;;1996, Karl-Willi Lockow;;0.25;5
+123;DE_Mitscherlich_ErleBayern;DE;;1945, Mitscherlich;;1;5
+124;DE_Raetzel_PappelBrandenburg;DE;;1969, Raetzel;;1;5
+125;DE_Raezel_PappelBayern;DE;;1969, Raetzel;;1;5
+126;DE_Schmidt_TanneBrandenburg;DE;;1955, Schmidt;;1;5
+127;DE_Schober_LaercheBayern;DE;;1946, Schober;;1;5
+128;DE_Schober_LaercheBrandenburg;DE;;1946, Schober;;1;5
+129;DE_Schwappach_BirkeBayern;DE;;1929, Schwappach;;1;5
+130;DE_Vollquardts_EscheBrandenburg;DE;;1958, Vollquardts;;1;10
+131;DE_Vollquardts_EscheBayern;DE;;1958, Vollquardts;;1;10
+132;DE_Wenk_FichteBrandenburg;DE;;1984, Wenk;;0.25;10

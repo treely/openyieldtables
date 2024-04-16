@@ -8,7 +8,7 @@ from openyieldtables.yieldtables import (
 
 def test_get_yield_tables_meta():
     yield_tables_meta = get_yield_tables_meta()
-    assert len(yield_tables_meta) == 28
+    assert len(yield_tables_meta) == 67
 
     assert yield_tables_meta[0].model_dump() == {
         "id": 1,
@@ -98,6 +98,11 @@ def test_get_yield_table_data():
         "annual_volume_grow_per_ha": None,
         "mean_total_growth_per_ha": 1.8,
     }
+
+    # Handle the case where yield_value is a float
+    yield_table_data = get_yield_table_data(102)
+    assert yield_table_data.data[0].yield_classes[0].yield_value == 0.4
+    assert yield_table_data.data[0].yield_classes[8].yield_value == 3
 
     with pytest.raises(ValueError):
         get_yield_table_data(999)

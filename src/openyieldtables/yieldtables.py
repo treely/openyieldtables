@@ -1,6 +1,6 @@
 import csv
 from pathlib import Path
-from typing import Dict, List, Optional, TypedDict, cast
+from typing import Dict, List, Optional, TypedDict, Union, cast
 
 from .models import (
     YieldClass,
@@ -143,9 +143,13 @@ def get_yield_table_data(yt_id: int) -> YieldTable:
         filtered_data = [row for row in reader if int(row["yt_id"]) == yt_id]
 
     # Organizing data into YieldClasses
-    yield_classes_dict: Dict[int, List[YieldClassRow]] = {}
+    yield_classes_dict: Dict[Union[int, float], List[YieldClassRow]] = {}
     for row in filtered_data:
-        yield_value = int(row["yield_value"])
+        # Handle the case where yield_value is a float
+        try:
+            yield_value: Union[int, float] = int(row["yield_value"])
+        except ValueError:
+            yield_value = float(row["yield_value"])
         if yield_value not in yield_classes_dict:
             yield_classes_dict[yield_value] = []
         yield_classes_dict[yield_value].append(
