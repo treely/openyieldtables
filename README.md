@@ -31,7 +31,8 @@ You can find the documentation [here](https://openyieldtables.readthedocs.io/lat
 
 ## Contributing
 
-We are happy about every contribution! Please follow our [contribution guideline](https://openyieldtables.readthedocs.io/latest/contributing).
+We are happy about every contribution! Please follow our 
+contribution guideline](https://github.com/treely/openyieldtables/blob/main/CONTRIBUTING.md).
 
 ## About
 
