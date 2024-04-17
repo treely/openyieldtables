@@ -147,3 +147,23 @@ To build the documentation, use:
 ```bash
 poetry run mkdocs build
 ```
+
+### Releases (Commit message format)
+
+The repository uses [python-semantic-release](https://python-semantic-release.readthedocs.io/en/latest/)
+to make automated releases in workflows. `python-semantic-release` uses the
+commit messages to determine the consumer impact of changes in the codebase.
+Following formalized conventions for commit messages, semantic-release
+automatically determines the next semantic version number, generates a
+changelog and publishes the release.
+
+The table below shows which commit message gets you which release type when
+`python-semantic-release` runs:
+
+| Commit message                                                                                                                                                                                                                    | Release type                                                                                                    |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| `fix: Handle case when yield_class is a float`                                                                                                                                                                                    | ~~Patch~~ Fix Release                                                                                           |
+| `feat: Add a 'title' parameter to the get_yield_table_data function`                                                                                                                                                              | ~~Minor~~ Feature Release                                                                                       |
+| `fix: Rename 'diameter' to 'dbh' in the YieldTable model`<br><br>`BREAKING CHANGE: The 'diameter' field has been replaced with 'dbh'.`<br>`It's not possible anymore to reference the 'diameter' field in a YieldTable instance.` | ~~Major~~ Breaking Release <br /> (Note that the `BREAKING CHANGE: ` token must be in the footer of the commit) |
+
+For more information on the commit message format, see this guideline: https://gist.github.com/brianclements/841ea7bffdb01346392c#file-commit-formatting-md
