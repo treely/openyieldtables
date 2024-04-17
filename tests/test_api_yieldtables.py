@@ -16,24 +16,24 @@ def test_read_yield_table_data():
 
     assert row.age == 20
     assert row.dominant_height == 5.9
-    assert row.middle_height == 5.3
-    assert row.diameter == 11.5
+    assert row.average_height == 5.3
+    assert row.dbh == 11.5
     assert row.taper == 0.396
     assert row.trees_per_ha == 2585
-    assert row.area == 26.8
+    assert row.basal_area == 26.8
     assert row.volume_per_ha == 54
-    assert row.mean_volume_growth_per_ha == 2.7
-    assert row.total_volume_per_ha == 63
-    assert row.annual_volume_grow_per_ha is None
-    assert row.mean_total_growth_per_ha == 3.2
+    assert row.average_annual_age_increment == 2.7
+    assert row.total_growth_performance == 63
+    assert row.current_annual_increment is None
+    assert row.mean_annual_increment == 3.2
 
-    # Read yield table data where yield_value is a float
+    # Read yield table data where yield_class is a float
     response = client.get("/v1/yield-tables/102")
     assert response.status_code == 200
 
     yield_table = YieldTable(**response.json())
-    assert yield_table.data[0].yield_classes[0].yield_value == 0.4
-    assert yield_table.data[0].yield_classes[8].yield_value == 3
+    assert yield_table.data[0].yield_classes[0].yield_class == 0.4
+    assert yield_table.data[0].yield_classes[8].yield_class == 3
 
     # Invalid ID
     response = client.get("/v1/yield-tables/999")

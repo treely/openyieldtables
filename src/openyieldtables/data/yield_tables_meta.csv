@@ -1,53 +1,53 @@
-id;name;country_codes;type;source;link;yield_value_step;age_step
-1;Fichte_Hochgebirge;AT,DE;dgz_100;Marschall;;1;10
-2;Fichte_Bayern;AT,DE;dgz_100;Marschall;;1;10
-3;Fichte_Bruck;AT,DE;dgz_100;Marschall;;1;10
-4;Fichte_Weitra;AT,DE;dgz_100;Marschall;;1;10
-5;Tanne_NWD;AT,DE;dgz_100;Marschall;;1;10
-6;Tanne_Württemberg;AT,DE;dgz_100;Marschall;;2;10
-7;Douglasie_BW;AT,DE;dgz_75;Marschall;;1;5
-8;Lärche_Schweiz;AT,DE;dgz_100;Marschall;;1;10
-9;Kiefer_Litschau;AT,DE;dgz_100;Marschall;;1;10
-10;Buche_Braunschweig;AT,DE;dgz_100;Marschall;;1;10
-11;Eiche_Ungarn;AT,DE;dgz_100;Marschall;;1;10
+id;title;country_codes;type;source;link;yield_class_step;age_step
+1;Fichte Hochgebirge;AT,DE;dgz_100;Marschall;;1;10
+2;Fichte Bayern;AT,DE;dgz_100;Marschall;;1;10
+3;Fichte Bruck;AT,DE;dgz_100;Marschall;;1;10
+4;Fichte Weitra;AT,DE;dgz_100;Marschall;;1;10
+5;Tanne NWD;AT,DE;dgz_100;Marschall;;1;10
+6;Tanne Württemberg;AT,DE;dgz_100;Marschall;;2;10
+7;Douglasie BW;AT,DE;dgz_75;Marschall;;1;5
+8;Lärche Schweiz;AT,DE;dgz_100;Marschall;;1;10
+9;Kiefer Litschau;AT,DE;dgz_100;Marschall;;1;10
+10;Buche Braunschweig;AT,DE;dgz_100;Marschall;;1;10
+11;Eiche Ungarn;AT,DE;dgz_100;Marschall;;1;10
 12;Esche;AT,DE;dgz_100;TimberControl Database;;1;10
-13;Europäische_Pappel;AT,DE;dgz_50;TimberControl Database;;1;10
-14;Hybrid_Pappel;AT,DE;dgz_50;TimberControl Database;;1;10
+13;Europäische Pappel;AT,DE;dgz_50;TimberControl Database;;1;10
+14;Hybrid Pappel;AT,DE;dgz_50;TimberControl Database;;1;10
 15;Hainbuche;AT,DE;dgz_100;TimberControl Database;;1;10
 16;Robinie;AT,DE;dgz_50;TimberControl Database;;1;10
 17;Schwarzkiefer;AT,DE;dgz_100;TimberControl Database;;1;10
-18;Strobe_H;AT,DE;dgz_80;TimberControl Database;;1;10
-19;Erle_Schwappach;AT,DE;dgz_100;TimberControl Database;;1;10
+18;Strobe H;AT,DE;dgz_80;TimberControl Database;;1;10
+19;Erle Schwappach;AT,DE;dgz_100;TimberControl Database;;1;10
 20;Zirbe;AT,DE;dgz_200;ET-digital.xls;;1;10
 21;Birke;AT,DE;dgz_100;TimberControl Database;;1;10
-87;Fichte-OStmk-Eckmüllner;AT,DE;dgz_100;TimberControl Database;;1;10
-88;Fi-Kalk-niederesEN;AT,DE;dgz_100;ET-digital.xls;;1;10
-89;Fi-Kalk-mittleresEN;AT,DE;dgz_100;ET-digital.xls;;1;10
-90;Fi-Silikat-mittleresEN;AT,DE;dgz_100;ET-digital.xls;;1;10
-91;FI-Silikat-oberesEN;AT,DE;dgz_100;ET-digital.xls;;1;10
-92;Lä-SüdTirol;AT,DE;dgz_150;ET-digital.xls;;1;10
-93;Ki-SüdTirol;AT,DE;dgz_150;ET-digital.xls;;1;10
-94;AT_Tirol_Buche;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10
-95;AT_Tirol_FichteKalkErtragsniveauMittel;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10
-96;AT_Tirol_FichteKalkErtragsniveauNieder;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10
-97;AT_Tirol_FichteSilikatErtragsniveauHoch;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10
-98;AT_Tirol_FichteSilikatErtragsniveauMittel;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10
-99;AT_Tirol_KieferSuedtirol;AT,DE,IT;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10
-100;AT_Tirol_LaercheSuedtirol;AT,DE,IT;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10
-101;AT_Tirol_Tanne;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10
-102;AT_Tirol_Zirbe;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;;10
-103;CZ_Cerny_Buche;CZ;dgz_100;1996, Martin Černý, Jan Pařez: Růstové a taxační tabulky hlavních dřevin České republiky: (smrk, borovice, buk, dub). Jílové u Prahy: IFER.;https://katalog.mendelu.cz/records/5b86d7f6-2962-425e-b679-474a975de497;2;10
-104;CZ_Cerny_Eiche;CZ;dgz_100;1996, Martin Černý, Jan Pařez: Růstové a taxační tabulky hlavních dřevin České republiky: (smrk, borovice, buk, dub). Jílové u Prahy: IFER.;https://katalog.mendelu.cz/records/5b86d7f6-2962-425e-b679-474a975de497;2;10
-105;CZ_Cerny_Fichte;CZ;dgz_100;1996, Martin Černý, Jan Pařez: Růstové a taxační tabulky hlavních dřevin České republiky: (smrk, borovice, buk, dub). Jílové u Prahy: IFER.;https://katalog.mendelu.cz/records/5b86d7f6-2962-425e-b679-474a975de497;2;10
-106;CZ_Cerny_Kiefer;CZ;dgz_100;1996, Martin Černý, Jan Pařez: Růstové a taxační tabulky hlavních dřevin České republiky: (smrk, borovice, buk, dub). Jílové u Prahy: IFER.;https://katalog.mendelu.cz/records/5b86d7f6-2962-425e-b679-474a975de497;2;10
-133;DE_Wiedemann_BirkeBadenWuerttemberg;DE;dgz_80;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10
-134;DE_Wiedemann_BucheBadenWuerttemberg;DE;dgz_100;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10
-135;DE_Wiedemann_EicheBadenWuerttemberg;DE;dgz_100;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10
-136;DE_Wiedemann_ELärcheBadenWuerttemberg;DE;dgz_100;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10
-137;DE_Wiedemann_ErleBadenWuerttemberg;DE;dgz_80;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10
-138;DE_Wiedemann_EscheBadenWuerttemberg;DE;dgz_100;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10
-139;DE_Wiedemann_FichteBadenWuerttemberg;DE;dgz_100;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10
-140;DE_Wiedemann_JLaercheBadenWuerttemberg;DE;dgz_60;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10
-141;DE_Wiedemann_KieferBadenWuerttemberg;DE;dgz_100;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10
-143;DE_Wiedemann_PappelBadenWuerttemberg;DE;dgz_50;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;0.5;10
-144;DE_Wiedemann_RoteicheBadenWuerttemberg;DE;dgz_100;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10
+87;Fichte Oststeiermark Eckmüllner;AT,DE;dgz_100;TimberControl Database;;1;10
+88;Fichte Kalk niederes Ertragsniveau;AT,DE;dgz_100;ET-digital.xls;;1;10
+89;Fichte Kalk mittleres Ertragsniveau;AT,DE;dgz_100;ET-digital.xls;;1;10
+90;Fichte Silikat mittleres Ertragsniveau;AT,DE;dgz_100;ET-digital.xls;;1;10
+91;Fichte Silikat oberes Ertragsniveau;AT,DE;dgz_100;ET-digital.xls;;1;10
+92;Lärche Südtirol;AT,DE;dgz_150;ET-digital.xls;;1;10
+93;Kiefer Südtirol;AT,DE;dgz_150;ET-digital.xls;;1;10
+94;Tirol Buche;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10
+95;Tirol Fichte Kalk Ertragsniveau mittel;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10
+96;Tirol Fichte Kalk Ertragsniveau nieder;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10
+97;Tirol Fichte Silikat Ertragsniveau hoch;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10
+98;Tirol Fichte Silikat Ertragsniveau mittel;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10
+99;Tirol Kiefer Suedtirol;AT,DE,IT;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10
+100;Tirol Laerche Suedtirol;AT,DE,IT;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10
+101;Tirol Tanne;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10
+102;Tirol Zirbe;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;;10
+103;Cerny Buche;CZ;dgz_100;1996, Martin Černý, Jan Pařez: Růstové a taxační tabulky hlavních dřevin České republiky: (smrk, borovice, buk, dub). Jílové u Prahy: IFER.;https://katalog.mendelu.cz/records/5b86d7f6-2962-425e-b679-474a975de497;2;10
+104;Cerny Eiche;CZ;dgz_100;1996, Martin Černý, Jan Pařez: Růstové a taxační tabulky hlavních dřevin České republiky: (smrk, borovice, buk, dub). Jílové u Prahy: IFER.;https://katalog.mendelu.cz/records/5b86d7f6-2962-425e-b679-474a975de497;2;10
+105;Cerny Fichte;CZ;dgz_100;1996, Martin Černý, Jan Pařez: Růstové a taxační tabulky hlavních dřevin České republiky: (smrk, borovice, buk, dub). Jílové u Prahy: IFER.;https://katalog.mendelu.cz/records/5b86d7f6-2962-425e-b679-474a975de497;2;10
+106;Cerny Kiefer;CZ;dgz_100;1996, Martin Černý, Jan Pařez: Růstové a taxační tabulky hlavních dřevin České republiky: (smrk, borovice, buk, dub). Jílové u Prahy: IFER.;https://katalog.mendelu.cz/records/5b86d7f6-2962-425e-b679-474a975de497;2;10
+133;Wiedemann Birke Baden-Wuerttemberg;DE;dgz_80;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10
+134;Wiedemann Buche Baden-Wuerttemberg;DE;dgz_100;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10
+135;Wiedemann Eiche Baden-Wuerttemberg;DE;dgz_100;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10
+136;Wiedemann europäische Lärche Baden-Wuerttemberg;DE;dgz_100;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10
+137;Wiedemann Erle Baden-Wuerttemberg;DE;dgz_80;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10
+138;Wiedemann Esche Baden-Wuerttemberg;DE;dgz_100;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10
+139;Wiedemann Fichte Baden-Wuerttemberg;DE;dgz_100;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10
+140;Wiedemann japanische Laerche Baden-Wuerttemberg;DE;dgz_60;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10
+141;Wiedemann Kiefer Baden-Wuerttemberg;DE;dgz_100;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10
+143;Wiedemann Pappel Baden-Wuerttemberg;DE;dgz_50;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;0.5;10
+144;Wiedemann Roteiche Baden-Wuerttemberg;DE;dgz_100;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10

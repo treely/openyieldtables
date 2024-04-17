@@ -19,12 +19,12 @@ csv_path_yield_tables = script_location / "data" / "yield_tables.csv"
 
 class YieldTableMetaCSVRow(TypedDict, total=False):
     id: int
-    name: str
+    title: str
     country_codes: List[str]
     type: Optional[str]
     source: str
     link: Optional[str]
-    yield_value_step: Optional[float]
+    yield_class_step: Optional[float]
     age_step: Optional[int]
     available_columns: List[str]
 
@@ -35,7 +35,7 @@ def get_yield_tables_meta() -> List[YieldTableMeta]:
     returns a list of YieldTableMeta instances.
 
     The CSV file is expected to be in a specific format, with columns for `id`,
-    `name`, `country_codes`, `type`, `source`, `link`, etc.
+    `title`, `country_codes`, `type`, `source`, `link`, etc.
 
     Returns:
         List[YieldTableMeta]: A list of `YieldTableMeta` instances, one for
@@ -56,7 +56,7 @@ def get_yield_tables_meta() -> List[YieldTableMeta]:
                 YieldTableMetaCSVRow,
                 {
                     "id": int(row.get("id", 0)),
-                    "name": row.get("name", ""),
+                    "title": row.get("title", ""),
                     "country_codes": (
                         row.get("country_codes", "").split(",")
                         if row.get("country_codes")
@@ -65,9 +65,9 @@ def get_yield_tables_meta() -> List[YieldTableMeta]:
                     "type": row.get("type"),
                     "source": row.get("source", ""),
                     "link": row.get("link", ""),
-                    "yield_value_step": (
-                        float(row["yield_value_step"])
-                        if row.get("yield_value_step")
+                    "yield_class_step": (
+                        float(row["yield_class_step"])
+                        if row.get("yield_class_step")
                         else None
                     ),
                     "age_step": (
@@ -75,7 +75,7 @@ def get_yield_tables_meta() -> List[YieldTableMeta]:
                     ),
                     "available_columns": find_available_columns(
                         csv_path_yield_tables,
-                        "yt_id",
+                        "id",
                         int(row["id"]),
                     ),
                 },
@@ -87,16 +87,16 @@ def get_yield_tables_meta() -> List[YieldTableMeta]:
     return yield_table_meta_list
 
 
-def get_yield_table_meta(yt_id: int) -> YieldTableMeta:
+def get_yield_table_meta(id: int) -> YieldTableMeta:
     """
     Reads the yield table metadata for a specific yield table ID from
      `data/yield_tables_meta.csv` and returns a YieldTableMeta instance.
 
     The CSV file is expected to be in a specific format, with columns for `id`,
-    `name`, `country_codes`, `type`, `source`, `link`, etc.
+    `title`, `country_codes`, `type`, `source`, `link`, etc.
 
     Args:
-        yt_id (int): The ID of the yield table to get the metadata for.
+        id (int): The ID of the yield table to get the metadata for.
 
     Raises:
         ValueError: If the yield table with the specified ID is not found.
@@ -109,30 +109,29 @@ def get_yield_table_meta(yt_id: int) -> YieldTableMeta:
     yield_table_meta_list = get_yield_tables_meta()
 
     for yield_table_meta in yield_table_meta_list:
-        if yield_table_meta.id == yt_id:
+        if yield_table_meta.id == id:
             return yield_table_meta
 
-    raise ValueError(f"Yield table with ID {yt_id} not found.")
+    raise ValueError(f"Yield table with ID {id} not found.")
 
 
-def get_yield_table_data(yt_id: int) -> YieldTable:
+def get_yield_table_data(id: int) -> YieldTable:
     """
     Reads the yield table data for a specific yield table ID from
     `data/yield_tables.csv` and returns a YieldTable instance.
 
     The CSV file is expected to be in a specific format, with columns for
-    `yt_id`, `yt_name`, `yield_value`, `age`, `dominant_height`,
-    `middle_height`, etc.
+    `id`, `yield_class`, `age`, `dominant_height`, `average_height`, etc.
 
     Args:
-        yt_id (int): The ID of the yield table to get the data for.
+        id (int): The ID of the yield table to get the data for.
 
     Returns:
         YieldTable: A `YieldTable` instance for the specified yield table ID.
     """
 
     # Get the meta data
-    yield_table_meta = get_yield_table_meta(yt_id)
+    yield_table_meta = get_yield_table_meta(id)
 
     with open(
         csv_path_yield_tables,
@@ -140,46 +139,46 @@ def get_yield_table_data(yt_id: int) -> YieldTable:
         encoding="utf-8",
     ) as csv_file:
         reader = csv.DictReader(csv_file, delimiter=";")
-        filtered_data = [row for row in reader if int(row["yt_id"]) == yt_id]
+        filtered_data = [row for row in reader if int(row["id"]) == id]
 
     # Organizing data into YieldClasses
     yield_classes_dict: Dict[Union[int, float], List[YieldClassRow]] = {}
     for row in filtered_data:
-        # Handle the case where yield_value is a float
+        # Handle the case where yield_class is a float
         try:
-            yield_value: Union[int, float] = int(row["yield_value"])
+            yield_class: Union[int, float] = int(row["yield_class"])
         except ValueError:
-            yield_value = float(row["yield_value"])
-        if yield_value not in yield_classes_dict:
-            yield_classes_dict[yield_value] = []
-        yield_classes_dict[yield_value].append(
+            yield_class = float(row["yield_class"])
+        if yield_class not in yield_classes_dict:
+            yield_classes_dict[yield_class] = []
+        yield_classes_dict[yield_class].append(
             YieldClassRow(
                 age=int(row["age"]),
                 dominant_height=parse_float(row.get("dominant_height")),
-                middle_height=parse_float(row.get("middle_height")),
-                diameter=parse_float(row.get("diameter")),
+                average_height=parse_float(row.get("average_height")),
+                dbh=parse_float(row.get("dbh")),
                 taper=parse_float(row.get("taper")),
                 trees_per_ha=parse_float(row.get("trees_per_ha")),
-                area=parse_float(row.get("area")),
+                basal_area=parse_float(row.get("basal_area")),
                 volume_per_ha=parse_float(row.get("volume_per_ha")),
-                mean_volume_growth_per_ha=parse_float(
-                    row.get("mean_volume_growth_per_ha")
+                average_annual_age_increment=parse_float(
+                    row.get("average_annual_age_increment")
                 ),
-                total_volume_per_ha=parse_float(
-                    row.get("total_volume_per_ha")
+                total_growth_performance=parse_float(
+                    row.get("total_growth_performance")
                 ),
-                annual_volume_grow_per_ha=parse_float(
-                    row.get("annual_volume_grow_per_ha")
+                current_annual_increment=parse_float(
+                    row.get("current_annual_increment")
                 ),
-                mean_total_growth_per_ha=parse_float(
-                    row.get("mean_total_growth_per_ha")
+                mean_annual_increment=parse_float(
+                    row.get("mean_annual_increment")
                 ),
             )
         )
 
     yield_classes = [
-        YieldClass(yield_value=yv, rows=rows)
-        for yv, rows in yield_classes_dict.items()
+        YieldClass(yield_class=yc, rows=rows)
+        for yc, rows in yield_classes_dict.items()
     ]
 
     return YieldTable(

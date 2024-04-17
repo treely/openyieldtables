@@ -12,56 +12,54 @@ def test_get_yield_tables_meta():
 
     assert yield_tables_meta[0].model_dump() == {
         "id": 1,
-        "name": "Fichte_Hochgebirge",
+        "title": "Fichte Hochgebirge",
         "country_codes": ["AT", "DE"],
         "type": "dgz_100",
         "source": "Marschall",
         "link": "",
-        "yield_value_step": 1.0,
+        "yield_class_step": 1.0,
         "age_step": 10,
         "available_columns": [
-            "yt_id",
-            "yt_name",
-            "yield_value",
+            "id",
+            "yield_class",
             "age",
             "dominant_height",
-            "middle_height",
-            "diameter",
+            "average_height",
+            "dbh",
             "taper",
             "trees_per_ha",
-            "area",
+            "basal_area",
             "volume_per_ha",
-            "mean_volume_growth_per_ha",
-            "total_volume_per_ha",
-            "annual_volume_grow_per_ha",
-            "mean_total_growth_per_ha",
+            "average_annual_age_increment",
+            "total_growth_performance",
+            "current_annual_increment",
+            "mean_annual_increment",
         ],
     }
     assert yield_tables_meta[27].model_dump() == {
         "id": 93,
-        "name": "Ki-SüdTirol",
+        "title": "Kiefer Südtirol",
         "country_codes": ["AT", "DE"],
         "type": "dgz_150",
         "source": "ET-digital.xls",
         "link": "",
-        "yield_value_step": 1.0,
+        "yield_class_step": 1.0,
         "age_step": 10,
         "available_columns": [
-            "yt_id",
-            "yt_name",
-            "yield_value",
+            "id",
+            "yield_class",
             "age",
             "dominant_height",
-            "middle_height",
-            "diameter",
+            "average_height",
+            "dbh",
             "taper",
             "trees_per_ha",
-            "area",
+            "basal_area",
             "volume_per_ha",
-            "mean_volume_growth_per_ha",
-            "total_volume_per_ha",
-            "annual_volume_grow_per_ha",
-            "mean_total_growth_per_ha",
+            "average_annual_age_increment",
+            "total_growth_performance",
+            "current_annual_increment",
+            "mean_annual_increment",
         ],
     }
 
@@ -71,54 +69,54 @@ def test_get_yield_table_data():
     assert yield_table_data.data[0].yield_classes[5].rows[0].model_dump() == {
         "age": 20,
         "dominant_height": 4.8,
-        "middle_height": 4.3,
-        "diameter": 6.7,
+        "average_height": 4.3,
+        "dbh": 6.7,
         "taper": 0.153,
         "trees_per_ha": 5288.0,
-        "area": None,
+        "basal_area": None,
         "volume_per_ha": 12.0,
-        "mean_volume_growth_per_ha": 0.6,
-        "total_volume_per_ha": 13.0,
-        "annual_volume_grow_per_ha": None,
-        "mean_total_growth_per_ha": 0.6,
+        "average_annual_age_increment": 0.6,
+        "total_growth_performance": 13.0,
+        "current_annual_increment": None,
+        "mean_annual_increment": 0.6,
     }
 
     yield_table_data = get_yield_table_data(93)
     assert yield_table_data.data[0].yield_classes[0].rows[0].model_dump() == {
         "age": 100,
         "dominant_height": 8.1,
-        "middle_height": 7.2,
-        "diameter": 12.5,
+        "average_height": 7.2,
+        "dbh": 12.5,
         "taper": 0.53,
         "trees_per_ha": 3358.0,
-        "area": 41.5,
+        "basal_area": 41.5,
         "volume_per_ha": 159.0,
-        "mean_volume_growth_per_ha": 1.59,
-        "total_volume_per_ha": 178.0,
-        "annual_volume_grow_per_ha": None,
-        "mean_total_growth_per_ha": 1.8,
+        "average_annual_age_increment": 1.59,
+        "total_growth_performance": 178.0,
+        "current_annual_increment": None,
+        "mean_annual_increment": 1.8,
     }
 
     yield_table_data = get_yield_table_data(144)
     assert yield_table_data.data[0].yield_classes[0].rows[0].model_dump() == {
         "age": 10,
         "dominant_height": None,
-        "middle_height": None,
-        "diameter": None,
+        "average_height": None,
+        "dbh": None,
         "taper": None,
         "trees_per_ha": None,
-        "area": None,
+        "basal_area": None,
         "volume_per_ha": 0,
-        "mean_volume_growth_per_ha": None,
-        "total_volume_per_ha": None,
-        "annual_volume_grow_per_ha": None,
-        "mean_total_growth_per_ha": None,
+        "average_annual_age_increment": None,
+        "total_growth_performance": None,
+        "current_annual_increment": None,
+        "mean_annual_increment": None,
     }
 
-    # yield_value is a float
+    # yield_class is a float
     yield_table_data = get_yield_table_data(102)
-    assert yield_table_data.data[0].yield_classes[0].yield_value == 0.4
-    assert yield_table_data.data[0].yield_classes[8].yield_value == 3
+    assert yield_table_data.data[0].yield_classes[0].yield_class == 0.4
+    assert yield_table_data.data[0].yield_classes[8].yield_class == 3
 
     # Yield table ID is not found
     with pytest.raises(ValueError):

@@ -3,45 +3,43 @@ from openyieldtables.utils import find_available_columns, parse_float
 
 def test_find_available_columns():
     # Yield table with empty columns
-    empty_columns = find_available_columns(
-        "src/openyieldtables/data/yield_tables.csv", "yt_id", 7
+    available_columns = find_available_columns(
+        "src/openyieldtables/data/yield_tables.csv", "id", 7
     )
-    assert empty_columns == [
-        "yt_id",
-        "yt_name",
-        "yield_value",
+    assert available_columns == [
+        "id",
+        "yield_class",
         "age",
-        "middle_height",
-        "diameter",
+        "average_height",
+        "dbh",
         "taper",
         "trees_per_ha",
-        "area",
+        "basal_area",
         "volume_per_ha",
-        "total_volume_per_ha",
-        "annual_volume_grow_per_ha",
-        "mean_total_growth_per_ha",
+        "total_growth_performance",
+        "current_annual_increment",
+        "mean_annual_increment",
     ]
 
     # Yield table without empty columns
-    empty_columns = find_available_columns(
-        "src/openyieldtables/data/yield_tables.csv", "yt_id", 1
+    available_columns = find_available_columns(
+        "src/openyieldtables/data/yield_tables.csv", "id", 1
     )
-    assert empty_columns == [
-        "yt_id",
-        "yt_name",
-        "yield_value",
+    assert available_columns == [
+        "id",
+        "yield_class",
         "age",
         "dominant_height",
-        "middle_height",
-        "diameter",
+        "average_height",
+        "dbh",
         "taper",
         "trees_per_ha",
-        "area",
+        "basal_area",
         "volume_per_ha",
-        "mean_volume_growth_per_ha",
-        "total_volume_per_ha",
-        "annual_volume_grow_per_ha",
-        "mean_total_growth_per_ha",
+        "average_annual_age_increment",
+        "total_growth_performance",
+        "current_annual_increment",
+        "mean_annual_increment",
     ]
 
 

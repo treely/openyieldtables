@@ -18,11 +18,11 @@ yield_tables_meta = get_yield_tables_meta() # Returns a list of `YieldTableMeta`
 
 # Get the first yield table as dictionary
 yield_table_meta = yield_tables_meta[0].model_dump()
-#> {'id': 1, 'name': 'Fichte_Hochgebirge', 'country_codes': ['AT', 'DE'],...}
+#> {'id': 1, 'title': 'Fichte Hochgebirge', 'country_codes': ['AT', 'DE'],...}
 ```
 
 **Get the metadata of one specific yield table**
-  
+
 ```python
 from openyieldtables.yieldtables import get_yield_table_meta
 
@@ -31,11 +31,11 @@ yield_table_meta = get_yield_table_meta(1) # Returns a `YieldTableMeta` object
 
 # Get the yield table metadata as dictionary
 yield_table_meta_dict = yield_table_meta.model_dump()
-#> {'id': 1, 'name': 'Fichte_Hochgebirge', 'country_codes': ['AT', 'DE'],...}
+#> {'id': 1, 'title': 'Fichte Hochgebirge', 'country_codes': ['AT', 'DE'],...}
 ```
 
 **Get the data of one specific yield table**
-  
+
 ```python
 from openyieldtables.yieldtables import get_yield_table_data
 
@@ -44,5 +44,5 @@ yield_table_data = get_yield_table_data(1) # Returns a `YieldTable` object
 
 # Get one row of the yield table data as dictionary
 yield_table_data.data[0].yield_classes[0].rows[0].model_dump()
-#> {'age': 20, 'dominant_height': 5.9, 'middle_height': 5.3, 'diameter': 11.5, 'taper': 0.396,...}
+#> {'age': 20, 'dominant_height': 5.9, 'average_height': 5.3, 'dbh': 11.5, 'taper': 0.396,...}
 ```
