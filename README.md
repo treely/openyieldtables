@@ -1,4 +1,4 @@
-# 🌲 openyieldtables
+# 🌲 Open Yield Tables
 
 An open source Python library for yield tables.
 
@@ -27,13 +27,15 @@ yield_table = get_yield_table(1)
 
 ## Documentation
 
-You can find the documentation [here](https://openyieldtables.readthedocs.io/latest/).
+You can find the documentation
+[here](https://openyieldtables.readthedocs.io/latest/).
 
 ## Contributing
 
-We are happy about every contribution! Please follow our 
-contribution guideline](https://github.com/treely/openyieldtables/blob/main/CONTRIBUTING.md).
+We are happy about every contribution! Please follow our
+[contribution guideline](./CONTRIBUTING.md).
 
 ## About
 
-`openyieldtables` is maintained by [Tree.ly](https://tree.ly) and [FMM](https://www.fmm.at/).
+`openyieldtables` is maintained by [Tree.ly](https://tree.ly) and
+[FMM](https://www.fmm.at/).
