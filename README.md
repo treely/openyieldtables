@@ -1,6 +1,6 @@
 # 🌲 Open Yield Tables
 
-[![Documentation Status](https://readthedocs.org/projects/openyieldtables/badge/?version=latest)](https://openyieldtables.readthedocs.io/en/latest/?badge=latest)
+[![PyPI - Version](https://img.shields.io/pypi/v/openyieldtables)](https://pypi.org/project/openyieldtables/) [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/openyieldtables)](https://pypi.org/project/openyieldtables/) ![Test](https://github.com/github/docs/actions/workflows/test.yml/badge.svg) [![Documentation Status](https://readthedocs.org/projects/openyieldtables/badge/?version=latest)](https://openyieldtables.readthedocs.io/en/latest/?badge=latest)
 
 An open source Python library for yield tables.
 

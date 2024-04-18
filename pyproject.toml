@@ -4,6 +4,7 @@ version = "0.0.0"
 description = ""
 authors = ["Tree.ly", "FMM"]
 readme = "README.md"
+license = "MIT"
 packages = [
   { include = "openyieldtables", from = "src" },
   { include = "src/openyieldtables/py.typed" },
