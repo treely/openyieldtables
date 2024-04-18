@@ -35,7 +35,7 @@ You can find the documentation
 ## Contributing
 
 We are happy about every contribution! Please follow our
-[contribution guideline](./CONTRIBUTING.md).
+[contribution guideline](https://github.com/treely/openyieldtables/blob/main/CONTRIBUTING.md).
 
 ## About
 
