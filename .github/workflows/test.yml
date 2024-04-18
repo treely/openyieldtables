@@ -48,6 +48,10 @@ jobs:
           title: Coverage Report
           pytest-xml-coverage-path: coverage.xml
 
+      # Build package
+      - name: Build package
+        run: poetry build
+
       # Build docker image
       - name: Build docker image
         run: docker build .
