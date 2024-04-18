@@ -1,0 +1,53 @@
+name: Test
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+    steps:
+      # Check-out repo
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ github.head_ref }}
+      # Install poetry
+      - name: Install poetry
+        run: pipx install poetry==1.8.2
+      # Set-up python with cache
+      - name: Setup Python 3.9
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.9"
+          cache: "poetry"
+      # Install requirements
+      - name: Install requirements
+        run: poetry install
+
+      # Run linters
+      - name: Run linters
+        run: |
+          set -o pipefail
+          poetry run pre-commit run --all-files
+
+      # Run unit tests
+      - name: Run tests
+        run: |
+          set -o pipefail
+          poetry run pytest -- --cov-report xml
+      # Add pytest coverage report to PR
+      - name: Pytest coverage comment
+        if: ${{ success() && github.event_name == 'pull_request' }}
+        id: coverageComment
+        uses: MishaKav/pytest-coverage-comment@main
+        with:
+          title: Coverage Report
+          pytest-xml-coverage-path: coverage.xml
+
+      # Build docker image
+      - name: Build docker image
+        run: docker build .
