@@ -1,5 +1,7 @@
 # 🌲 Open Yield Tables
 
+[![Documentation Status](https://readthedocs.org/projects/openyieldtables/badge/?version=latest)](https://openyieldtables.readthedocs.io/en/latest/?badge=latest)
+
 An open source Python library for yield tables.
 
 ## Quickstart
@@ -28,7 +30,7 @@ yield_table = get_yield_table(1)
 ## Documentation
 
 You can find the documentation
-[here](https://openyieldtables.readthedocs.io/latest/).
+[here](https://openyieldtables.readthedocs.io/en/latest/).
 
 ## Contributing
 
