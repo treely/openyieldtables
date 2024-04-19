@@ -6,7 +6,7 @@ An open source Python library for yield tables.
 
 ## Quickstart
 
-Download the latest version of the library from PyPI:
+Download the latest version of the library from [PyPI](https://pypi.org/project/openyieldtables/):
 
 ```bash
 pip install openyieldtables
