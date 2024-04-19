@@ -1,16 +1,14 @@
 from fastapi import FastAPI
+from fastapi.responses import FileResponse, HTMLResponse
 
 from api.v1 import yieldtables, yieldtablesmeta
 
 app = FastAPI(title="openyieldtables API")
 
 
-@app.get("/", include_in_schema=False)
-def read_root():
-    return {
-        "message": "Welcome to the openyieldtables API! Please refer to the "
-        "documentation at /docs."
-    }
+@app.get("/", response_class=HTMLResponse, include_in_schema=False)
+async def read_root():
+    return FileResponse("api/static/index.html")
 
 
 @app.get("/health/readiness", include_in_schema=False)
