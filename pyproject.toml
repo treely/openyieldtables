@@ -2,9 +2,12 @@
 name = "openyieldtables"
 version = "0.0.0"
 description = ""
-authors = ["Tree.ly", "FMM"]
+authors = ["Tree.ly <hello@tree.ly>", "FMM <fmm@fmm.at>"]
+maintainers = ["FMM <fmm@fmm.at>", "Tree.ly <hello@tree.ly>"]
 readme = "README.md"
 license = "MIT"
+repository = "https://github.com/treely/openyieldtables"
+documentation = "https://openyieldtables.readthedocs.io"
 packages = [
   { include = "openyieldtables", from = "src" },
   { include = "src/openyieldtables/py.typed" },
