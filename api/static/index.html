@@ -3,22 +3,108 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>openyieldtables API</title>
+    <title>Open yield tables</title>
+
     <style>
-      body {
-        font-family: "Courier New", Courier, monospace;
-        margin: 10vh 10vw;
+      i {
+        font-size: 1.5rem;
+        color: white;
+      }
+
+      .github-logo {
+        font-size: 1rem;
+        color: black;
       }
     </style>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://cdn.tree.ly/assets/v4/yield-tables/favicon.ico"
+    />
+
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <h1>Welcome to the openyieldtables API</h1>
-    <br />
-    <h4>This is the API for the openyieldtables project.</h4>
-    <p>
-      The documentation of the project can be found
-      <a href="https://openyieldtables.readthedocs.io">here</a>.<br />
-      The API documentation can be found <a href="/docs">here</a>.
-    </p>
+    <div class="bg-white py-24 sm:py-32">
+      <div class="mx-auto max-w-7xl px-6 lg:px-8">
+        <div class="mx-auto max-w-2xl lg:text-center">
+          <div class="flex justify-center items-center">
+            <img
+              src="https://cdn.tree.ly/assets/v4/yield-tables/logo.svg"
+              alt="Yield Tables logo"
+              style="width: 180px; height: 50px"
+            />
+          </div>
+
+          <p
+            class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
+          >
+            Welcome to open yield tables
+          </p>
+          <p class="mt-6 mb-4 text-lg leading-8 text-gray-600">
+            Open yield tables is an open-source project that provides yield
+            tables for different tree species. The yield tables are available as
+            a Python package and as an API.
+          </p>
+          <a
+            href="https://github.com/treely/openyieldtables"
+            class="inline-flex items-center justify-center p-2 text-base font-medium text-gray-700 rounded-lg bg-yellow-50 hover:text-gray-900 hover:bg-yellow-100"
+          >
+            <i class="ph ph-github-logo github-logo"></i>
+            <span class="w-full ml-1">GitHub</span>
+          </a>
+        </div>
+        <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
+          <dl
+            class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16"
+          >
+            <div class="relative pl-16">
+              <dt class="text-base font-semibold leading-7 text-gray-900">
+                <div
+                  class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-yellow-600"
+                >
+                  <i class="ph ph-package"></i>
+                </div>
+                Python package
+              </dt>
+              <dd class="mt-2 mb-2 text-base leading-7 text-gray-600">
+                Use the Python package of open yield tables to integrate it
+                directly in your Python project.
+              </dd>
+              <code
+                class="text-xs xs:text-base inline-flex text-left items-center space-x-4 bg-gray-800 text-white rounded-lg p-3 mb-2"
+                >$ pip install openyieldtables</code
+              >
+              <br />
+              <a href="https://openyieldtables.readthedocs.io"
+                >→ Go to the docs</a
+              >
+            </div>
+            <div class="relative pl-16">
+              <dt class="text-base font-semibold leading-7 text-gray-900">
+                <div
+                  class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-yellow-600"
+                >
+                  <i class="ph ph-webhooks-logo"></i>
+                </div>
+                API
+              </dt>
+              <dd class="mt-2 mb-1 text-base leading-7 text-gray-600">
+                Use the REST API of open yield tables to access the yield tables
+                from any programming language.
+              </dd>
+              <code
+                class="text-xs xs:text-base inline-flex text-left items-center space-x-4 bg-gray-800 text-white rounded-lg p-3 mb-2"
+              >
+                $ curl -X 'GET' 'https://yieldtables.org/v1/yield-tables-meta/'
+                -H 'accept: application/json'
+              </code>
+              <a href="/docs">→ Go to the docs</a>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

@@ -1,4 +1,4 @@
-# 🌲 Open Yield Tables
+<img src="https://cdn.tree.ly/assets/v4/yield-tables/logo_white_background.svg" alt="Yield Tables logo" width="280"/>
 
 [![PyPI - Version](https://img.shields.io/pypi/v/openyieldtables)](https://pypi.org/project/openyieldtables/) [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/openyieldtables)](https://pypi.org/project/openyieldtables/) ![Test](https://github.com/github/docs/actions/workflows/test.yml/badge.svg) [![Documentation Status](https://readthedocs.org/projects/openyieldtables/badge/?version=latest)](https://openyieldtables.readthedocs.io/en/latest/?badge=latest)
 
