@@ -6,12 +6,12 @@ id;title;country_codes;type;source;link;yield_class_step;age_step
 5;Tanne NWD;AT,DE;dgz_100;Marschall;;1;10
 6;Tanne Württemberg;AT,DE;dgz_100;Marschall;;2;10
 7;Douglasie BW;AT,DE;dgz_75;Marschall;;1;5
-8;Lärche Schweiz;AT,DE;dgz_100;Marschall;;1;10
+8;Laerche Schweiz;AT,DE;dgz_100;Marschall;;1;10
 9;Kiefer Litschau;AT,DE;dgz_100;Marschall;;1;10
 10;Buche Braunschweig;AT,DE;dgz_100;Marschall;;1;10
 11;Eiche Ungarn;AT,DE;dgz_100;Marschall;;1;10
 12;Esche;AT,DE;dgz_100;TimberControl Database;;1;10
-13;Europäische Pappel;AT,DE;dgz_50;TimberControl Database;;1;10
+13;Europaeische Pappel;AT,DE;dgz_50;TimberControl Database;;1;10
 14;Hybrid Pappel;AT,DE;dgz_50;TimberControl Database;;1;10
 15;Hainbuche;AT,DE;dgz_100;TimberControl Database;;1;10
 16;Robinie;AT,DE;dgz_50;TimberControl Database;;1;10
@@ -21,17 +21,13 @@ id;title;country_codes;type;source;link;yield_class_step;age_step
 20;Zirbe;AT,DE;dgz_200;ET-digital.xls;;1;10
 21;Birke;AT,DE;dgz_100;TimberControl Database;;1;10
 87;Fichte Oststeiermark Eckmüllner;AT,DE;dgz_100;TimberControl Database;;1;10
-88;Fichte Kalk niederes Ertragsniveau;AT,DE;dgz_100;ET-digital.xls;;1;10
-89;Fichte Kalk mittleres Ertragsniveau;AT,DE;dgz_100;ET-digital.xls;;1;10
-90;Fichte Silikat mittleres Ertragsniveau;AT,DE;dgz_100;ET-digital.xls;;1;10
-91;Fichte Silikat oberes Ertragsniveau;AT,DE;dgz_100;ET-digital.xls;;1;10
-92;Lärche Südtirol;AT,DE;dgz_150;ET-digital.xls;;1;10
-93;Kiefer Südtirol;AT,DE;dgz_150;ET-digital.xls;;1;10
+88;Tirol Fichte Kalk Ertragsniveau nieder;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10
+89;Tirol Fichte Kalk Ertragsniveau mittel;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10
+90;Tirol Fichte Silikat Ertragsniveau mittel;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10
+91;Tirol Fichte Silikat Ertragsniveau hoch;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10
+92;Tirol Laerche Suedtirol;AT,DE;dgz_150;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10
+93;Tirol Kiefer Suedtirol;AT,DE;dgz_150;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10
 94;Tirol Buche;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10
-95;Tirol Fichte Kalk Ertragsniveau mittel;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10
-96;Tirol Fichte Kalk Ertragsniveau nieder;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10
-97;Tirol Fichte Silikat Ertragsniveau hoch;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10
-98;Tirol Fichte Silikat Ertragsniveau mittel;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10
 99;Tirol Kiefer Suedtirol;AT,DE,IT;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10
 100;Tirol Laerche Suedtirol;AT,DE,IT;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10
 101;Tirol Tanne;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10

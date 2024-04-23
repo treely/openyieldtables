@@ -8,7 +8,7 @@ client = TestClient(app)
 def test_read_yield_tables_meta():
     response = client.get("/v1/yield-tables-meta")
     assert response.status_code == 200
-    assert len(response.json()) == 52
+    assert len(response.json()) == 48
     assert response.json()[0] == {
         "id": 1,
         "title": "Fichte Hochgebirge",
@@ -37,11 +37,11 @@ def test_read_yield_tables_meta():
     }
     assert response.json()[27] == {
         "id": 93,
-        "title": "Kiefer Südtirol",
+        "title": "Tirol Kiefer Suedtirol",
         "country_codes": ["AT", "DE"],
         "type": "dgz_150",
-        "source": "ET-digital.xls",
-        "link": "",
+        "source": "Ertragstafeln für Tirol, Amt der Tiroler Landesregierung",
+        "link": "https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/",  # noqa E501
         "yield_class_step": 1.0,
         "age_step": 10,
         "available_columns": [

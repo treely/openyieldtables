@@ -5,7 +5,7 @@ from openyieldtables.yieldtables import get_yield_table, get_yield_tables_meta
 
 def test_get_yield_tables_meta():
     yield_tables_meta = get_yield_tables_meta()
-    assert len(yield_tables_meta) == 52
+    assert len(yield_tables_meta) == 48
 
     assert yield_tables_meta[0].model_dump() == {
         "id": 1,
@@ -35,11 +35,11 @@ def test_get_yield_tables_meta():
     }
     assert yield_tables_meta[27].model_dump() == {
         "id": 93,
-        "title": "Kiefer Südtirol",
+        "title": "Tirol Kiefer Suedtirol",
         "country_codes": ["AT", "DE"],
         "type": "dgz_150",
-        "source": "ET-digital.xls",
-        "link": "",
+        "source": "Ertragstafeln für Tirol, Amt der Tiroler Landesregierung",
+        "link": "https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/",  # noqa E501
         "yield_class_step": 1.0,
         "age_step": 10,
         "available_columns": [
