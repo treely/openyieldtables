@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "openyieldtables"
-version = "0.0.0"
+version = "1.0.0"
 description = ""
 authors = ["Tree.ly <hello@tree.ly>", "FMM <fmm@fmm.at>"]
 maintainers = ["FMM <fmm@fmm.at>", "Tree.ly <hello@tree.ly>"]

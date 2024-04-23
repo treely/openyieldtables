@@ -2,6 +2,56 @@
 
 
 
+## v1.0.0 (2024-04-23)
+
+### Breaking
+
+* feat: Rename get_yield_table_data function
+
+BREAKING CHANGE: Rename get_yield_table_data function
+
+To be consistent the get_yield_table_data function is
+renamed to get_yield_table since the function returns
+the full YieldTable and not only the data. Additionally,
+the YieldTable model has been updated to contain an
+object of data instead an array of data since the array
+always only contained one entry. ([`f7f1742`](https://github.com/treely/openyieldtables/commit/f7f1742dba8a139235d6f80607c92a0ec5514e17))
+
+### Build
+
+* build: Set up cross origin resource sharing ([`b598b3f`](https://github.com/treely/openyieldtables/commit/b598b3fca05ccfd9c51ce04729a39c2681e64c6d))
+
+### Ci
+
+* ci: Build package in test workflow ([`2a4a396`](https://github.com/treely/openyieldtables/commit/2a4a3962cce730b16e6731f5e782c7918f29847a))
+
+### Documentation
+
+* docs: Fix getting started ([`101001d`](https://github.com/treely/openyieldtables/commit/101001dd0671a5531e5bded8643b6144643147b5))
+
+* docs: Update start page ([`55bdc16`](https://github.com/treely/openyieldtables/commit/55bdc166cb87b5bd6632fcb2ef1d232cdec10d2a))
+
+* docs: Update the company type of Tree.ly in the license ([`6eb999e`](https://github.com/treely/openyieldtables/commit/6eb999e231e74cd70f00459ab146f4ed2c735c03))
+
+* docs: Remove routes from API index page ([`2740822`](https://github.com/treely/openyieldtables/commit/2740822553b66c4931021ddefd3ef50c93ea9c65))
+
+* docs: Add link to PyPI in documentation ([`e0ed0b9`](https://github.com/treely/openyieldtables/commit/e0ed0b9bb6c7703d9e7180c94e1c7ac75d0f41cd))
+
+* docs: Add index page for api ([`d24d826`](https://github.com/treely/openyieldtables/commit/d24d8263c69a638c9f7b67f9ab32f60172455998))
+
+* docs: Add project meta data ([`9883f5a`](https://github.com/treely/openyieldtables/commit/9883f5a756797ae60a6772871b442932a4f4535b))
+
+* docs: Use absolute link in README in order to work on PyPI ([`14d15f0`](https://github.com/treely/openyieldtables/commit/14d15f09e038326345e15ca950c06a7f9b0d9ebd))
+
+* docs: Add badges to the README.md and add license to pyproject.toml ([`1faa9ce`](https://github.com/treely/openyieldtables/commit/1faa9ceb240c7ce228ad2d9247e23248b34cda4e))
+
+* docs: Add Readthedocs badge to readme ([`f861ab0`](https://github.com/treely/openyieldtables/commit/f861ab0caace17b0d08cfe16abfb8ac824e8e21c))
+
+* docs: Setup Readthedocs deploy ([`fa95be7`](https://github.com/treely/openyieldtables/commit/fa95be789a271e4655b86755df4c322ea43349d6))
+
+* docs: Fix broken link in readme ([`ff01189`](https://github.com/treely/openyieldtables/commit/ff01189d88b869eaa8158c5b756b389f37b5138c))
+
+
 ## v0.0.0 (2024-04-18)
 
 ### Build
