@@ -40,4 +40,4 @@ class YieldTableData(BaseModel):
 
 
 class YieldTable(YieldTableMeta):
-    data: List[YieldTableData]
+    data: YieldTableData

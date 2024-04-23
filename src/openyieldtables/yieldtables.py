@@ -115,7 +115,7 @@ def get_yield_table_meta(id: int) -> YieldTableMeta:
     raise ValueError(f"Yield table with ID {id} not found.")
 
 
-def get_yield_table_data(id: int) -> YieldTable:
+def get_yield_table(id: int) -> YieldTable:
     """
     Reads the yield table data for a specific yield table ID from
     `data/yield_tables.csv` and returns a YieldTable instance.
@@ -183,5 +183,5 @@ def get_yield_table_data(id: int) -> YieldTable:
 
     return YieldTable(
         **yield_table_meta.model_dump(),
-        data=[YieldTableData(yield_classes=yield_classes)],
+        data=YieldTableData(yield_classes=yield_classes),
     )

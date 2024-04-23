@@ -37,10 +37,10 @@ yield_table_meta_dict = yield_table_meta.model_dump()
 **Get the data of one specific yield table**
 
 ```python
-from openyieldtables.yieldtables import get_yield_table_data
+from openyieldtables.yieldtables import get_yield_table
 
 # Get the data of a yield table by its ID
-yield_table_data = get_yield_table_data(1) # Returns a `YieldTable` object
+yield_table_data = get_yield_table(1) # Returns a `YieldTable` object
 
 # Get one row of the yield table data as dictionary
 yield_table_data.data[0].yield_classes[0].rows[0].model_dump()

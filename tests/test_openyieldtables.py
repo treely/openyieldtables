@@ -1,9 +1,6 @@
 import pytest
 
-from openyieldtables.yieldtables import (
-    get_yield_table_data,
-    get_yield_tables_meta,
-)
+from openyieldtables.yieldtables import get_yield_table, get_yield_tables_meta
 
 
 def test_get_yield_tables_meta():
@@ -64,9 +61,9 @@ def test_get_yield_tables_meta():
     }
 
 
-def test_get_yield_table_data():
-    yield_table_data = get_yield_table_data(1)
-    assert yield_table_data.data[0].yield_classes[5].rows[0].model_dump() == {
+def test_get_yield_table():
+    yield_table_data = get_yield_table(1)
+    assert yield_table_data.data.yield_classes[5].rows[0].model_dump() == {
         "age": 20,
         "dominant_height": 4.8,
         "average_height": 4.3,
@@ -81,8 +78,8 @@ def test_get_yield_table_data():
         "mean_annual_increment": 0.6,
     }
 
-    yield_table_data = get_yield_table_data(93)
-    assert yield_table_data.data[0].yield_classes[0].rows[0].model_dump() == {
+    yield_table_data = get_yield_table(93)
+    assert yield_table_data.data.yield_classes[0].rows[0].model_dump() == {
         "age": 100,
         "dominant_height": 8.1,
         "average_height": 7.2,
@@ -97,8 +94,8 @@ def test_get_yield_table_data():
         "mean_annual_increment": 1.8,
     }
 
-    yield_table_data = get_yield_table_data(144)
-    assert yield_table_data.data[0].yield_classes[0].rows[0].model_dump() == {
+    yield_table_data = get_yield_table(144)
+    assert yield_table_data.data.yield_classes[0].rows[0].model_dump() == {
         "age": 10,
         "dominant_height": None,
         "average_height": None,
@@ -114,10 +111,10 @@ def test_get_yield_table_data():
     }
 
     # yield_class is a float
-    yield_table_data = get_yield_table_data(102)
-    assert yield_table_data.data[0].yield_classes[0].yield_class == 0.4
-    assert yield_table_data.data[0].yield_classes[8].yield_class == 3
+    yield_table_data = get_yield_table(102)
+    assert yield_table_data.data.yield_classes[0].yield_class == 0.4
+    assert yield_table_data.data.yield_classes[8].yield_class == 3
 
     # Yield table ID is not found
     with pytest.raises(ValueError):
-        get_yield_table_data(999)
+        get_yield_table(999)

@@ -12,7 +12,7 @@ def test_read_yield_table_data():
     assert response.status_code == 200
 
     yield_table = YieldTable(**response.json())
-    row = yield_table.data[0].yield_classes[0].rows[0]
+    row = yield_table.data.yield_classes[0].rows[0]
 
     assert row.age == 20
     assert row.dominant_height == 5.9
@@ -32,8 +32,8 @@ def test_read_yield_table_data():
     assert response.status_code == 200
 
     yield_table = YieldTable(**response.json())
-    assert yield_table.data[0].yield_classes[0].yield_class == 0.4
-    assert yield_table.data[0].yield_classes[8].yield_class == 3
+    assert yield_table.data.yield_classes[0].yield_class == 0.4
+    assert yield_table.data.yield_classes[8].yield_class == 3
 
     # Invalid ID
     response = client.get("/v1/yield-tables/999")

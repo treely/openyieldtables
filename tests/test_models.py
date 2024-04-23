@@ -100,15 +100,15 @@ def test_yield_table_valid_data():
             "yield_class",
             "age",
         ],
-        data=[data],
+        data=data,
     )
 
     # Assert that the data is correctly set in the YieldTable instance
     assert yield_table.id == 1
     assert yield_table.title == "yield_table_name"
-    assert yield_table.data[0].yield_classes[0].yield_class == 15
-    assert yield_table.data[0].yield_classes[0].rows[0].age == 30
-    assert yield_table.data[0].yield_classes[0].rows[0].taper == 0.1
+    assert yield_table.data.yield_classes[0].yield_class == 15
+    assert yield_table.data.yield_classes[0].rows[0].age == 30
+    assert yield_table.data.yield_classes[0].rows[0].taper == 0.1
 
 
 def test_yield_table_invalid_data():
@@ -120,5 +120,5 @@ def test_yield_table_invalid_data():
             country_codes=["US", "CA"],
             source="Some source",
             available_columns=["age", "dominant_height"],
-            data=[],  # Empty data
+            data=None,  # Empty data
         )
