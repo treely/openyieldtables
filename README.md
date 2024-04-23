@@ -24,7 +24,7 @@ from openyieldtables.yieldtables import (
 yield_tables_meta = get_yield_tables_meta()
 
 # Get the data of a yield table by its ID
-yield_table = get_yield_table(1)
+yield_table_data = get_yield_table_data(1)
 ```
 
 ## Documentation
