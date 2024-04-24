@@ -2,6 +2,13 @@
 
 
 
+## v2.1.0 (2024-04-24)
+
+### Feature
+
+* feat(data): Add Lockow Birch yield table ([`1a88c60`](https://github.com/treely/openyieldtables/commit/1a88c608d0634b63195338d810392c9f1ed865fa))
+
+
 ## v2.0.0 (2024-04-24)
 
 ### Breaking
