@@ -2,6 +2,19 @@
 
 
 
+## v2.0.0 (2024-04-24)
+
+### Breaking
+
+* fix: Remove duplicate yield tables from data
+
+BREAKING CHANGE: Remove duplicate yield tables from data
+
+The yield tables with ID 95, 96, 97 and 98 are removed,
+because they are duplicates of the yield tables with ID
+88, 89, 90 and 91. ([`b3bf908`](https://github.com/treely/openyieldtables/commit/b3bf908d8604f7f1b3d9d00b6aa72f96f85c4857))
+
+
 ## v1.0.0 (2024-04-23)
 
 ### Breaking
