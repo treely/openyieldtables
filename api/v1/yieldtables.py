@@ -1,6 +1,7 @@
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, HTTPException, Request
 
 from api.models.exceptions import HTTPNotFoundError
+from api.v1.send_response import send_response
 from openyieldtables.models.yieldtable import YieldTable
 from openyieldtables.yieldtables import get_yield_table
 
@@ -20,9 +21,11 @@ router = APIRouter(
         }
     },
 )
-def read_yield_table_data(yield_table_id: int):
+def read_yield_table_data(yield_table_id: int, request: Request):
     try:
-        return get_yield_table(yield_table_id)
+        return send_response(
+            get_yield_table(yield_table_id), "yield-table.html", request
+        )
     except ValueError:
         raise HTTPException(
             status_code=404,

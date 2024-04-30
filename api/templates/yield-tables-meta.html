@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Yield Tables Explorer</title>
+
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://cdn.tree.ly/assets/v4/yield-tables/favicon.ico"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="bg-white py-24 sm:py-32">
+      <div class="mx-auto max-w-7xl px-6 lg:px-8">
+        <h1
+          class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
+        >
+          Yield Tables explorer
+        </h1>
+
+        <div>
+          <h2 class="mb-2 mt-10 text-xl font-semibold text-gray-900">
+            Available yield tables:
+          </h2>
+
+          <table
+            class="mt-4 w-full text-sm text-left rtl:text-right text-gray-500 border"
+          >
+            <thead class="text-xs text-gray-700 uppercase bg-gray-100">
+              <tr>
+                <th scope="col" class="px-6 py-3 font-mono">id</th>
+                <th scope="col" class="px-6 py-3 font-mono">title</th>
+                <th scope="col" class="px-6 py-3 font-mono">countries</th>
+                <th scope="col" class="px-6 py-3 font-mono">type</th>
+                <th scope="col" class="px-6 py-3 font-mono">source</th>
+                <th scope="col" class="px-6 py-3 font-mono">
+                  yield_class_step
+                </th>
+                <th scope="col" class="px-6 py-3 font-mono">age_step</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for yield_table_meta in data %}
+              <tr class="bg-white border-b odd:bg-white even:bg-gray-50">
+                <th
+                  scope="row"
+                  class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap font-mono"
+                >
+                  {{ yield_table_meta.id }}
+                </th>
+                <td class="px-6 py-4 font-mono">
+                  <span>{{yield_table_meta.title}}</span>
+                  <br />
+                  <a
+                    href="/v1/yield-tables/{{yield_table_meta.id}}"
+                    class="text-blue-500"
+                    >Open yield table</a
+                  >
+                  <br />
+                  <a
+                    href="/v1/yield-tables-meta/{{yield_table_meta.id}}"
+                    class="text-blue-500"
+                    >Open yield table meta</a
+                  >
+                </td>
+                <td class="px-6 py-4 font-mono">
+                  <ul class="list-disc list-inside">
+                    {% for country in yield_table_meta.country_codes %}
+                    <li>{{country}}</li>
+                    {%endfor%}
+                  </ul>
+                </td>
+                <td class="px-6 py-4 font-mono">{{yield_table_meta.type}}</td>
+                <td class="px-6 py-4 font-mono">
+                  <span>{{yield_table_meta.source}}</span>
+                  {% if yield_table_meta.link %}
+                  <br />
+                  <a
+                    href="{{yield_table_meta.link}}"
+                    target="_blank"
+                    class="text-blue-500"
+                    >Go to source</a
+                  >
+                  {% endif %}
+                </td>
+                <td class="px-6 py-4 font-mono text-right">
+                  {{yield_table_meta.yield_class_step}}
+                </td>
+                <td class="px-6 py-4 font-mono text-right">
+                  {{yield_table_meta.age_step}}
+                </td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

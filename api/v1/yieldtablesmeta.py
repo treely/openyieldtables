@@ -1,8 +1,9 @@
 from typing import List
 
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, HTTPException, Request
 
 from api.models.exceptions import HTTPNotFoundError
+from api.v1.send_response import send_response
 from openyieldtables.models.yieldtable import YieldTableMeta
 from openyieldtables.yieldtables import (
     get_yield_table_meta,
@@ -16,8 +17,10 @@ router = APIRouter(
 
 
 @router.get("/", response_model=List[YieldTableMeta])
-def read_yield_tables_meta():
-    return get_yield_tables_meta()
+def read_yield_tables_meta(request: Request):
+    return send_response(
+        get_yield_tables_meta(), "yield-tables-meta.html", request
+    )
 
 
 @router.get(
@@ -30,9 +33,13 @@ def read_yield_tables_meta():
         }
     },
 )
-def read_yield_table_meta(yield_table_id: int):
+def read_yield_table_meta(yield_table_id: int, request: Request):
     try:
-        return get_yield_table_meta(yield_table_id)
+        return send_response(
+            get_yield_table_meta(yield_table_id),
+            "yield-table-meta.html",
+            request,
+        )
     except ValueError:
         raise HTTPException(
             status_code=404,

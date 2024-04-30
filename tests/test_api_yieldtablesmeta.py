@@ -2,7 +2,7 @@ from fastapi.testclient import TestClient
 
 from api.main import app
 
-client = TestClient(app)
+client = TestClient(app, headers={"accept": "application/json"})
 
 
 def test_read_yield_tables_meta():

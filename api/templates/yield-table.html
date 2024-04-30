@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Yield Table - {{ data.title }}</title>
+
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://cdn.tree.ly/assets/v4/yield-tables/favicon.ico"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="bg-white py-24 sm:py-32">
+      <div class="mx-auto max-w-7xl px-6 lg:px-8">
+        <h1
+          class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
+        >
+          {{ data.title }}
+        </h1>
+
+        <div>
+          <h2 class="mb-2 mt-10 text-xl font-semibold text-gray-900">
+            Available columns:
+          </h2>
+
+          <ul class="list-inside list-disc">
+            {% for value in data.available_columns %}
+            <li class="font-mono">{{value}}</li>
+            {% endfor %}
+          </ul>
+        </div>
+
+        <div class="mt-10 overflow-x-auto">
+          <h2 class="mb-2 text-xl font-semibold text-gray-900">Data:</h2>
+
+          {% for yield_class in data.data.yield_classes %}
+          <h2 class="mt-3 mb-2 text-lg font-semibold text-gray-900">
+            Yield class: {{yield_class.yield_class}}
+          </h2>
+          <table
+            class="mt-4 w-full text-sm text-left rtl:text-right text-gray-500 border"
+          >
+            <thead class="text-xs text-gray-700 uppercase bg-gray-100">
+              <tr>
+                {% for column in data.available_columns %}
+                <th scope="col" class="px-6 py-3 font-mono">{{ column }}</th>
+                {% endfor %}
+              </tr>
+            </thead>
+            <tbody>
+              {% for row in yield_class.rows %}
+              <tr class="bg-white border-b odd:bg-white even:bg-gray-50">
+                {% for column in data.available_columns %} {% if column ==
+                "id"%}
+                <th
+                  scope="row"
+                  class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap font-mono"
+                >
+                  {{ data.id }}
+                </th>
+                {% elif column == "yield_class" %}
+                <th
+                  scope="row"
+                  class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap font-mono"
+                >
+                  {{ yield_class.yield_class }}
+                </th>
+                {% else %}
+                <td class="px-6 py-4 font-mono text-right">
+                  {% if row[column] %}{{row[column]}}{%endif%}
+                </td>
+                {% endif %} {% endfor %}
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
