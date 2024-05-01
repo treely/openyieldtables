@@ -14,8 +14,8 @@ def test_read_yield_tables_meta():
         "title": "Fichte Hochgebirge",
         "country_codes": ["AT", "DE"],
         "type": "dgz_100",
-        "source": "Marschall",
-        "link": "",
+        "source": "1975, Julius Marschall: Hilfstafeln für die Forsteinrichtung, Neunte Auflage, Österreichischer Agrarverlag",  # noqa E501
+        "link": "https://www.avbuch-shop.at/landwirtschaft/lehrbuecher/1347/hilfstafeln-fuer-die-forsteinrichtung",  # noqa E501
         "yield_class_step": 1.0,
         "age_step": 10,
         "available_columns": [
@@ -71,8 +71,8 @@ def test_read_yield_table_meta():
         "title": "Fichte Hochgebirge",
         "country_codes": ["AT", "DE"],
         "type": "dgz_100",
-        "source": "Marschall",
-        "link": "",
+        "source": "1975, Julius Marschall: Hilfstafeln für die Forsteinrichtung, Neunte Auflage, Österreichischer Agrarverlag",  # noqa E501
+        "link": "https://www.avbuch-shop.at/landwirtschaft/lehrbuecher/1347/hilfstafeln-fuer-die-forsteinrichtung",  # noqa E501
         "yield_class_step": 1.0,
         "age_step": 10,
         "available_columns": [
