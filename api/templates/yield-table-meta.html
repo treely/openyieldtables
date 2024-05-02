@@ -3,15 +3,11 @@
   <head>
     <title>Yield Table Meta - {{data.title}}</title>
 
-    <link
-      rel="icon"
-      type="image/x-icon"
-      href="https://cdn.tree.ly/assets/v4/yield-tables/favicon.ico"
-    />
-    <script src="https://cdn.tailwindcss.com"></script>
+    {% include "shared-head.html" %}
   </head>
   <body>
-    <div class="bg-white py-24 sm:py-32">
+    {% include "header.html" %}
+    <div class="bg-white py-6">
       <div class="mx-auto max-w-7xl px-6 lg:px-8">
         <h1
           class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
