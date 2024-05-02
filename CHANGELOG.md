@@ -2,6 +2,19 @@
 
 
 
+## v2.2.0 (2024-05-02)
+
+### Documentation
+
+* docs: Add HTML responses to API ([`bfa66e1`](https://github.com/treely/openyieldtables/commit/bfa66e153611fada69a18adb9f50eeb2063023ea))
+
+* docs: Correct company name (#42) ([`37d9a33`](https://github.com/treely/openyieldtables/commit/37d9a33c77f2392e1e2f9cacda9845bf87399509))
+
+### Feature
+
+* feat: Update sources in meta data ([`923daea`](https://github.com/treely/openyieldtables/commit/923daea57aba20543a96d05931ab3f7dec67d5d6))
+
+
 ## v2.1.0 (2024-04-24)
 
 ### Feature
