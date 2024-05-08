@@ -2,6 +2,17 @@
 
 
 
+## v2.2.1 (2024-05-08)
+
+### Documentation
+
+* docs: Add header to yield table explorer ([`05703c4`](https://github.com/treely/openyieldtables/commit/05703c4f6764019201f4ec6f44ed9dd1c1e34b75))
+
+### Fix
+
+* fix: Remove TimberControl Database as source ([`963aed0`](https://github.com/treely/openyieldtables/commit/963aed0d334cfb19d62be0b1412d8eab2ea53153))
+
+
 ## v2.2.0 (2024-05-02)
 
 ### Documentation
