@@ -10,17 +10,17 @@ id;title;country_codes;type;source;link;yield_class_step;age_step
 9;Kiefer Litschau;AT,DE;dgz_100;1975, Julius Marschall: Hilfstafeln für die Forsteinrichtung, Neunte Auflage, Österreichischer Agrarverlag;https://www.avbuch-shop.at/landwirtschaft/lehrbuecher/1347/hilfstafeln-fuer-die-forsteinrichtung;1;10
 10;Buche Braunschweig;AT,DE;dgz_100;1975, Julius Marschall: Hilfstafeln für die Forsteinrichtung, Neunte Auflage, Österreichischer Agrarverlag;https://www.avbuch-shop.at/landwirtschaft/lehrbuecher/1347/hilfstafeln-fuer-die-forsteinrichtung;1;10
 11;Eiche Ungarn;AT,DE;dgz_100;1975, Julius Marschall: Hilfstafeln für die Forsteinrichtung, Neunte Auflage, Österreichischer Agrarverlag;https://www.avbuch-shop.at/landwirtschaft/lehrbuecher/1347/hilfstafeln-fuer-die-forsteinrichtung;1;10
-12;Esche;AT,DE;dgz_100;TimberControl Database;;1;10
-13;Europaeische Pappel;AT,DE;dgz_50;TimberControl Database;;1;10
-14;Hybrid Pappel;AT,DE;dgz_50;TimberControl Database;;1;10
-15;Hainbuche;AT,DE;dgz_100;TimberControl Database;;1;10
-16;Robinie;AT,DE;dgz_50;TimberControl Database;;1;10
-17;Schwarzkiefer;AT,DE;dgz_100;TimberControl Database;;1;10
-18;Strobe H;AT,DE;dgz_80;TimberControl Database;;1;10
-19;Erle Schwappach;AT,DE;dgz_100;TimberControl Database;;1;10
+12;Esche;AT,DE;dgz_100;unknown;;1;10
+13;Europaeische Pappel;AT,DE;dgz_50;unknown;;1;10
+14;Hybrid Pappel;AT,DE;dgz_50;unknown;;1;10
+15;Hainbuche;AT,DE;dgz_100;unknown;;1;10
+16;Robinie;AT,DE;dgz_50;unknown;;1;10
+17;Schwarzkiefer;AT,DE;dgz_100;unknown;;1;10
+18;Strobe H;AT,DE;dgz_80;unknown;;1;10
+19;Erle Schwappach;AT,DE;dgz_100;unknown;;1;10
 20;Tirol Zirbe Murau;AT,DE;dgz_200;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10
-21;Birke;AT,DE;dgz_100;TimberControl Database;;1;10
-87;Fichte Oststeiermark Eckmüllner;AT,DE;dgz_100;TimberControl Database;;1;10
+21;Birke;AT,DE;dgz_100;unknown;;1;10
+87;Fichte Oststeiermark Eckmüllner;AT,DE;dgz_100;unknown;;1;10
 88;Tirol Fichte Kalk Ertragsniveau nieder;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10
 89;Tirol Fichte Kalk Ertragsniveau mittel;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10
 90;Tirol Fichte Silikat Ertragsniveau mittel;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10
