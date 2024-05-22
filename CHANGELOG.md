@@ -2,6 +2,13 @@
 
 
 
+## v2.2.2 (2024-05-22)
+
+### Fix
+
+* fix: Fix age level for yield table 11 ([`3cb56d6`](https://github.com/treely/openyieldtables/commit/3cb56d6ec98e242b4c690d52cc61172aa3ea0e7c))
+
+
 ## v2.2.1 (2024-05-08)
 
 ### Documentation
