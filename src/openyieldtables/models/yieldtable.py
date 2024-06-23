@@ -1,6 +1,12 @@
+from enum import Enum
 from typing import List, Optional, Union
 
 from pydantic import BaseModel
+
+
+class TreeType(str, Enum):
+    coniferous = "coniferous"
+    deciduous = "deciduous"
 
 
 class YieldTableMeta(BaseModel):
@@ -13,6 +19,7 @@ class YieldTableMeta(BaseModel):
     yield_class_step: Optional[float] = None
     age_step: Optional[int] = None
     available_columns: List[str]
+    tree_type: TreeType
 
 
 class YieldClassRow(BaseModel):

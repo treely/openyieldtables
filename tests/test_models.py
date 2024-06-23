@@ -8,6 +8,7 @@ from openyieldtables.models import (
     YieldTableData,
     YieldTableMeta,
 )
+from openyieldtables.models.yieldtable import TreeType
 
 
 def test_yield_table_meta_valid():
@@ -21,6 +22,7 @@ def test_yield_table_meta_valid():
         "link": "https://example.com",
         "yield_class_step": 1,
         "age_step": 10,
+        "tree_type": TreeType.coniferous,
         "available_columns": [
             "id",
             "name",
@@ -46,6 +48,22 @@ def test_yield_table_meta_invalid():
         "link": "https://example.com",
         "yield_class_step": 1,
         "age_step": 10,
+        "tree_type": TreeType.coniferous,
+        "available_columns": [],
+    }
+    with pytest.raises(ValidationError):
+        YieldTableMeta(**invalid_data)
+
+    invalid_data = {
+        "id": 1,
+        "title": "yield_table_name",
+        "country_codes": ["AT"],
+        "type": "dgz_100",
+        "source": "source",
+        "link": "https://example.com",
+        "yield_class_step": 1,
+        "age_step": 10,
+        "tree_type": "invalid_tree_type",  # Invalid value for 'tree_type
         "available_columns": [],
     }
     with pytest.raises(ValidationError):
@@ -59,6 +77,7 @@ def test_yield_table_meta_defaults():
         "title": "yield_table_name",
         "country_codes": ["AT"],
         "source": "source",
+        "tree_type": TreeType.coniferous,
         "available_columns": [
             "id",
             "name",
@@ -94,6 +113,7 @@ def test_yield_table_valid_data():
         title="yield_table_name",
         country_codes=["AT", "DE"],
         source="source",
+        tree_type=TreeType.coniferous,
         available_columns=[
             "id",
             "name",

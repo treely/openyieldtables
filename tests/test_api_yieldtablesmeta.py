@@ -1,6 +1,7 @@
 from fastapi.testclient import TestClient
 
 from api.main import app
+from openyieldtables.models.yieldtable import TreeType
 
 client = TestClient(app, headers={"accept": "application/json"})
 
@@ -18,6 +19,7 @@ def test_read_yield_tables_meta():
         "link": "https://www.avbuch-shop.at/landwirtschaft/lehrbuecher/1347/hilfstafeln-fuer-die-forsteinrichtung",  # noqa E501
         "yield_class_step": 1.0,
         "age_step": 10,
+        "tree_type": TreeType.coniferous,
         "available_columns": [
             "id",
             "yield_class",
@@ -44,6 +46,7 @@ def test_read_yield_tables_meta():
         "link": "https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/",  # noqa E501
         "yield_class_step": 1.0,
         "age_step": 10,
+        "tree_type": TreeType.coniferous,
         "available_columns": [
             "id",
             "yield_class",
@@ -75,6 +78,7 @@ def test_read_yield_table_meta():
         "link": "https://www.avbuch-shop.at/landwirtschaft/lehrbuecher/1347/hilfstafeln-fuer-die-forsteinrichtung",  # noqa E501
         "yield_class_step": 1.0,
         "age_step": 10,
+        "tree_type": TreeType.coniferous,
         "available_columns": [
             "id",
             "yield_class",
