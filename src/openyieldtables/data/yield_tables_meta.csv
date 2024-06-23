@@ -1,50 +1,51 @@
-id;title;country_codes;type;source;link;yield_class_step;age_step
-1;Fichte Hochgebirge;AT,DE;dgz_100;1975, Julius Marschall: Hilfstafeln für die Forsteinrichtung, Neunte Auflage, Österreichischer Agrarverlag;https://www.avbuch-shop.at/landwirtschaft/lehrbuecher/1347/hilfstafeln-fuer-die-forsteinrichtung;1;10
-2;Fichte Bayern;AT,DE;dgz_100;1975, Julius Marschall: Hilfstafeln für die Forsteinrichtung, Neunte Auflage, Österreichischer Agrarverlag;https://www.avbuch-shop.at/landwirtschaft/lehrbuecher/1347/hilfstafeln-fuer-die-forsteinrichtung;1;10
-3;Fichte Bruck;AT,DE;dgz_100;1975, Julius Marschall: Hilfstafeln für die Forsteinrichtung, Neunte Auflage, Österreichischer Agrarverlag;https://www.avbuch-shop.at/landwirtschaft/lehrbuecher/1347/hilfstafeln-fuer-die-forsteinrichtung;1;10
-4;Fichte Weitra;AT,DE;dgz_100;1975, Julius Marschall: Hilfstafeln für die Forsteinrichtung, Neunte Auflage, Österreichischer Agrarverlag;https://www.avbuch-shop.at/landwirtschaft/lehrbuecher/1347/hilfstafeln-fuer-die-forsteinrichtung;1;10
-5;Tanne NWD;AT,DE;dgz_100;1975, Julius Marschall: Hilfstafeln für die Forsteinrichtung, Neunte Auflage, Österreichischer Agrarverlag;https://www.avbuch-shop.at/landwirtschaft/lehrbuecher/1347/hilfstafeln-fuer-die-forsteinrichtung;1;10
-6;Tanne Württemberg;AT,DE;dgz_100;1975, Julius Marschall: Hilfstafeln für die Forsteinrichtung, Neunte Auflage, Österreichischer Agrarverlag;https://www.avbuch-shop.at/landwirtschaft/lehrbuecher/1347/hilfstafeln-fuer-die-forsteinrichtung;2;10
-7;Douglasie BW;AT,DE;dgz_75;1975, Julius Marschall: Hilfstafeln für die Forsteinrichtung, Neunte Auflage, Österreichischer Agrarverlag;https://www.avbuch-shop.at/landwirtschaft/lehrbuecher/1347/hilfstafeln-fuer-die-forsteinrichtung;1;5
-8;Laerche Schweiz;AT,DE;dgz_100;1975, Julius Marschall: Hilfstafeln für die Forsteinrichtung, Neunte Auflage, Österreichischer Agrarverlag;https://www.avbuch-shop.at/landwirtschaft/lehrbuecher/1347/hilfstafeln-fuer-die-forsteinrichtung;1;10
-9;Kiefer Litschau;AT,DE;dgz_100;1975, Julius Marschall: Hilfstafeln für die Forsteinrichtung, Neunte Auflage, Österreichischer Agrarverlag;https://www.avbuch-shop.at/landwirtschaft/lehrbuecher/1347/hilfstafeln-fuer-die-forsteinrichtung;1;10
-10;Buche Braunschweig;AT,DE;dgz_100;1975, Julius Marschall: Hilfstafeln für die Forsteinrichtung, Neunte Auflage, Österreichischer Agrarverlag;https://www.avbuch-shop.at/landwirtschaft/lehrbuecher/1347/hilfstafeln-fuer-die-forsteinrichtung;1;10
-11;Eiche Ungarn;AT,DE;dgz_100;1975, Julius Marschall: Hilfstafeln für die Forsteinrichtung, Neunte Auflage, Österreichischer Agrarverlag;https://www.avbuch-shop.at/landwirtschaft/lehrbuecher/1347/hilfstafeln-fuer-die-forsteinrichtung;1;10
-12;Esche;AT,DE;dgz_100;unknown;;1;10
-13;Europaeische Pappel;AT,DE;dgz_50;unknown;;1;10
-14;Hybrid Pappel;AT,DE;dgz_50;unknown;;1;10
-15;Hainbuche;AT,DE;dgz_100;unknown;;1;10
-16;Robinie;AT,DE;dgz_50;unknown;;1;10
-17;Schwarzkiefer;AT,DE;dgz_100;unknown;;1;10
-18;Strobe H;AT,DE;dgz_80;unknown;;1;10
-19;Erle Schwappach;AT,DE;dgz_100;unknown;;1;10
-20;Tirol Zirbe Murau;AT,DE;dgz_200;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10
-21;Birke;AT,DE;dgz_100;unknown;;1;10
-87;Fichte Oststeiermark Eckmüllner;AT,DE;dgz_100;unknown;;1;10
-88;Tirol Fichte Kalk Ertragsniveau nieder;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10
-89;Tirol Fichte Kalk Ertragsniveau mittel;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10
-90;Tirol Fichte Silikat Ertragsniveau mittel;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10
-91;Tirol Fichte Silikat Ertragsniveau hoch;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10
-92;Tirol Laerche Suedtirol;AT,DE;dgz_150;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10
-93;Tirol Kiefer Suedtirol;AT,DE;dgz_150;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10
-94;Tirol Buche;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10
-99;Tirol Kiefer Suedtirol;AT,DE,IT;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10
-100;Tirol Laerche Suedtirol;AT,DE,IT;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10
-101;Tirol Tanne;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10
-102;Tirol Zirbe Murau;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;;10
-103;Cerny Buche;CZ;dgz_100;1996, Martin Černý, Jan Pařez: Růstové a taxační tabulky hlavních dřevin České republiky: (smrk, borovice, buk, dub). Jílové u Prahy: IFER.;https://katalog.mendelu.cz/records/5b86d7f6-2962-425e-b679-474a975de497;2;10
-104;Cerny Eiche;CZ;dgz_100;1996, Martin Černý, Jan Pařez: Růstové a taxační tabulky hlavních dřevin České republiky: (smrk, borovice, buk, dub). Jílové u Prahy: IFER.;https://katalog.mendelu.cz/records/5b86d7f6-2962-425e-b679-474a975de497;2;10
-105;Cerny Fichte;CZ;dgz_100;1996, Martin Černý, Jan Pařez: Růstové a taxační tabulky hlavních dřevin České republiky: (smrk, borovice, buk, dub). Jílové u Prahy: IFER.;https://katalog.mendelu.cz/records/5b86d7f6-2962-425e-b679-474a975de497;2;10
-106;Cerny Kiefer;CZ;dgz_100;1996, Martin Černý, Jan Pařez: Růstové a taxační tabulky hlavních dřevin České republiky: (smrk, borovice, buk, dub). Jílové u Prahy: IFER.;https://katalog.mendelu.cz/records/5b86d7f6-2962-425e-b679-474a975de497;2;10
-120;Lockow Birke Nordostdeutschland;DE;dgz_100;Forstliche Forschungsanstalt Eberswalde, Fachgebiet Waldwachstum Eberswalde 1996;https://plan-birke.de/app/uploads/2019/01/Sandbirke_1996_Lockow.pdf;1;10
-133;Wiedemann Birke Baden-Wuerttemberg;DE;dgz_80;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10
-134;Wiedemann Buche Baden-Wuerttemberg;DE;dgz_100;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10
-135;Wiedemann Eiche Baden-Wuerttemberg;DE;dgz_100;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10
-136;Wiedemann europäische Lärche Baden-Wuerttemberg;DE;dgz_100;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10
-137;Wiedemann Erle Baden-Wuerttemberg;DE;dgz_80;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10
-138;Wiedemann Esche Baden-Wuerttemberg;DE;dgz_100;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10
-139;Wiedemann Fichte Baden-Wuerttemberg;DE;dgz_100;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10
-140;Wiedemann japanische Laerche Baden-Wuerttemberg;DE;dgz_60;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10
-141;Wiedemann Kiefer Baden-Wuerttemberg;DE;dgz_100;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10
-143;Wiedemann Pappel Baden-Wuerttemberg;DE;dgz_50;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;0.5;10
-144;Wiedemann Roteiche Baden-Wuerttemberg;DE;dgz_100;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10
+id;title;country_codes;type;source;link;yield_class_step;age_step;tree_type
+1;Fichte Hochgebirge;AT,DE;dgz_100;1975, Julius Marschall: Hilfstafeln für die Forsteinrichtung, Neunte Auflage, Österreichischer Agrarverlag;https://www.avbuch-shop.at/landwirtschaft/lehrbuecher/1347/hilfstafeln-fuer-die-forsteinrichtung;1;10;coniferous
+2;Fichte Bayern;AT,DE;dgz_100;1975, Julius Marschall: Hilfstafeln für die Forsteinrichtung, Neunte Auflage, Österreichischer Agrarverlag;https://www.avbuch-shop.at/landwirtschaft/lehrbuecher/1347/hilfstafeln-fuer-die-forsteinrichtung;1;10;coniferous
+3;Fichte Bruck;AT,DE;dgz_100;1975, Julius Marschall: Hilfstafeln für die Forsteinrichtung, Neunte Auflage, Österreichischer Agrarverlag;https://www.avbuch-shop.at/landwirtschaft/lehrbuecher/1347/hilfstafeln-fuer-die-forsteinrichtung;1;10;coniferous
+4;Fichte Weitra;AT,DE;dgz_100;1975, Julius Marschall: Hilfstafeln für die Forsteinrichtung, Neunte Auflage, Österreichischer Agrarverlag;https://www.avbuch-shop.at/landwirtschaft/lehrbuecher/1347/hilfstafeln-fuer-die-forsteinrichtung;1;10;coniferous
+5;Tanne NWD;AT,DE;dgz_100;1975, Julius Marschall: Hilfstafeln für die Forsteinrichtung, Neunte Auflage, Österreichischer Agrarverlag;https://www.avbuch-shop.at/landwirtschaft/lehrbuecher/1347/hilfstafeln-fuer-die-forsteinrichtung;1;10;coniferous
+6;Tanne Württemberg;AT,DE;dgz_100;1975, Julius Marschall: Hilfstafeln für die Forsteinrichtung, Neunte Auflage, Österreichischer Agrarverlag;https://www.avbuch-shop.at/landwirtschaft/lehrbuecher/1347/hilfstafeln-fuer-die-forsteinrichtung;2;10;coniferous
+7;Douglasie BW;AT,DE;dgz_75;1975, Julius Marschall: Hilfstafeln für die Forsteinrichtung, Neunte Auflage, Österreichischer Agrarverlag;https://www.avbuch-shop.at/landwirtschaft/lehrbuecher/1347/hilfstafeln-fuer-die-forsteinrichtung;1;5;coniferous
+8;Laerche Schweiz;AT,DE;dgz_100;1975, Julius Marschall: Hilfstafeln für die Forsteinrichtung, Neunte Auflage, Österreichischer Agrarverlag;https://www.avbuch-shop.at/landwirtschaft/lehrbuecher/1347/hilfstafeln-fuer-die-forsteinrichtung;1;10;coniferous
+9;Kiefer Litschau;AT,DE;dgz_100;1975, Julius Marschall: Hilfstafeln für die Forsteinrichtung, Neunte Auflage, Österreichischer Agrarverlag;https://www.avbuch-shop.at/landwirtschaft/lehrbuecher/1347/hilfstafeln-fuer-die-forsteinrichtung;1;10;coniferous
+10;Buche Braunschweig;AT,DE;dgz_100;1975, Julius Marschall: Hilfstafeln für die Forsteinrichtung, Neunte Auflage, Österreichischer Agrarverlag;https://www.avbuch-shop.at/landwirtschaft/lehrbuecher/1347/hilfstafeln-fuer-die-forsteinrichtung;1;10;deciduous
+11;Eiche Ungarn;AT,DE;dgz_100;1975, Julius Marschall: Hilfstafeln für die Forsteinrichtung, Neunte Auflage, Österreichischer Agrarverlag;https://www.avbuch-shop.at/landwirtschaft/lehrbuecher/1347/hilfstafeln-fuer-die-forsteinrichtung;1;10;deciduous
+12;Esche;AT,DE;dgz_100;unknown;;1;10;deciduous
+13;Europaeische Pappel;AT,DE;dgz_50;unknown;;1;10;deciduous
+14;Hybrid Pappel;AT,DE;dgz_50;unknown;;1;10;deciduous
+15;Hainbuche;AT,DE;dgz_100;unknown;;1;10;deciduous
+16;Robinie;AT,DE;dgz_50;unknown;;1;10;deciduous
+17;Schwarzkiefer;AT,DE;dgz_100;unknown;;1;10;coniferous
+18;Strobe H;AT,DE;dgz_80;unknown;;1;10;coniferous
+19;Erle Schwappach;AT,DE;dgz_100;unknown;;1;10;deciduous
+20;Tirol Zirbe Murau;AT,DE;dgz_200;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10;coniferous
+21;Birke;AT,DE;dgz_100;unknown;;1;10;deciduous
+87;Fichte Oststeiermark Eckmüllner;AT,DE;dgz_100;unknown;;1;10;coniferous
+88;Tirol Fichte Kalk Ertragsniveau nieder;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10;coniferous
+89;Tirol Fichte Kalk Ertragsniveau mittel;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10;coniferous
+90;Tirol Fichte Silikat Ertragsniveau mittel;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10;coniferous
+91;Tirol Fichte Silikat Ertragsniveau hoch;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10;coniferous
+92;Tirol Laerche Suedtirol;AT,DE;dgz_150;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10;coniferous
+93;Tirol Kiefer Suedtirol;AT,DE;dgz_150;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10;coniferous
+94;Tirol Buche;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10;deciduous
+99;Tirol Kiefer Suedtirol;AT,DE,IT;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10;coniferous
+100;Tirol Laerche Suedtirol;AT,DE,IT;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10;coniferous
+101;Tirol Tanne;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10;coniferous
+102;Tirol Zirbe Murau;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;;10;coniferous
+103;Cerny Buche;CZ;dgz_100;1996, Martin Černý, Jan Pařez: Růstové a taxační tabulky hlavních dřevin České republiky: (smrk, borovice, buk, dub). Jílové u Prahy: IFER.;https://katalog.mendelu.cz/records/5b86d7f6-2962-425e-b679-474a975de497;2;10;deciduous
+104;Cerny Eiche;CZ;dgz_100;1996, Martin Černý, Jan Pařez: Růstové a taxační tabulky hlavních dřevin České republiky: (smrk, borovice, buk, dub). Jílové u Prahy: IFER.;https://katalog.mendelu.cz/records/5b86d7f6-2962-425e-b679-474a975de497;2;10;deciduous
+105;Cerny Fichte;CZ;dgz_100;1996, Martin Černý, Jan Pařez: Růstové a taxační tabulky hlavních dřevin České republiky: (smrk, borovice, buk, dub). Jílové u Prahy: IFER.;https://katalog.mendelu.cz/records/5b86d7f6-2962-425e-b679-474a975de497;2;10;coniferous
+106;Cerny Kiefer;CZ;dgz_100;1996, Martin Černý, Jan Pařez: Růstové a taxační tabulky hlavních dřevin České republiky: (smrk, borovice, buk, dub). Jílové u Prahy: IFER.;https://katalog.mendelu.cz/records/5b86d7f6-2962-425e-b679-474a975de497;2;10;coniferous
+120;Lockow Birke Nordostdeutschland;DE;dgz_100;Forstliche Forschungsanstalt Eberswalde, Fachgebiet Waldwachstum Eberswalde 1996;https://plan-birke.de/app/uploads/2019/01/Sandbirke_1996_Lockow.pdf;1;10;deciduous
+133;Wiedemann Birke Baden-Wuerttemberg;DE;dgz_80;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10;deciduous
+134;Wiedemann Buche Baden-Wuerttemberg;DE;dgz_100;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10;deciduous
+135;Wiedemann Eiche Baden-Wuerttemberg;DE;dgz_100;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10;deciduous
+136;Wiedemann europäische Lärche Baden-Wuerttemberg;DE;dgz_100;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10;coniferous
+137;Wiedemann Erle Baden-Wuerttemberg;DE;dgz_80;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10;deciduous
+138;Wiedemann Esche Baden-Wuerttemberg;DE;dgz_100;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10;deciduous
+139;Wiedemann Fichte Baden-Wuerttemberg;DE;dgz_100;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10;coniferous
+140;Wiedemann japanische Laerche Baden-Wuerttemberg;DE;dgz_60;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10;coniferous
+141;Wiedemann Kiefer Baden-Wuerttemberg;DE;dgz_100;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10;coniferous
+143;Wiedemann Pappel Baden-Wuerttemberg;DE;dgz_50;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;0.5;10;deciduous
+144;Wiedemann Roteiche Baden-Wuerttemberg;DE;dgz_100;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10;deciduous
+145;Larice;RO;dgz_100;Victor Giurgiu, Dorin Draghiciu: Modele matematico-auxologice si tabele de productie pentru arborete;;;5;coniferous

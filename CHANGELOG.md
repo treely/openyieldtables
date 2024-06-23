@@ -1,13 +1,24 @@
 # CHANGELOG
 
+## v2.3.0 (2024-06-26)
 
+### Documentation
+
+* docs: Add a roadmap ([`81744dd`](https://github.com/treely/openyieldtables/commit/81744dd1cec5a3abbdd765d48a5d97dded3dc45f))
+
+* docs: Change GmbH to FlexCo ([`22f7035`](https://github.com/treely/openyieldtables/commit/22f70352bdae706ac80c6268f2c55da9eb30c606))
+
+### Feature
+
+* feat: Add tree type to meta data
+
+The tree type can either be `coniferous` or `deciduous`. ([`e5fe129`](https://github.com/treely/openyieldtables/commit/e5fe129660c3d779ae46a3aced1d49e19091d293))
 
 ## v2.2.2 (2024-05-22)
 
 ### Fix
 
 * fix: Fix age level for yield table 11 ([`3cb56d6`](https://github.com/treely/openyieldtables/commit/3cb56d6ec98e242b4c690d52cc61172aa3ea0e7c))
-
 
 ## v2.2.1 (2024-05-08)
 
@@ -18,7 +29,6 @@
 ### Fix
 
 * fix: Remove TimberControl Database as source ([`963aed0`](https://github.com/treely/openyieldtables/commit/963aed0d334cfb19d62be0b1412d8eab2ea53153))
-
 
 ## v2.2.0 (2024-05-02)
 
@@ -32,13 +42,11 @@
 
 * feat: Update sources in meta data ([`923daea`](https://github.com/treely/openyieldtables/commit/923daea57aba20543a96d05931ab3f7dec67d5d6))
 
-
 ## v2.1.0 (2024-04-24)
 
 ### Feature
 
 * feat(data): Add Lockow Birch yield table ([`1a88c60`](https://github.com/treely/openyieldtables/commit/1a88c608d0634b63195338d810392c9f1ed865fa))
-
 
 ## v2.0.0 (2024-04-24)
 
@@ -51,7 +59,6 @@ BREAKING CHANGE: Remove duplicate yield tables from data
 The yield tables with ID 95, 96, 97 and 98 are removed,
 because they are duplicates of the yield tables with ID
 88, 89, 90 and 91. ([`b3bf908`](https://github.com/treely/openyieldtables/commit/b3bf908d8604f7f1b3d9d00b6aa72f96f85c4857))
-
 
 ## v1.0.0 (2024-04-23)
 
@@ -101,7 +108,6 @@ always only contained one entry. ([`f7f1742`](https://github.com/treely/openyiel
 * docs: Setup Readthedocs deploy ([`fa95be7`](https://github.com/treely/openyieldtables/commit/fa95be789a271e4655b86755df4c322ea43349d6))
 
 * docs: Fix broken link in readme ([`ff01189`](https://github.com/treely/openyieldtables/commit/ff01189d88b869eaa8158c5b756b389f37b5138c))
-
 
 ## v0.0.0 (2024-04-18)
 

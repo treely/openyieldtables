@@ -2,6 +2,8 @@ import csv
 from pathlib import Path
 from typing import Dict, List, Optional, TypedDict, Union, cast
 
+from openyieldtables.models.yieldtable import TreeType
+
 from .models import (
     YieldClass,
     YieldClassRow,
@@ -27,6 +29,7 @@ class YieldTableMetaCSVRow(TypedDict, total=False):
     yield_class_step: Optional[float]
     age_step: Optional[int]
     available_columns: List[str]
+    tree_type: TreeType
 
 
 def get_yield_tables_meta() -> List[YieldTableMeta]:
@@ -73,6 +76,7 @@ def get_yield_tables_meta() -> List[YieldTableMeta]:
                     "age_step": (
                         int(row["age_step"]) if row.get("age_step") else None
                     ),
+                    "tree_type": row.get("tree_type"),
                     "available_columns": find_available_columns(
                         csv_path_yield_tables,
                         "id",

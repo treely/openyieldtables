@@ -1,11 +1,11 @@
 import pytest
 
+from openyieldtables.models.yieldtable import TreeType
 from openyieldtables.yieldtables import get_yield_table, get_yield_tables_meta
 
 
 def test_get_yield_tables_meta():
     yield_tables_meta = get_yield_tables_meta()
-    assert len(yield_tables_meta) == 49
 
     assert yield_tables_meta[0].model_dump() == {
         "id": 1,
@@ -16,6 +16,7 @@ def test_get_yield_tables_meta():
         "link": "https://www.avbuch-shop.at/landwirtschaft/lehrbuecher/1347/hilfstafeln-fuer-die-forsteinrichtung",  # noqa E501
         "yield_class_step": 1.0,
         "age_step": 10,
+        "tree_type": TreeType.coniferous,
         "available_columns": [
             "id",
             "yield_class",
@@ -42,6 +43,7 @@ def test_get_yield_tables_meta():
         "link": "https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/",  # noqa E501
         "yield_class_step": 1.0,
         "age_step": 10,
+        "tree_type": TreeType.coniferous,
         "available_columns": [
             "id",
             "yield_class",

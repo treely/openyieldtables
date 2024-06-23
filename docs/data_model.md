@@ -17,6 +17,7 @@ The CSV files are structured as follows:
     - `link`: A link to the source of the yield table or the yield table itself.
     - `yield_class_step`: The step between the yield classes.
     - `age_step`: The step between the ages.
+    - `tree_type`: The tree type: `coniferous` or `deciduous`.
 
 * `yield_tables.csv`: Contains the yield tables.
     - `id`: The unique identifier of the yield table.
