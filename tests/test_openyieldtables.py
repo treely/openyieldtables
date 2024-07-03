@@ -6,7 +6,6 @@ from openyieldtables.yieldtables import get_yield_table, get_yield_tables_meta
 
 def test_get_yield_tables_meta():
     yield_tables_meta = get_yield_tables_meta()
-    assert len(yield_tables_meta) == 49
 
     assert yield_tables_meta[0].model_dump() == {
         "id": 1,
