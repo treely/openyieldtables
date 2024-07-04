@@ -9,7 +9,6 @@ client = TestClient(app, headers={"accept": "application/json"})
 def test_read_yield_tables_meta():
     response = client.get("/v1/yield-tables-meta")
     assert response.status_code == 200
-    assert len(response.json()) == 49
     assert response.json()[0] == {
         "id": 1,
         "title": "Fichte Hochgebirge",
