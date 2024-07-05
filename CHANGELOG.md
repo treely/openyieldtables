@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## v2.5.0 (2024-07-05)
+
+### Feature
+
+* feat: add yield table for tree type Pin Silvestru (#53)
+
+Co-authored-by: Maxim &lt;maxim@MacBook-Pro-von-Maxim.local&gt; ([`148237b`](https://github.com/treely/openyieldtables/commit/148237b2f885b50629d7e9021fa816680d99e0ea))
+
 ## v2.4.0 (2024-07-05)
 
 ### Documentation
