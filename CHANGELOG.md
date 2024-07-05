@@ -1,5 +1,23 @@
 # CHANGELOG
 
+## v2.4.0 (2024-07-05)
+
+### Documentation
+
+* docs: Fix typo in yield table explorer ([`dbb9598`](https://github.com/treely/openyieldtables/commit/dbb95985e422761559a1da8af9a046b55bb1cd05))
+
+### Feature
+
+* feat: add yield table for tree type Larice (#63)
+
+Co-authored-by: Maxim &lt;maxim@MacBook-Pro-von-Maxim.local&gt; ([`abb5e52`](https://github.com/treely/openyieldtables/commit/abb5e526b4b5c04697546b1eb3f6bae4297db0ad))
+
+### Test
+
+* test: Remove length assertion from api test ([`e2085c7`](https://github.com/treely/openyieldtables/commit/e2085c74eaee05f692ec4ad459cc6ac2101ad348))
+
+* test: Remove length assertion in test (#59) ([`28fb8dd`](https://github.com/treely/openyieldtables/commit/28fb8ddd850b330a116abee5f17da327b939a74e))
+
 ## v2.3.0 (2024-06-26)
 
 ### Documentation
