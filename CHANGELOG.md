@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## v2.21.0 (2024-07-08)
+
+### Feature
+
+* feat: add yield table for tree type Salcie din lastar (#75)
+
+Co-authored-by: Maxim &lt;maxim@MacBook-Pro-von-Maxim.local&gt; ([`cc6dcbc`](https://github.com/treely/openyieldtables/commit/cc6dcbc64a5772e4e643c71c5431255170682a23))
+
 ## v2.20.0 (2024-07-08)
 
 ### Feature
