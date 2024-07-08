@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## v2.14.0 (2024-07-08)
+
+### Feature
+
+* feat: add yield table for tree type Fag din lastar (#68)
+
+Co-authored-by: Maxim &lt;maxim@MacBook-Pro-von-Maxim.local&gt; ([`b66d3f2`](https://github.com/treely/openyieldtables/commit/b66d3f27f06d4a7b8f2256cae1836209b38742b9))
+
 ## v2.13.0 (2024-07-08)
 
 ### Feature
