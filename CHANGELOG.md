@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## v2.20.0 (2024-07-08)
+
+### Feature
+
+* feat: add yield table for tree type Salcam din lastar (#74)
+
+Co-authored-by: Maxim &lt;maxim@MacBook-Pro-von-Maxim.local&gt; ([`063c036`](https://github.com/treely/openyieldtables/commit/063c036b2be166463067f76607ec2a1e26c780e1))
+
 ## v2.19.0 (2024-07-08)
 
 ### Feature
