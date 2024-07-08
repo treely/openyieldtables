@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## v2.13.0 (2024-07-08)
+
+### Feature
+
+* feat: add yield table for tree type Brad (#67)
+
+Co-authored-by: Maxim &lt;maxim@MacBook-Pro-von-Maxim.local&gt; ([`fb76368`](https://github.com/treely/openyieldtables/commit/fb7636869dd71c15f8a8d9c114a03c11ce6061b5))
+
 ## v2.12.0 (2024-07-08)
 
 ### Feature
