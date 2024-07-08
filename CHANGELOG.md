@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## v2.15.0 (2024-07-08)
+
+### Feature
+
+* feat: add yield table for tree type Gorun din Samanta (#69)
+
+Co-authored-by: Maxim &lt;maxim@MacBook-Pro-von-Maxim.local&gt; ([`9a01e9b`](https://github.com/treely/openyieldtables/commit/9a01e9be6793c976bb58e359480b4dd51e3f70b7))
+
 ## v2.14.0 (2024-07-08)
 
 ### Feature
