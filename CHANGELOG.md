@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## v2.17.0 (2024-07-08)
+
+### Feature
+
+* feat: add yield table for tree type Tei Argintiu (#71)
+
+Co-authored-by: Maxim &lt;maxim@MacBook-Pro-von-Maxim.local&gt; ([`3a76a55`](https://github.com/treely/openyieldtables/commit/3a76a55516484524659a2f737d0b45d543613c6e))
+
 ## v2.16.0 (2024-07-08)
 
 ### Feature
