@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## v2.8.0 (2024-07-08)
+
+### Feature
+
+* feat: add yield table for tree type Plop alb si Plop negru (#56)
+
+Co-authored-by: Maxim &lt;maxim@MacBook-Pro-von-Maxim.local&gt; ([`5ac83cd`](https://github.com/treely/openyieldtables/commit/5ac83cd54c989d195959a76aaf7de381cdb1d746))
+
 ## v2.7.0 (2024-07-08)
 
 ### Feature
