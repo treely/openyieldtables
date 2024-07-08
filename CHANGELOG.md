@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## v2.9.0 (2024-07-08)
+
+### Feature
+
+* feat: add yield table for tree type Salcie din Samanta (#57)
+
+Co-authored-by: Maxim &lt;maxim@MacBook-Pro-von-Maxim.local&gt; ([`7a7ba43`](https://github.com/treely/openyieldtables/commit/7a7ba43e3f5d51d520e673b087106fefd57a5b10))
+
 ## v2.8.0 (2024-07-08)
 
 ### Feature
