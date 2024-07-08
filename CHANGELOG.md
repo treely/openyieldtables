@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## v2.19.0 (2024-07-08)
+
+### Feature
+
+* feat: add yield table for tree type Salcam din samnta (#73)
+
+Co-authored-by: Maxim &lt;maxim@MacBook-Pro-von-Maxim.local&gt; ([`5704bc7`](https://github.com/treely/openyieldtables/commit/5704bc73f4fdaebb7e222fd12e10ce9eb32998e9))
+
 ## v2.18.0 (2024-07-08)
 
 ### Feature
