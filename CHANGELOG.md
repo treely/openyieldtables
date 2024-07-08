@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## v2.7.0 (2024-07-08)
+
+### Feature
+
+* feat: add yield table for tree type Mesteacan (#55)
+
+Co-authored-by: Maxim &lt;maxim@MacBook-Pro-von-Maxim.local&gt; ([`876f44d`](https://github.com/treely/openyieldtables/commit/876f44d7a52229798ffeb537acc3f07738ba1653))
+
 ## v2.6.0 (2024-07-08)
 
 ### Feature
