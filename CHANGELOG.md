@@ -1,5 +1,17 @@
 # CHANGELOG
 
+## v2.6.0 (2024-07-08)
+
+### Feature
+
+* feat: add yield table for tree type Fag din samanta (#54)
+
+Co-authored-by: Maxim &lt;maxim@MacBook-Pro-von-Maxim.local&gt; ([`e23f0f7`](https://github.com/treely/openyieldtables/commit/e23f0f7e8bfbaec62279cf7575e62fd4725491da))
+
+### Unknown
+
+* Add translations to roadmap ([`1395bcb`](https://github.com/treely/openyieldtables/commit/1395bcb1de22e94dd7f410b189ddd117371bef3c))
+
 ## v2.5.0 (2024-07-05)
 
 ### Feature
