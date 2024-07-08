@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## v2.11.0 (2024-07-08)
+
+### Feature
+
+* feat: add yield table for tree type Molid (in arealul natural) (#65)
+
+Co-authored-by: Maxim &lt;maxim@MacBook-Pro-von-Maxim.local&gt; ([`5ac1099`](https://github.com/treely/openyieldtables/commit/5ac1099a58efbcb4ad1384d05c6fcba936ad8870))
+
 ## v2.10.0 (2024-07-08)
 
 ### Feature
