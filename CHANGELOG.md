@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## v2.18.0 (2024-07-08)
+
+### Feature
+
+* feat: add yield table for tree type Stejar din lastar (#72)
+
+Co-authored-by: Maxim &lt;maxim@MacBook-Pro-von-Maxim.local&gt; ([`81e5696`](https://github.com/treely/openyieldtables/commit/81e5696db4cc4fde526bb54c6b7cb06c2c84b8f7))
+
 ## v2.17.0 (2024-07-08)
 
 ### Feature
