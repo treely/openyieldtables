@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## v2.16.0 (2024-07-08)
+
+### Feature
+
+* feat: add yield table for tree type Carpen (#70)
+
+Co-authored-by: Maxim &lt;maxim@MacBook-Pro-von-Maxim.local&gt; ([`40ae8bf`](https://github.com/treely/openyieldtables/commit/40ae8bf9622028e20f3780b9d4bbf8f97a2ba3fd))
+
 ## v2.15.0 (2024-07-08)
 
 ### Feature
