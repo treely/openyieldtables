@@ -5,3 +5,4 @@
 - [ ] Offer extrapolated data (age, yield class, ...)
 - [ ] Offer a way to interpolate the data (yield class, age, ...)
 - [ ] Add and visualize where to use which yield table
+- [ ] Add translations for the tree species
