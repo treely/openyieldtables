@@ -22,7 +22,10 @@
 
           <ul class="list-inside list-disc">
             {% for value in data.available_columns %}
-            <li class="font-mono">{{value}}</li>
+            <li class="font-mono">
+              {{value}}
+              <span class="text-xs text-gray-500">{{docs[value]}}</span>
+            </li>
             {% endfor %}
           </ul>
         </div>

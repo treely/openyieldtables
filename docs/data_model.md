@@ -9,30 +9,31 @@ The underlying data is structured in a way that allows for easy access. The raw 
 The CSV files are structured as follows:
 
 * `yield_tables_meta.csv`: Contains metadata about the available yield tables.
-    - `id`: The unique identifier of the yield table.
-    - `title`: The name/title of the yield table.
-    - `country_codes`: The ISO 3166-1 alpha-2 country codes of the countries the yield table is applicable to.
-    - `type`: The type of the yield table (e.g. `dgz_100`).
-    - `source`: The source of the yield table.
-    - `link`: A link to the source of the yield table or the yield table itself.
-    - `yield_class_step`: The step between the yield classes.
-    - `age_step`: The step between the ages.
-    - `tree_type`: The tree type: `coniferous` or `deciduous`.
+    - `id`: {{ yield_tables_meta.id }}
+    - `title`: {{ yield_tables_meta.title }}
+    - `country_codes`: {{ yield_tables_meta.country_codes }}
+    - `type`: {{ yield_tables_meta.type }}
+    - `source`: {{ yield_tables_meta.source }}
+    - `link`: {{ yield_tables_meta.link }}
+    - `yield_class_step`: {{ yield_tables_meta.yield_class_step }}
+    - `age_step`: {{ yield_tables_meta.age_step }}
+    - `tree_type`: {{ yield_tables_meta.tree_type }}
 
 * `yield_tables.csv`: Contains the yield tables.
-    - `id`: The unique identifier of the yield table.
-    - `age`: The age in years.
-    - `dominant_height`: The dominant height in m.
-    - `average_height`: The average height in m.
-    - `dbh`: The diameter at breast height in cm.
-    - `taper`: The tree taper.
-    - `trees_per_ha`: The number of trees per hectare.
-    - `basal_area`: The basal area in m2.
-    - `volume_per_ha`: The volume per hectare in vfm.
-    - `average_annual_age_increment`: The average annual increment up to a certain age in volume per hectare vfm.
-    - `total_growth_performance`: The total growth performance in volume per hectare vfm.
-    - `current_annual_increment`: The current annual increment in volume per hectare vfm.
-    - `mean_annual_increment`: The mean annual increment in volume per hectare vfm.
+    - `id`: {{ yield_tables.id }}
+    - `yield_class`: {{ yield_tables.yield_class }}
+    - `age`: {{ yield_tables.age }}
+    - `dominant_height`: {{ yield_tables.dominant_height }}
+    - `average_height`: {{ yield_tables.average_height }}
+    - `dbh`: {{ yield_tables.dbh }}
+    - `taper`: {{ yield_tables.taper }}
+    - `trees_per_ha`: {{ yield_tables.trees_per_ha }}
+    - `basal_area`: {{ yield_tables.basal_area }}
+    - `volume_per_ha`: {{ yield_tables.volume_per_ha }}
+    - `average_annual_age_increment`: {{ yield_tables.average_annual_age_increment }}
+    - `total_growth_performance`: {{ yield_tables.total_growth_performance }}
+    - `current_annual_increment`: {{ yield_tables.current_annual_increment }}
+    - `mean_annual_increment`: {{ yield_tables.mean_annual_increment }}
 
 ## Models
 

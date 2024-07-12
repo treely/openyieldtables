@@ -1,4 +1,5 @@
 from fastapi import APIRouter, HTTPException, Request
+import yaml
 
 from api.models.exceptions import HTTPNotFoundError
 from api.v1.send_response import send_response
@@ -9,6 +10,9 @@ router = APIRouter(
     prefix="/v1/yield-tables",
     tags=["YieldTables"],
 )
+
+with open("mkdocs.yml", "r") as file:
+    docs = yaml.safe_load(file)
 
 
 @router.get(
@@ -24,7 +28,10 @@ router = APIRouter(
 def read_yield_table_data(yield_table_id: int, request: Request):
     try:
         return send_response(
-            get_yield_table(yield_table_id), "yield-table.html", request
+            get_yield_table(yield_table_id),
+            "yield-table.html",
+            request,
+            docs["extra"]["yield_tables"],
         )
     except ValueError:
         raise HTTPException(

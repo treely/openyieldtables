@@ -35,9 +35,6 @@
                 </th>
                 <th scope="col" class="px-6 py-3 font-mono">age_step</th>
                 <th scope="col" class="px-6 py-3 font-mono">tree_type</th>
-                <th scope="col" class="px-6 py-3 font-mono">
-                  available_columns
-                </th>
               </tr>
             </thead>
             <tbody>
@@ -81,16 +78,24 @@
                 <td class="px-6 py-4 font-mono text-right">
                   {{data.tree_type.value}}
                 </td>
-                <td class="px-6 py-4 font-mono">
-                  <ul class="list-disc list-inside">
-                    {% for available_column in data.available_columns %}
-                    <li>{{available_column}}</li>
-                    {%endfor%}
-                  </ul>
-                </td>
               </tr>
             </tbody>
           </table>
+
+          <h2 class="mb-2 mt-10 text-xl font-semibold text-gray-900">
+            Available columns:
+          </h2>
+
+          <ul class="list-disc list-inside">
+            {% for available_column in data.available_columns %}
+            <li class="font-mono">
+              {{available_column}}
+              <span class="text-xs text-gray-500"
+                >{{docs[available_column]}}</span
+              >
+            </li>
+            {%endfor%}
+          </ul>
         </div>
       </div>
     </div>

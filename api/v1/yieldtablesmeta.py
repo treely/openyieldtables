@@ -1,6 +1,7 @@
 from typing import List
 
 from fastapi import APIRouter, HTTPException, Request
+import yaml
 
 from api.models.exceptions import HTTPNotFoundError
 from api.v1.send_response import send_response
@@ -15,11 +16,14 @@ router = APIRouter(
     tags=["YieldTablesMeta"],
 )
 
+with open("mkdocs.yml", "r") as file:
+    docs = yaml.safe_load(file)
+
 
 @router.get("/", response_model=List[YieldTableMeta])
 def read_yield_tables_meta(request: Request):
     return send_response(
-        get_yield_tables_meta(), "yield-tables-meta.html", request
+        get_yield_tables_meta(), "yield-tables-meta.html", request, None
     )
 
 
@@ -39,6 +43,7 @@ def read_yield_table_meta(yield_table_id: int, request: Request):
             get_yield_table_meta(yield_table_id),
             "yield-table-meta.html",
             request,
+            docs["extra"]["yield_tables"],
         )
     except ValueError:
         raise HTTPException(
