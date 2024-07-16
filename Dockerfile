@@ -33,5 +33,6 @@ COPY --from=builder ${DIST_FOLDER} ${DIST_FOLDER}
 RUN pip install /app/dist/*.whl
 
 COPY api ./api
+COPY mkdocs.yml ./
 
 CMD ["uvicorn", "api.main:app", "--host", "0.0.0.0"]
