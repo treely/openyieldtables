@@ -1,5 +1,25 @@
 # CHANGELOG
 
+## v2.22.0 (2024-08-08)
+
+### Ci
+
+* ci: add mkdocs.yml to Docker deployment ([`7f0b042`](https://github.com/treely/openyieldtables/commit/7f0b0427ae94353b3a9c9e8bd8ce3a10684d9b15))
+
+* ci: set name property of commit-lint workflow ([`8aa239c`](https://github.com/treely/openyieldtables/commit/8aa239ccffd52cf657eee9c1197371411b65d2b2))
+
+* ci: add workflow to lint commits ([`68babdd`](https://github.com/treely/openyieldtables/commit/68babddc6f124c52a1380370efd92d6119b5f919))
+
+### Documentation
+
+* docs: describe columns in explorer ([`788e659`](https://github.com/treely/openyieldtables/commit/788e659dd0588c12c17173a6e806216c0f2159fb))
+
+### Feature
+
+* feat: add yield table for tree type Gemeine Fichte (#81)
+
+Co-authored-by: Lukas Bals &lt;mail@lukasbals.at&gt; ([`08558ad`](https://github.com/treely/openyieldtables/commit/08558adc0625faf32c57cda1bed46541126ad503))
+
 ## v2.21.0 (2024-07-08)
 
 ### Feature
