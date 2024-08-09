@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## v2.32.0 (2024-08-09)
+
+### Feature
+
+* feat: add yield table for tree type Robinie (#91)
+
+Co-authored-by: Maxim &lt;maxim@MacBook-Pro-von-Maxim.local&gt; ([`2d17bbf`](https://github.com/treely/openyieldtables/commit/2d17bbf5b31055244d1b51389b95188349c42f38))
+
 ## v2.31.0 (2024-08-09)
 
 ### Feature
