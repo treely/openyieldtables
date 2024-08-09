@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## v2.25.0 (2024-08-09)
+
+### Feature
+
+* feat: add yield table for tree type Japanische Laerche (#84)
+
+Co-authored-by: Maxim &lt;maxim@MacBook-Pro-von-Maxim.local&gt; ([`96d84bb`](https://github.com/treely/openyieldtables/commit/96d84bb9470f196364be26cbe294c0950e2ff068))
+
 ## v2.24.0 (2024-08-09)
 
 ### Feature
