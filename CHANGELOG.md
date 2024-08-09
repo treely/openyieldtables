@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## v2.26.0 (2024-08-09)
+
+### Feature
+
+* feat: add yield table for tree type Douglasie (#85)
+
+Co-authored-by: Maxim &lt;maxim@MacBook-Pro-von-Maxim.local&gt; ([`29be0fb`](https://github.com/treely/openyieldtables/commit/29be0fb95a08df0ba142b1a251b4a9764c5cf700))
+
 ## v2.25.0 (2024-08-09)
 
 ### Feature
