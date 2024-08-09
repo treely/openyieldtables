@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## v2.35.0 (2024-08-09)
+
+### Feature
+
+* feat: add yield table for tree type Winterlinde (#94)
+
+Co-authored-by: Maxim &lt;maxim@MacBook-Pro-von-Maxim.local&gt; ([`c661fd7`](https://github.com/treely/openyieldtables/commit/c661fd77c9cf7251bbb84cc10e3510f0cbc3a0df))
+
 ## v2.34.0 (2024-08-09)
 
 ### Feature
