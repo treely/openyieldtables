@@ -1,5 +1,18 @@
 # CHANGELOG
 
+## v2.27.0 (2024-08-09)
+
+### Feature
+
+* feat: add yield table for tree type Rotbuche (#86)
+
+* feat: add yield table for tree type Rotbuche
+
+
+---------
+
+Co-authored-by: Maxim &lt;maxim@MacBook-Pro-von-Maxim.local&gt; ([`64a65f3`](https://github.com/treely/openyieldtables/commit/64a65f3b948068f3a8478d452b6bf9f8f77c2488))
+
 ## v2.26.0 (2024-08-09)
 
 ### Feature
