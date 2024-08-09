@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## v2.34.0 (2024-08-09)
+
+### Feature
+
+* feat: add yield table for tree type Roterle (#93)
+
+Co-authored-by: Maxim &lt;maxim@MacBook-Pro-von-Maxim.local&gt; ([`9bb0c3e`](https://github.com/treely/openyieldtables/commit/9bb0c3ea45dcb2957ec90c04cc8e6dd592b461b7))
+
 ## v2.33.0 (2024-08-09)
 
 ### Feature
