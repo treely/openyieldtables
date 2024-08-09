@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v2.28.0 (2024-08-09)
+
+### Feature
+
+* feat: add yield table for tree type Eiche (#87) ([`6a164d9`](https://github.com/treely/openyieldtables/commit/6a164d9dcf969e6fde45ebff078253bc24fb013d))
+
 ## v2.27.0 (2024-08-09)
 
 ### Feature
