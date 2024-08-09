@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## v2.29.0 (2024-08-09)
+
+### Feature
+
+* feat: add yield table for tree type Roteiche (#88)
+
+Co-authored-by: Maxim &lt;maxim@MacBook-Pro-von-Maxim.local&gt; ([`9c6190d`](https://github.com/treely/openyieldtables/commit/9c6190daa2173d9cb2d307b77855a8a92d2ed11d))
+
 ## v2.28.0 (2024-08-09)
 
 ### Feature
