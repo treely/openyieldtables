@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## v2.33.0 (2024-08-09)
+
+### Feature
+
+* feat: add yield table for tree type Pappel (#92)
+
+Co-authored-by: Maxim &lt;maxim@MacBook-Pro-von-Maxim.local&gt; ([`3f5f4ff`](https://github.com/treely/openyieldtables/commit/3f5f4ffc04fb9648569b8c36258c00839bb14e32))
+
 ## v2.32.0 (2024-08-09)
 
 ### Feature
