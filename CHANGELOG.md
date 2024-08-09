@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## v2.30.0 (2024-08-09)
+
+### Feature
+
+* feat: add yield table for tree type Gemeine Birke (#89)
+
+Co-authored-by: Maxim &lt;maxim@MacBook-Pro-von-Maxim.local&gt; ([`a09d294`](https://github.com/treely/openyieldtables/commit/a09d2948d54d62f2d3157eccb02b282783a40a31))
+
 ## v2.29.0 (2024-08-09)
 
 ### Feature
