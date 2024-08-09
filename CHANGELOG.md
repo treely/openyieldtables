@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## v2.31.0 (2024-08-09)
+
+### Feature
+
+* feat: add yield table for tree type Gemeine Esche (#90)
+
+Co-authored-by: Maxim &lt;maxim@MacBook-Pro-von-Maxim.local&gt; ([`9408943`](https://github.com/treely/openyieldtables/commit/9408943ab0ce8fcb64efcc51a0b3cb67374e284c))
+
 ## v2.30.0 (2024-08-09)
 
 ### Feature
