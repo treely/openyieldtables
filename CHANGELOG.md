@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## v2.23.0 (2024-08-09)
+
+### Feature
+
+* feat: add yield table for tree type Gemeine Kiefer (#82)
+
+Co-authored-by: Maxim &lt;maxim@MacBook-Pro-von-Maxim.local&gt; ([`c882360`](https://github.com/treely/openyieldtables/commit/c882360699dc41cd5287dd36a7a565f13b7d1f1b))
+
 ## v2.22.0 (2024-08-08)
 
 ### Ci
