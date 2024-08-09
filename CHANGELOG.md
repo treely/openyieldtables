@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## v2.24.0 (2024-08-09)
+
+### Feature
+
+* feat: add yield table for tree type Europaeische Laerche (#83)
+
+Co-authored-by: Maxim &lt;maxim@MacBook-Pro-von-Maxim.local&gt; ([`b2bcbca`](https://github.com/treely/openyieldtables/commit/b2bcbca00d556ea5a22b0906bbfc04e986fd67b1))
+
 ## v2.23.0 (2024-08-09)
 
 ### Feature
