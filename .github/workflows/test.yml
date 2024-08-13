@@ -8,7 +8,14 @@ on:
 jobs:
   test:
     name: Test
-    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        python: ["3.8", "3.9", "3.12"]
+        os: [ubuntu-latest, macOS-latest]
+
+    runs-on: ${{ matrix.os }}
+
     steps:
       # Check-out repo
       - name: Checkout repository
@@ -19,10 +26,10 @@ jobs:
       - name: Install poetry
         run: pipx install poetry==1.8.2
       # Set-up python with cache
-      - name: Setup Python 3.9
+      - name: Setup Python ${{ matrix.python }}
         uses: actions/setup-python@v4
         with:
-          python-version: "3.9"
+          python-version: ${{ matrix.python }}
           cache: "poetry"
       # Install requirements
       - name: Install requirements
@@ -54,4 +61,6 @@ jobs:
 
       # Build docker image
       - name: Build docker image
+        # Docker is not present on the macOS runner
+        if: matrix.os == 'ubuntu-latest'
         run: docker build .
