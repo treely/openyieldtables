@@ -80,3 +80,8 @@ id;title;country_codes;type;source;link;yield_class_step;age_step;tree_type
 174;Pappel Sachsen Knapp;DE;dgz_100;1999, Sächsische Landesanstalt für Forsten: Hilfstafeln zur Sächsischen Forsteinrichtungsdienstanweisung, Auflage 1000, Sächsische Landesanstalt für Forsten;https://www.deutsche-digitale-bibliothek.de/item/SDDDSBUP7OQ7CYU2QZCEMGTDLRLRJQT5;1;5;deciduous
 175;Roterle Sachsen Lockow;DE;dgz_100;1999, Sächsische Landesanstalt für Forsten: Hilfstafeln zur Sächsischen Forsteinrichtungsdienstanweisung, Auflage 1000, Sächsische Landesanstalt für Forsten;https://www.deutsche-digitale-bibliothek.de/item/SDDDSBUP7OQ7CYU2QZCEMGTDLRLRJQT5;1;10;deciduous
 176;Winterlinde Sachsen Böckmann;DE;dgz_100;1999, Sächsische Landesanstalt für Forsten: Hilfstafeln zur Sächsischen Forsteinrichtungsdienstanweisung, Auflage 1000, Sächsische Landesanstalt für Forsten;https://www.deutsche-digitale-bibliothek.de/item/SDDDSBUP7OQ7CYU2QZCEMGTDLRLRJQT5;1;10;deciduous
+177;Beech Hungary Taeg Sopron;HU;dgz_100;Taeg Sopron;;1;10;deciduous
+178;Oak Hungary Taeg Sopron;HU;dgz_101;Taeg Sopron;;1;10;deciduous
+179;Larch Hungary Taeg Sopron;HU;dgz_102;Taeg Sopron;;1;10;coniferous
+180;Spruce Hungary Taeg Sopron;HU;dgz_103;Taeg Sopron;;1;10;coniferous
+181;Pine Hungary Taeg Sopron;HU;dgz_104;Taeg Sopron;;1;10;coniferous
