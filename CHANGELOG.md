@@ -1,5 +1,19 @@
 # CHANGELOG
 
+## v2.36.0 (2024-08-14)
+
+### Ci
+
+* ci: add matrix to test action ([`1ba5393`](https://github.com/treely/openyieldtables/commit/1ba53932b013705cb43003c1d7f9f609ae0931a7))
+
+### Feature
+
+* feat: add yield table for taeg sopron yield table (#96)
+
+* feat: add yield table for taeg sopron yield table
+
+* feat: delete DS Store files ([`8925f38`](https://github.com/treely/openyieldtables/commit/8925f38816070c96db82124224ffcc1c39c533c5))
+
 ## v2.35.0 (2024-08-09)
 
 ### Feature
