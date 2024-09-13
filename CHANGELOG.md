@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v2.38.0 (2024-09-13)
+
+### Feature
+
+* feat: add yield table for tree type Stieleiche (#98) ([`76eed1f`](https://github.com/treely/openyieldtables/commit/76eed1f4b0d5c2cb4937261aee5e45c4123f3cea))
+
 ## v2.37.0 (2024-09-13)
 
 ### Feature
