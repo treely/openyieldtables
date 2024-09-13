@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v2.37.0 (2024-09-13)
+
+### Feature
+
+* feat: add yield table for tree type Robinia (#97) ([`ac03226`](https://github.com/treely/openyieldtables/commit/ac03226f3c5765b66866f69ec3f1e326d3630cc8))
+
 ## v2.36.0 (2024-08-14)
 
 ### Ci
