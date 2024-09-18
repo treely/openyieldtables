@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v2.43.0 (2024-09-18)
+
+### Feature
+
+* feat: add yield table for tree type Zerreiche Saat (#103) ([`81d8c32`](https://github.com/treely/openyieldtables/commit/81d8c32dfa1d0468f0235674168dbcc68af6f2a2))
+
 ## v2.42.0 (2024-09-18)
 
 ### Feature
