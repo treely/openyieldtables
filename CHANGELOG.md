@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v2.41.0 (2024-09-18)
+
+### Feature
+
+* feat: add yield table for tree type Roteiche (#101) ([`a3e5485`](https://github.com/treely/openyieldtables/commit/a3e548597f91774da06ab2c2c19897916059be69))
+
 ## v2.40.0 (2024-09-18)
 
 ### Feature
