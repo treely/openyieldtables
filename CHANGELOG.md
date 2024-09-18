@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v2.39.0 (2024-09-18)
+
+### Feature
+
+* feat: add yield table for tree type traubeneiche (#99) ([`657cc15`](https://github.com/treely/openyieldtables/commit/657cc15566afc3a3df8bbffc19e0c7a77b761e04))
+
 ## v2.38.0 (2024-09-13)
 
 ### Feature
