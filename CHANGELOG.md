@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v2.40.0 (2024-09-18)
+
+### Feature
+
+* feat: add yield table for tree type Traubeneiche Sp (#100) ([`4bfc55a`](https://github.com/treely/openyieldtables/commit/4bfc55a4904e17987f6fb84e0f5c7f99e0506627))
+
 ## v2.39.0 (2024-09-18)
 
 ### Feature
