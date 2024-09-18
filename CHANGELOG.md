@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v2.42.0 (2024-09-18)
+
+### Feature
+
+* feat: add yield table for tree type buche (#102) ([`8ca2b9a`](https://github.com/treely/openyieldtables/commit/8ca2b9ad9c70bf97fa25b9ab7247e6704665b795))
+
 ## v2.41.0 (2024-09-18)
 
 ### Feature
