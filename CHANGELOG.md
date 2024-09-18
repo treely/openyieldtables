@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v2.44.0 (2024-09-18)
+
+### Feature
+
+* feat: add yield table for tree type Zerreiche Sp (#104) ([`9771052`](https://github.com/treely/openyieldtables/commit/9771052d1e0d4b71aa5a60a2719afa107f61af75))
+
 ## v2.43.0 (2024-09-18)
 
 ### Feature
