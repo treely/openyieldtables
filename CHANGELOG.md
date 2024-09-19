@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v2.46.0 (2024-09-19)
+
+### Feature
+
+* feat: add yield table for tree type Hainbuche (#106) ([`e4eb38e`](https://github.com/treely/openyieldtables/commit/e4eb38eff591395385de90a090dee52024b5419c))
+
 ## v2.45.0 (2024-09-19)
 
 ### Feature
