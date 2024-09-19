@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v2.47.0 (2024-09-19)
+
+### Feature
+
+* feat: add yield table for tree type Birke (#107) ([`562641e`](https://github.com/treely/openyieldtables/commit/562641edc5f88b597e19b488ed9935ccea0fda15))
+
 ## v2.46.0 (2024-09-19)
 
 ### Feature
