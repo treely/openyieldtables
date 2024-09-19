@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v2.45.0 (2024-09-19)
+
+### Feature
+
+* feat: add yield table for tree type esche (#105) ([`dfdeec7`](https://github.com/treely/openyieldtables/commit/dfdeec752a2e222123426491532684af6954d1b4))
+
 ## v2.44.0 (2024-09-18)
 
 ### Feature
