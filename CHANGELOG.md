@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v2.48.0 (2024-09-20)
+
+### Feature
+
+* feat: add yield table for tree type Schwarznuss (#108) ([`676e953`](https://github.com/treely/openyieldtables/commit/676e953d82f46554cafc9c22b5de96fa30ea75d4))
+
 ## v2.47.0 (2024-09-19)
 
 ### Feature
