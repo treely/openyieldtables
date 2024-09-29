@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v2.50.0 (2024-09-29)
+
+### Feature
+
+* feat: add yield table for tree type Silberlinde (#110) ([`718332b`](https://github.com/treely/openyieldtables/commit/718332b228837eeab156e24aa531cb64d51ef4eb))
+
 ## v2.49.0 (2024-09-29)
 
 ### Feature
