@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v2.49.0 (2024-09-29)
+
+### Feature
+
+* feat: add yield table for tree type Edelkastanie (#109) ([`c83390c`](https://github.com/treely/openyieldtables/commit/c83390c932c7f7e80d373c42016aad8670c53aaa))
+
 ## v2.48.0 (2024-09-20)
 
 ### Feature
