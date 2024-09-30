@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v2.53.0 (2024-09-30)
+
+### Feature
+
+* feat: add yield table for tree type Weide (#113) ([`a586302`](https://github.com/treely/openyieldtables/commit/a586302e33c8a7c7134e4dba180bcd97d93dd242))
+
 ## v2.52.0 (2024-09-30)
 
 ### Feature
