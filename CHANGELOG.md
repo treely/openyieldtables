@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v2.51.0 (2024-09-30)
+
+### Feature
+
+* feat: add yield table for tree type Erle (#111) ([`944e199`](https://github.com/treely/openyieldtables/commit/944e199404b7e4d9aedf80cc65b1fdebf176f310))
+
 ## v2.50.0 (2024-09-29)
 
 ### Feature
