@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v2.54.0 (2024-09-30)
+
+### Feature
+
+* feat: add yield table for tree type Euroamerikanische Pappel (#114) ([`a5734de`](https://github.com/treely/openyieldtables/commit/a5734defafd227cddd86598c2310b935bd661370))
+
 ## v2.53.0 (2024-09-30)
 
 ### Feature
