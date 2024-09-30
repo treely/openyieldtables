@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v2.52.0 (2024-09-30)
+
+### Feature
+
+* feat: add yield table for tree type Graupappel (#112) ([`ea1b112`](https://github.com/treely/openyieldtables/commit/ea1b11227b0c2cf4f0eb3918b366919027115aad))
+
 ## v2.51.0 (2024-09-30)
 
 ### Feature
