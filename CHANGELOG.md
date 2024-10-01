@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v2.58.0 (2024-10-01)
+
+### Feature
+
+* feat: add yield table for tree type Laerche (#118) ([`4cea265`](https://github.com/treely/openyieldtables/commit/4cea26562d50cf8f79325ecb89a0127709b2f550))
+
 ## v2.57.0 (2024-10-01)
 
 ### Feature
