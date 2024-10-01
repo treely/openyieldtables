@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v2.56.0 (2024-10-01)
+
+### Feature
+
+* feat: add yield table for tree type Schwarzkiefer (#116) ([`bad78fa`](https://github.com/treely/openyieldtables/commit/bad78fa190ba77cbb4867f46e179987c45e585fc))
+
 ## v2.55.0 (2024-10-01)
 
 ### Feature
