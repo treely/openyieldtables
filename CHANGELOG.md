@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v2.57.0 (2024-10-01)
+
+### Feature
+
+* feat: add yield table for tree type Fichte (#117) ([`250e4be`](https://github.com/treely/openyieldtables/commit/250e4bebccef49a1a6f94c5fb9616abfe41c453f))
+
 ## v2.56.0 (2024-10-01)
 
 ### Feature
