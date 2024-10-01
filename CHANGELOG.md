@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v2.55.0 (2024-10-01)
+
+### Feature
+
+* feat: add yield table for tree type Waldkiefer (#115) ([`2b7be15`](https://github.com/treely/openyieldtables/commit/2b7be159f96d8756f71c79c1e52d03586bcece68))
+
 ## v2.54.0 (2024-09-30)
 
 ### Feature
