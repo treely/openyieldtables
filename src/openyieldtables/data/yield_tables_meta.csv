@@ -81,29 +81,29 @@ id;title;country_codes;type;source;link;yield_class_step;age_step;tree_type
 175;Roterle Sachsen Lockow;DE;dgz_100;1999, Sächsische Landesanstalt für Forsten: Hilfstafeln zur Sächsischen Forsteinrichtungsdienstanweisung, Auflage 1000, Sächsische Landesanstalt für Forsten;https://www.deutsche-digitale-bibliothek.de/item/SDDDSBUP7OQ7CYU2QZCEMGTDLRLRJQT5;1;10;deciduous
 176;Winterlinde Sachsen Böckmann;DE;dgz_100;1999, Sächsische Landesanstalt für Forsten: Hilfstafeln zur Sächsischen Forsteinrichtungsdienstanweisung, Auflage 1000, Sächsische Landesanstalt für Forsten;https://www.deutsche-digitale-bibliothek.de/item/SDDDSBUP7OQ7CYU2QZCEMGTDLRLRJQT5;1;10;deciduous
 177;Beech Hungary Taeg Sopron;HU;dgz_100;Taeg Sopron;;1;10;deciduous
-178;Oak Hungary Taeg Sopron;HU;dgz_101;Taeg Sopron;;1;10;deciduous
-179;Larch Hungary Taeg Sopron;HU;dgz_102;Taeg Sopron;;1;10;coniferous
-180;Spruce Hungary Taeg Sopron;HU;dgz_103;Taeg Sopron;;1;10;coniferous
-181;Pine Hungary Taeg Sopron;HU;dgz_104;Taeg Sopron;;1;10;coniferous
+178;Oak Hungary Taeg Sopron;HU;dgz_100;Taeg Sopron;;1;10;deciduous
+179;Larch Hungary Taeg Sopron;HU;dgz_100;Taeg Sopron;;1;10;coniferous
+180;Spruce Hungary Taeg Sopron;HU;dgz_100;Taeg Sopron;;1;10;coniferous
+181;Pine Hungary Taeg Sopron;HU;dgz_100;Taeg Sopron;;1;10;coniferous
 182;Robinia Hungary Fatermési Táblák;HU;dgz_100;Taeg Sopron Fatermési Táblák;;1;5;deciduous
-183;Stieleiche Hungary Fatermési Táblák;HU;dgz_101;Taeg Sopron Fatermési Táblák;;1;5;deciduous
-184;Traubeneiche Hungary Fatermési Táblák;HU;dgz_102;Taeg Sopron Fatermési Táblák;;1;5;deciduous
-185;Traubeneiche Sp. Hungary Fatermési Táblák;HU;dgz_103;Taeg Sopron Fatermési Táblák;;1;5;deciduous
-186;Roteiche Hungary Fatermési Táblák;HU;dgz_104;Taeg Sopron Fatermési Táblák;;1;5;deciduous
-187;Buche Hungary Fatermési Táblák;HU;dgz_105;Taeg Sopron Fatermési Táblák;;1;10;deciduous
-188;Zerreiche Saat Hungary Fatermési Táblák;HU;dgz_106;Taeg Sopron Fatermési Táblák;;1;5;deciduous
-189;Zerreiche Sp. Hungary Fatermési Táblák;HU;dgz_107;Taeg Sopron Fatermési Táblák;;1;5;deciduous
-190;Esche Hungary Fatermési Táblák;HU;dgz_108;Taeg Sopron Fatermési Táblák;;1;5;deciduous
-191;Hainbuche Hungary Fatermési Táblák;HU;dgz_109;Taeg Sopron Fatermési Táblák;;1;5;deciduous
-192;Birke Hungary Fatermési Táblák;HU;dgz_110;Taeg Sopron Fatermési Táblák;;1;5;deciduous
-193;Schwarznuss Hungary Fatermési Táblák;HU;dgz_111;Taeg Sopron Fatermési Táblák;;1;5;deciduous
-194;Edelkastanie Hungary Fatermési Táblák;HU;dgz_112;Taeg Sopron Fatermési Táblák;;1;5;deciduous
-195;Silberlinde Hungary Fatermési Táblák;HU;dgz_113;Taeg Sopron Fatermési Táblák;;1;5;deciduous
-196;Erle Hungary Fatermési Táblák;HU;dgz_114;Taeg Sopron Fatermési Táblák;;1;5;deciduous
-197;Graupappel Hungary Fatermési Táblák;HU;dgz_115;Taeg Sopron Fatermési Táblák;;1;5;deciduous
-198;Weide Hungary Fatermési Táblák;HU;dgz_116;Taeg Sopron Fatermési Táblák;;1;5;deciduous
-199;Euroamerikanische Pappel Hungary Fatermési Táblák;HU;dgz_117;Taeg Sopron Fatermési Táblák;;1;5;deciduous
-200;Waldkiefer Hungary Fatermési Táblák;HU;dgz_118;Taeg Sopron Fatermési Táblák;;1;5;coniferous
-201;Schwarzkiefer Hungary Fatermési Táblák;HU;dgz_119;Taeg Sopron Fatermési Táblák;;1;5;coniferous
-202;Fichte Hungary Fatermési Táblák;HU;dgz_120;Taeg Sopron Fatermési Táblák;;1;5;coniferous
-203;Lärche Hungary Fatermési Táblák;HU;dgz_121;Taeg Sopron Fatermési Táblák;;1;5;coniferous
+183;Stieleiche Hungary Fatermési Táblák;HU;dgz_100;Taeg Sopron Fatermési Táblák;;1;5;deciduous
+184;Traubeneiche Hungary Fatermési Táblák;HU;dgz_100;Taeg Sopron Fatermési Táblák;;1;5;deciduous
+185;Traubeneiche Sp. Hungary Fatermési Táblák;HU;dgz_100;Taeg Sopron Fatermési Táblák;;1;5;deciduous
+186;Roteiche Hungary Fatermési Táblák;HU;dgz_100;Taeg Sopron Fatermési Táblák;;1;5;deciduous
+187;Buche Hungary Fatermési Táblák;HU;dgz_100;Taeg Sopron Fatermési Táblák;;1;10;deciduous
+188;Zerreiche Saat Hungary Fatermési Táblák;HU;dgz_100;Taeg Sopron Fatermési Táblák;;1;5;deciduous
+189;Zerreiche Sp. Hungary Fatermési Táblák;HU;dgz_100;Taeg Sopron Fatermési Táblák;;1;5;deciduous
+190;Esche Hungary Fatermési Táblák;HU;dgz_100;Taeg Sopron Fatermési Táblák;;1;5;deciduous
+191;Hainbuche Hungary Fatermési Táblák;HU;dgz_100;Taeg Sopron Fatermési Táblák;;1;5;deciduous
+192;Birke Hungary Fatermési Táblák;HU;dgz_100;Taeg Sopron Fatermési Táblák;;1;5;deciduous
+193;Schwarznuss Hungary Fatermési Táblák;HU;dgz_100;Taeg Sopron Fatermési Táblák;;1;5;deciduous
+194;Edelkastanie Hungary Fatermési Táblák;HU;dgz_100;Taeg Sopron Fatermési Táblák;;1;5;deciduous
+195;Silberlinde Hungary Fatermési Táblák;HU;dgz_100;Taeg Sopron Fatermési Táblák;;1;5;deciduous
+196;Erle Hungary Fatermési Táblák;HU;dgz_100;Taeg Sopron Fatermési Táblák;;1;5;deciduous
+197;Graupappel Hungary Fatermési Táblák;HU;dgz_100;Taeg Sopron Fatermési Táblák;;1;5;deciduous
+198;Weide Hungary Fatermési Táblák;HU;dgz_100;Taeg Sopron Fatermési Táblák;;1;5;deciduous
+199;Euroamerikanische Pappel Hungary Fatermési Táblák;HU;dgz_100;Taeg Sopron Fatermési Táblák;;1;5;deciduous
+200;Waldkiefer Hungary Fatermési Táblák;HU;dgz_100;Taeg Sopron Fatermési Táblák;;1;5;coniferous
+201;Schwarzkiefer Hungary Fatermési Táblák;HU;dgz_100;Taeg Sopron Fatermési Táblák;;1;5;coniferous
+202;Fichte Hungary Fatermési Táblák;HU;dgz_100;Taeg Sopron Fatermési Táblák;;1;5;coniferous
+203;Lärche Hungary Fatermési Táblák;HU;dgz_100;Taeg Sopron Fatermési Táblák;;1;5;coniferous
