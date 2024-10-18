@@ -2,6 +2,8 @@ import csv
 from pathlib import Path
 from typing import Dict, List, Optional, TypedDict, Union, cast
 
+import pandas as pd
+
 from openyieldtables.models.yieldtable import TreeType
 
 from .models import (
@@ -155,6 +157,138 @@ def get_yield_table(id: int) -> YieldTable:
             yield_class = float(row["yield_class"])
         if yield_class not in yield_classes_dict:
             yield_classes_dict[yield_class] = []
+        yield_classes_dict[yield_class].append(
+            YieldClassRow(
+                age=int(row["age"]),
+                dominant_height=parse_float(row.get("dominant_height")),
+                average_height=parse_float(row.get("average_height")),
+                dbh=parse_float(row.get("dbh")),
+                taper=parse_float(row.get("taper")),
+                trees_per_ha=parse_float(row.get("trees_per_ha")),
+                basal_area=parse_float(row.get("basal_area")),
+                volume_per_ha=parse_float(row.get("volume_per_ha")),
+                average_annual_age_increment=parse_float(
+                    row.get("average_annual_age_increment")
+                ),
+                total_growth_performance=parse_float(
+                    row.get("total_growth_performance")
+                ),
+                current_annual_increment=parse_float(
+                    row.get("current_annual_increment")
+                ),
+                mean_annual_increment=parse_float(
+                    row.get("mean_annual_increment")
+                ),
+            )
+        )
+
+    yield_classes = [
+        YieldClass(yield_class=yc, rows=rows)
+        for yc, rows in yield_classes_dict.items()
+    ]
+
+    return YieldTable(
+        **yield_table_meta.model_dump(),
+        data=YieldTableData(yield_classes=yield_classes),
+    )
+
+
+def get_yield_tables_meta_from_df(
+    meta_data: pd.DataFrame,
+) -> List[YieldTableMeta]:
+    """
+    Processes the yield tables metadata from a pandas DataFrame and returns a
+    list of YieldTableMeta instances.
+
+    Args:
+        meta_data (pandas.DataFrame): DataFrame containing yield tables
+            metadata with columns for `id`, `title`, `country_codes`, `type`,
+            `source`, `link`, `yield_class_step`, `age_step`, `tree_type`.
+        data (pandas.DataFrame): DataFrame used to find available columns
+            based on `id`.
+
+    Returns:
+        List[YieldTableMeta]: A list of `YieldTableMeta` instances, one for
+        each row in the DataFrame.
+    """
+
+    # Convert DataFrame to list of Pydantic models
+    yield_table_meta_list = [
+        YieldTableMeta(**row.to_dict()) for _, row in meta_data.iterrows()
+    ]
+
+    return yield_table_meta_list
+
+
+def get_yield_table_meta_from_df(
+    id: int, meta_data: pd.DataFrame
+) -> YieldTableMeta:
+    """
+    Filters the yield table metadata from a pandas DataFrame for a specific
+    yield table ID and returns a YieldTableMeta instance.
+
+    The DataFrame is expected to be in a specific format, with columns for
+    `id`, `title`, `country_codes`, `type`, `source`, `link`, etc.
+
+    Args:
+        id (int): The ID of the yield table to get the metadata for.
+        meta_data (pandas.DataFrame): DataFrame containing yield tables
+            metadata.
+
+    Raises:
+        ValueError: If the yield table with the specified ID is not found.
+
+    Returns:
+        YieldTableMeta: A `YieldTableMeta` instance for the specified yield
+            table ID.
+    """
+
+    try:
+        row = meta_data.query("id == @id").iloc[0]
+        return YieldTableMeta(**row.to_dict())
+    except IndexError:
+        raise ValueError(f"Yield table with ID {id} not found.") from None
+
+
+def get_yield_table_from_df(
+    id: int, meta_data: pd.DataFrame, data: pd.DataFrame
+) -> YieldTable:
+    """
+    Filters the yield table data for a specific yield table ID from a pandas
+    DataFrame and returns a YieldTable instance.
+
+    The DataFrame is expected to be in a specific format, with columns for
+    `id`, `yield_class`, `age`, `dominant_height`, `average_height`, etc.
+
+    Args:
+        id (int): The ID of the yield table to get the data for.
+        meta_data (pandas.DataFrame): DataFrame containing yield tables
+            metadata.
+        data (pandas.DataFrame): DataFrame containing yield tables data.
+
+    Returns:
+        YieldTable: A `YieldTable` instance for the specified yield table ID.
+    """
+
+    # Get the meta data
+    yield_table_meta = get_yield_table_meta_from_df(id, meta_data)
+
+    # Filter the data for the specified yield table ID
+    filtered_data = data[data["id"] == id]
+
+    # Organizing data into YieldClasses
+    yield_classes_dict: Dict[Union[int, float], List[YieldClassRow]] = {}
+    for _, row in filtered_data.iterrows():
+        # Handle the case where yield_class is a float
+        yield_class = float(row["yield_class"])
+        # Normalize to int if the float value is actually an integer
+        yield_class = (
+            int(yield_class) if yield_class.is_integer() else yield_class
+        )
+
+        if yield_class not in yield_classes_dict:
+            yield_classes_dict[yield_class] = []
+
         yield_classes_dict[yield_class].append(
             YieldClassRow(
                 age=int(row["age"]),

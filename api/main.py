@@ -1,10 +1,29 @@
-from fastapi import FastAPI
+from contextlib import asynccontextmanager
+
+from fastapi import Depends, FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse, HTMLResponse
 
+from api.dependencies import (
+    df_manager,
+    get_yield_tables_data_dep,
+    get_yield_tables_meta_dep,
+)
 from api.v1 import yieldtables, yieldtablesmeta
 
-app = FastAPI(title="openyieldtables API")
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    # Load the yield tables data and meta data on app startup
+    await df_manager.load_yield_tables_data()
+    await df_manager.load_yield_tables_meta()
+    yield
+    # Clean up resources on app shutdown
+    df_manager.yield_tables_df = None
+    df_manager.yield_tables_meta_df = None
+
+
+app = FastAPI(title="openyieldtables API", lifespan=lifespan)
 
 app.add_middleware(
     CORSMiddleware,
@@ -29,5 +48,16 @@ def liveness():
     return {"status": "ok"}
 
 
-app.include_router(yieldtablesmeta.router)
-app.include_router(yieldtables.router)
+app.include_router(
+    yieldtablesmeta.router,
+    dependencies=[
+        Depends(get_yield_tables_meta_dep),
+    ],
+)
+app.include_router(
+    yieldtables.router,
+    dependencies=[
+        Depends(get_yield_tables_data_dep),
+        Depends(get_yield_tables_meta_dep),
+    ],
+)
