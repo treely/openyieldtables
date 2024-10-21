@@ -1,8 +1,16 @@
 from fastapi.testclient import TestClient
+import pytest
 
 from api.main import app
 
 client = TestClient(app)
+
+
+@pytest.fixture(scope="module", autouse=True)
+def setup_and_teardown():
+    # https://fastapi.tiangolo.com/advanced/testing-events/
+    with client:
+        yield
 
 
 def test_api_send_response_as_html():

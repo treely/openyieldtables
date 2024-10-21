@@ -18,6 +18,7 @@ nav:
   - Overview: index.md
   - Data model: data_model.md
   - Functions: functions.md
+  - Classes: classes.md
   - Contributing: contributing.md
   - About: about.md
 

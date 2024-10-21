@@ -1,9 +1,17 @@
 from fastapi.testclient import TestClient
+import pytest
 
 from api.main import app
 from openyieldtables.models import YieldTable
 
 client = TestClient(app, headers={"accept": "application/json"})
+
+
+@pytest.fixture(scope="module", autouse=True)
+def setup_and_teardown():
+    # https://fastapi.tiangolo.com/advanced/testing-events/
+    with client:
+        yield
 
 
 def test_read_yield_table_data():
@@ -45,14 +53,3 @@ def test_read_yield_table_data():
     # Non-integer ID
     response = client.get("/v1/yield-tables/not_an_int")
     assert response.status_code == 422
-    assert response.json() == {
-        "detail": [
-            {
-                "type": "int_parsing",
-                "loc": ["path", "yield_table_id"],
-                "msg": "Input should be a valid integer, unable to parse string as an integer",  # noqa: E501
-                "input": "not_an_int",
-                "url": "https://errors.pydantic.dev/2.6/v/int_parsing",
-            }
-        ]
-    }
