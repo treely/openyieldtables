@@ -1,9 +1,16 @@
 # CHANGELOG
 
 
+## v2.59.0 (2024-10-21)
+
+### Features
+
+* feat: add support for yield table data handling in pandas dataframes (#120) ([`6f20f0c`](https://github.com/treely/openyieldtables/commit/6f20f0c430297af4083d7f14d2bb8367bdff7001))
+
+
 ## v2.58.1 (2024-10-09)
 
-### Fixes
+### Bug Fixes
 
 * fix: correct dgz from 178 to 203 (#119) ([`5f91776`](https://github.com/treely/openyieldtables/commit/5f917767e96849ec05066b80239d9bd14871ffac))
 
@@ -511,20 +518,20 @@ The tree type can either be `coniferous` or `deciduous`. ([`e5fe129`](https://gi
 
 ## v2.2.2 (2024-05-22)
 
-### Fixes
+### Bug Fixes
 
 * fix: Fix age level for yield table 11 ([`3cb56d6`](https://github.com/treely/openyieldtables/commit/3cb56d6ec98e242b4c690d52cc61172aa3ea0e7c))
 
 
 ## v2.2.1 (2024-05-08)
 
+### Bug Fixes
+
+* fix: Remove TimberControl Database as source ([`963aed0`](https://github.com/treely/openyieldtables/commit/963aed0d334cfb19d62be0b1412d8eab2ea53153))
+
 ### Documentation
 
 * docs: Add header to yield table explorer ([`05703c4`](https://github.com/treely/openyieldtables/commit/05703c4f6764019201f4ec6f44ed9dd1c1e34b75))
-
-### Fixes
-
-* fix: Remove TimberControl Database as source ([`963aed0`](https://github.com/treely/openyieldtables/commit/963aed0d334cfb19d62be0b1412d8eab2ea53153))
 
 
 ## v2.2.0 (2024-05-02)
