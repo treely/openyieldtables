@@ -1,6 +1,15 @@
 # CHANGELOG
 
 
+## v2.61.0 (2024-12-16)
+
+### Features
+
+- Add yield table for tree type Birke Schwappach
+  ([#122](https://github.com/treely/openyieldtables/pull/122),
+  [`f2d80a2`](https://github.com/treely/openyieldtables/commit/f2d80a2d2c47e297417f44547019a719cc240581))
+
+
 ## v2.60.0 (2024-12-16)
 
 ### Features
