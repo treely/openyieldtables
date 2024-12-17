@@ -1,6 +1,15 @@
 # CHANGELOG
 
 
+## v2.62.0 (2024-12-17)
+
+### Features
+
+- Add yield table for tree type Birke Tjurin
+  ([#123](https://github.com/treely/openyieldtables/pull/123),
+  [`bc83c73`](https://github.com/treely/openyieldtables/commit/bc83c738e9a9a4f7c7f6cfc778452f428afbee15))
+
+
 ## v2.61.0 (2024-12-16)
 
 ### Features
