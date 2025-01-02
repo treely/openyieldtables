@@ -1,6 +1,15 @@
 # CHANGELOG
 
 
+## v2.63.0 (2025-01-02)
+
+### Features
+
+- Add yield table for tree type Schwarzerle Mitscherlich
+  ([#124](https://github.com/treely/openyieldtables/pull/124),
+  [`3f3af31`](https://github.com/treely/openyieldtables/commit/3f3af313fcfc2df628fa74cde4f11a048fc9e7c0))
+
+
 ## v2.62.0 (2024-12-17)
 
 ### Features
