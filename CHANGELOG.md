@@ -1,6 +1,15 @@
 # CHANGELOG
 
 
+## v2.65.0 (2025-01-06)
+
+### Features
+
+- Add yield table for tree type Strobe Eckstein
+  ([#126](https://github.com/treely/openyieldtables/pull/126),
+  [`7db75a6`](https://github.com/treely/openyieldtables/commit/7db75a6d73fbc579c1af06671376e22c9d764e3d))
+
+
 ## v2.64.0 (2025-01-06)
 
 ### Features
