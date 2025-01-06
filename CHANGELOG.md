@@ -1,6 +1,15 @@
 # CHANGELOG
 
 
+## v2.64.0 (2025-01-06)
+
+### Features
+
+- Add yield table for tree type Weisstanne Schmidt
+  ([#125](https://github.com/treely/openyieldtables/pull/125),
+  [`24d2868`](https://github.com/treely/openyieldtables/commit/24d2868db219b704d717002c3b85d83e45872f17))
+
+
 ## v2.63.0 (2025-01-02)
 
 ### Features
