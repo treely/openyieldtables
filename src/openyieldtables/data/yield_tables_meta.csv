@@ -32,14 +32,14 @@ id;title;country_codes;type;source;link;yield_class_step;age_step;tree_type
 100;Tirol Laerche Suedtirol;AT,DE,IT;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10;coniferous
 101;Tirol Tanne;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10;coniferous
 102;Tirol Zirbe Murau;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;;10;coniferous
-103;Cerny Buche;CZ;dgz_100;1996, Martin Černý, Jan Pařez: Růstové a taxační tabulky hlavních dřevin České republiky: (smrk, borovice, buk, dub). Jílové u Prahy: IFER.;https://katalog.mendelu.cz/records/5b86d7f6-2962-425e-b679-474a975de497;2;10;deciduous
-104;Cerny Eiche;CZ;dgz_100;1996, Martin Černý, Jan Pařez: Růstové a taxační tabulky hlavních dřevin České republiky: (smrk, borovice, buk, dub). Jílové u Prahy: IFER.;https://katalog.mendelu.cz/records/5b86d7f6-2962-425e-b679-474a975de497;2;10;deciduous
-105;Cerny Fichte;CZ;dgz_100;1996, Martin Černý, Jan Pařez: Růstové a taxační tabulky hlavních dřevin České republiky: (smrk, borovice, buk, dub). Jílové u Prahy: IFER.;https://katalog.mendelu.cz/records/5b86d7f6-2962-425e-b679-474a975de497;2;10;coniferous
-106;Cerny Kiefer;CZ;dgz_100;1996, Martin Černý, Jan Pařez: Růstové a taxační tabulky hlavních dřevin České republiky: (smrk, borovice, buk, dub). Jílové u Prahy: IFER.;https://katalog.mendelu.cz/records/5b86d7f6-2962-425e-b679-474a975de497;2;10;coniferous
-120;Lockow Birke Nordostdeutschland;DE;dgz_100;Forstliche Forschungsanstalt Eberswalde, Fachgebiet Waldwachstum Eberswalde 1996;https://plan-birke.de/app/uploads/2019/01/Sandbirke_1996_Lockow.pdf;1;10;deciduous
+103;Cerny Buche;CZ;Czech relative site index system;1996, Martin Černý, Jan Pařez: Růstové a taxační tabulky hlavních dřevin České republiky: (smrk, borovice, buk, dub). Jílové u Prahy: IFER.;https://katalog.mendelu.cz/records/5b86d7f6-2962-425e-b679-474a975de497;2;10;deciduous
+104;Cerny Eiche;CZ;Czech relative site index system;1996, Martin Černý, Jan Pařez: Růstové a taxační tabulky hlavních dřevin České republiky: (smrk, borovice, buk, dub). Jílové u Prahy: IFER.;https://katalog.mendelu.cz/records/5b86d7f6-2962-425e-b679-474a975de497;2;10;deciduous
+105;Cerny Fichte;CZ;Czech relative site index system;1996, Martin Černý, Jan Pařez: Růstové a taxační tabulky hlavních dřevin České republiky: (smrk, borovice, buk, dub). Jílové u Prahy: IFER.;https://katalog.mendelu.cz/records/5b86d7f6-2962-425e-b679-474a975de497;2;10;coniferous
+106;Cerny Kiefer;CZ;Czech relative site index system;1996, Martin Černý, Jan Pařez: Růstové a taxační tabulky hlavních dřevin České republiky: (smrk, borovice, buk, dub). Jílové u Prahy: IFER.;https://katalog.mendelu.cz/records/5b86d7f6-2962-425e-b679-474a975de497;2;10;coniferous
+120;Lockow Birke Nordostdeutschland;DE;German relative site index system;Forstliche Forschungsanstalt Eberswalde, Fachgebiet Waldwachstum Eberswalde 1996;https://plan-birke.de/app/uploads/2019/01/Sandbirke_1996_Lockow.pdf;1;10;deciduous
 133;Wiedemann Birke Baden-Wuerttemberg;DE;dgz_80;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10;deciduous
 134;Wiedemann Buche Baden-Wuerttemberg;DE;dgz_100;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10;deciduous
-135;Wiedemann Eiche Baden-Wuerttemberg;DE;dgz_100;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10;deciduous
+135;Wiedemann Eiche Baden-WuCzech relative site index systemerttemberg;DE;dgz_100;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10;deciduous
 136;Wiedemann europäische Lärche Baden-Wuerttemberg;DE;dgz_100;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10;coniferous
 137;Wiedemann Erle Baden-Wuerttemberg;DE;dgz_80;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10;deciduous
 138;Wiedemann Esche Baden-Wuerttemberg;DE;dgz_100;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10;deciduous
@@ -85,31 +85,31 @@ id;title;country_codes;type;source;link;yield_class_step;age_step;tree_type
 179;Larch Hungary Taeg Sopron;HU;dgz_100;Taeg Sopron;;1;10;coniferous
 180;Spruce Hungary Taeg Sopron;HU;dgz_100;Taeg Sopron;;1;10;coniferous
 181;Pine Hungary Taeg Sopron;HU;dgz_100;Taeg Sopron;;1;10;coniferous
-182;Robinia Hungary Fatermési Táblák;HU;dgz_100;Taeg Sopron Fatermési Táblák;;1;5;deciduous
-183;Stieleiche Hungary Fatermési Táblák;HU;dgz_100;Taeg Sopron Fatermési Táblák;;1;5;deciduous
-184;Traubeneiche Hungary Fatermési Táblák;HU;dgz_100;Taeg Sopron Fatermési Táblák;;1;5;deciduous
-185;Traubeneiche Sp. Hungary Fatermési Táblák;HU;dgz_100;Taeg Sopron Fatermési Táblák;;1;5;deciduous
-186;Roteiche Hungary Fatermési Táblák;HU;dgz_100;Taeg Sopron Fatermési Táblák;;1;5;deciduous
-187;Buche Hungary Fatermési Táblák;HU;dgz_100;Taeg Sopron Fatermési Táblák;;1;10;deciduous
-188;Zerreiche Saat Hungary Fatermési Táblák;HU;dgz_100;Taeg Sopron Fatermési Táblák;;1;5;deciduous
-189;Zerreiche Sp. Hungary Fatermési Táblák;HU;dgz_100;Taeg Sopron Fatermési Táblák;;1;5;deciduous
-190;Esche Hungary Fatermési Táblák;HU;dgz_100;Taeg Sopron Fatermési Táblák;;1;5;deciduous
-191;Hainbuche Hungary Fatermési Táblák;HU;dgz_100;Taeg Sopron Fatermési Táblák;;1;5;deciduous
-192;Birke Hungary Fatermési Táblák;HU;dgz_100;Taeg Sopron Fatermési Táblák;;1;5;deciduous
-193;Schwarznuss Hungary Fatermési Táblák;HU;dgz_100;Taeg Sopron Fatermési Táblák;;1;5;deciduous
-194;Edelkastanie Hungary Fatermési Táblák;HU;dgz_100;Taeg Sopron Fatermési Táblák;;1;5;deciduous
-195;Silberlinde Hungary Fatermési Táblák;HU;dgz_100;Taeg Sopron Fatermési Táblák;;1;5;deciduous
-196;Erle Hungary Fatermési Táblák;HU;dgz_100;Taeg Sopron Fatermési Táblák;;1;5;deciduous
-197;Graupappel Hungary Fatermési Táblák;HU;dgz_100;Taeg Sopron Fatermési Táblák;;1;5;deciduous
-198;Weide Hungary Fatermési Táblák;HU;dgz_100;Taeg Sopron Fatermési Táblák;;1;5;deciduous
-199;Euroamerikanische Pappel Hungary Fatermési Táblák;HU;dgz_100;Taeg Sopron Fatermési Táblák;;1;5;deciduous
-200;Waldkiefer Hungary Fatermési Táblák;HU;dgz_100;Taeg Sopron Fatermési Táblák;;1;5;coniferous
-201;Schwarzkiefer Hungary Fatermési Táblák;HU;dgz_100;Taeg Sopron Fatermési Táblák;;1;5;coniferous
-202;Fichte Hungary Fatermési Táblák;HU;dgz_100;Taeg Sopron Fatermési Táblák;;1;5;coniferous
-203;Lärche Hungary Fatermési Táblák;HU;dgz_100;Taeg Sopron Fatermési Táblák;;1;5;coniferous
-204;Eiche Jüttner;DE;dgz_100;Ertragstafeln für Eiche. Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung, neubearbeitet von R. Schober. Frankfurt a. M.: J.D. Sauerländers, 2. Aufl. 1975;;1;5;deciduous
-205;Birke Schwappach;DE;dgz_100;Zeitschrift fuer Forst- u. Jagdwesen;;1;5;deciduous
-206;Birke Tjurin;DE;dgz_100;"TJURIN. A. W.; NAUMENKO. I. M. (1956): Forstliches Hilfsbuch fuer Waldtaxation. Moskva";;1;10;deciduous
-207;Schwarzerle Mitscherlich;DE;dgz_100;Unters. ueber Zuwachs und Form der Schwarzerle;;1;5;deciduous
-208;Weisstanne Schmidt;DE;dgz_100;Die Weisstanne in Ostfriesland, Forstw.Centralblatt 1951;;1;5;coniferous
-209;Strobe Eckstein, E.;DE;dgz_100;Eckstein 1965;;1;5;coniferous
+182;Robinia Hungary Fatermési Táblák;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;deciduous
+183;Stieleiche Hungary Fatermési Táblák;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;deciduous
+184;Traubeneiche Hungary Fatermési Táblák;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;deciduous
+185;Traubeneiche Sp. Hungary Fatermési Táblák;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;deciduous
+186;Roteiche Hungary Fatermési Táblák;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;deciduous
+187;Buche Hungary Fatermési Táblák;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;10;deciduous
+188;Zerreiche Saat Hungary Fatermési Táblák;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;deciduous
+189;Zerreiche Sp. Hungary Fatermési Táblák;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;deciduous
+190;Esche Hungary Fatermési Táblák;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;deciduous
+191;Hainbuche Hungary Fatermési Táblák;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;deciduous
+192;Birke Hungary Fatermési Táblák;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;deciduous
+193;Schwarznuss Hungary Fatermési Táblák;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;deciduous
+194;Edelkastanie Hungary Fatermési Táblák;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;deciduous
+195;Silberlinde Hungary Fatermési Táblák;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;deciduous
+196;Erle Hungary Fatermési Táblák;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;deciduous
+197;Graupappel Hungary Fatermési Táblák;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;deciduous
+198;Weide Hungary Fatermési Táblák;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;deciduous
+199;Euroamerikanische Pappel Hungary Fatermési Táblák;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;deciduous
+200;Waldkiefer Hungary Fatermési Táblák;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;coniferous
+201;Schwarzkiefer Hungary Fatermési Táblák;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;coniferous
+202;Fichte Hungary Fatermési Táblák;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;coniferous
+203;Lärche Hungary Fatermési Táblák;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;coniferous
+204;Eiche Jüttner;DE;German relative site index system;Ertragstafeln für Eiche. Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung, neubearbeitet von R. Schober. Frankfurt a. M.: J.D. Sauerländers, 2. Aufl. 1975;;1;5;deciduous
+205;Birke Schwappach;DE;German relative site index system;Zeitschrift fuer Forst- u. Jagdwesen;;1;5;deciduous
+206;Birke Tjurin;DE;German relative site index system;"TJURIN. A. W.; NAUMENKO. I. M. (1956): Forstliches Hilfsbuch fuer Waldtaxation. Moskva";;1;10;deciduous
+207;Schwarzerle Mitscherlich;DE;German relative site index system;Unters. ueber Zuwachs und Form der Schwarzerle;;1;5;deciduous
+208;Weisstanne Schmidt;DE;German relative site index system;Die Weisstanne in Ostfriesland, Forstw.Centralblatt 1951;;1;5;coniferous
+209;Strobe Eckstein, E.;DE;German relative site index system;Eckstein 1965;;1;5;coniferous
