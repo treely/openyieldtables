@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v2.65.2 (2025-01-23)
+
+### Bug Fixes
+
+- Fix spelling eiche bawu ([#128](https://github.com/treely/openyieldtables/pull/128),
+  [`64c8ed5`](https://github.com/treely/openyieldtables/commit/64c8ed50d1dd345664dbf9c65f770678816ebeec))
+
+
 ## v2.65.1 (2025-01-23)
 
 ### Bug Fixes
