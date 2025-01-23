@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v2.65.1 (2025-01-23)
+
+### Bug Fixes
+
+- Correct types for non dgz100 ([#127](https://github.com/treely/openyieldtables/pull/127),
+  [`180c1df`](https://github.com/treely/openyieldtables/commit/180c1df226bab9b20a4dd57d3c6cf897b973851a))
+
+
 ## v2.65.0 (2025-01-06)
 
 ### Features
