@@ -113,3 +113,6 @@ id;title;country_codes;type;source;link;yield_class_step;age_step;tree_type
 207;Schwarzerle Mitscherlich;DE;German relative site index system;Unters. ueber Zuwachs und Form der Schwarzerle;;1;5;deciduous
 208;Weisstanne Schmidt;DE;German relative site index system;Die Weisstanne in Ostfriesland, Forstw.Centralblatt 1951;;1;5;coniferous
 209;Strobe Eckstein, E.;DE;German relative site index system;Eckstein 1965;;1;5;coniferous
+210;Waldkiefer Finnland;FI;dgz_100;Instituti Forestalis Fenniae (1960): Metsaentutkimuslaitoksen Julakaisuja;;1;5;coniferous
+211;Gemeine Fichte Finnland;FI;dgz_100;Instituti Forestalis Fenniae (1960): Metsaentutkimuslaitoksen Julakaisuja;;1;5;coniferous
+212;Birke Finnland;FI;dgz_80;Instituti Forestalis Fenniae (1960): Metsaentutkimuslaitoksen Julakaisuja;;1;5;deciduous
