@@ -1,6 +1,18 @@
 # CHANGELOG
 
 
+## v2.66.0 (2025-02-06)
+
+### Features
+
+- Add finish yield tables ([#129](https://github.com/treely/openyieldtables/pull/129),
+  [`e640a50`](https://github.com/treely/openyieldtables/commit/e640a50c58fc3e60742026dfc7fb913dff85fdb2))
+
+* feat: add finish yield tables
+
+* feat: corrections
+
+
 ## v2.65.2 (2025-01-23)
 
 ### Bug Fixes
