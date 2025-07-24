@@ -116,4 +116,4 @@ id;title;country_codes;type;source;link;yield_class_step;age_step;tree_type
 210;Waldkiefer Finnland;FI;dgz_100;Instituti Forestalis Fenniae (1960): Metsaentutkimuslaitoksen Julakaisuja;;1;5;coniferous
 211;Gemeine Fichte Finnland;FI;dgz_100;Instituti Forestalis Fenniae (1960): Metsaentutkimuslaitoksen Julakaisuja;;1;5;coniferous
 212;Birke Finnland;FI;dgz_80;Instituti Forestalis Fenniae (1960): Metsaentutkimuslaitoksen Julakaisuja;;1;5;deciduous
-213;Gemeine Kiefer Brandenburg Lembcke/Knapp/Dittmar;DE;dgz_100;1999, Landesforstanstalt Eberswalde, 2000;https://forst.brandenburg.de/sixcms/media.php/9/kieferetk.pdf;1;5;coniferous
+213;Gemeine Kiefer Brandenburg Lembcke/Knapp/Dittmar;DE;German relative site index system;Landesforstanstalt Eberswalde, 2000;https://forst.brandenburg.de/sixcms/media.php/9/kieferetk.pdf;1;5;coniferous
