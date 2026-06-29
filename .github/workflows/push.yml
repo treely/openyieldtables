@@ -1,4 +1,4 @@
-name: Push an Image to ECR
+name: Push an Image to ECR and ACR
 
 on:
   push:
@@ -12,6 +12,9 @@ jobs:
     environment: ecr-push
     env:
       IMAGE: treely/yield-tables
+      ACR_REGISTRY: treelyyieldtablesstaging.azurecr.io
+      CONTAINER_APP_NAME: yield-tables
+      CONTAINER_APP_RESOURCE_GROUP: yield-tables-staging
     steps:
       # Generate build ID
       - name: Get branch name (merge)
@@ -52,18 +55,16 @@ jobs:
           set -o pipefail
           poetry run pytest -- --cov-report xml
 
-      # Configure AWS credentials
+      # --- ECR ---
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: eu-west-1
-      # Login to Amazon ECR
       - name: Login to Amazon ECR
         id: login-ecr
         uses: aws-actions/amazon-ecr-login@v1
-      # Build and tag image
       - name: Build and tag image
         env:
           ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
@@ -71,10 +72,33 @@ jobs:
         run: |
           docker build \
             -t ${IMAGE}:${BUILD_ID} \
-            -t ${ECR_REGISTRY}/${IMAGE}:${BUILD_ID} ./
-      # Push the image to ECR
-      - name: Push
+            -t ${ECR_REGISTRY}/${IMAGE}:${BUILD_ID} \
+            -t ${ACR_REGISTRY}/${IMAGE}:${BUILD_ID} ./
+      - name: Push to ECR
         env:
           ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
           BUILD_ID: ${{ steps.prep.outputs.build_id }}
         run: docker push ${ECR_REGISTRY}/${IMAGE}:${BUILD_ID}
+
+      # --- ACR ---
+      - name: Login to Azure
+        run: |
+          az login --service-principal \
+            --username ${{ secrets.AZURE_CLIENT_ID }} \
+            --password ${{ secrets.AZURE_CLIENT_SECRET }} \
+            --tenant ${{ secrets.AZURE_TENANT_ID }}
+          az account set --subscription ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+      - name: Push to ACR
+        env:
+          BUILD_ID: ${{ steps.prep.outputs.build_id }}
+        run: |
+          az acr login --name treelyyieldtablesstaging
+          docker push ${ACR_REGISTRY}/${IMAGE}:${BUILD_ID}
+      - name: Deploy to Azure Container App (staging)
+        env:
+          BUILD_ID: ${{ steps.prep.outputs.build_id }}
+        run: |
+          az containerapp update \
+            --name ${CONTAINER_APP_NAME} \
+            --resource-group ${CONTAINER_APP_RESOURCE_GROUP} \
+            --image ${ACR_REGISTRY}/${IMAGE}:${BUILD_ID}
