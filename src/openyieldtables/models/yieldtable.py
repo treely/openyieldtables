@@ -13,7 +13,6 @@ class YieldTableMeta(BaseModel):
     id: int
     title: str
     title_original: Optional[str] = None
-    title_english: Optional[str] = None
     country_codes: List[str]
     type: Optional[str] = None
     source: str
