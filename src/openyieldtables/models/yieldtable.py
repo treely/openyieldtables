@@ -12,6 +12,7 @@ class TreeType(str, Enum):
 class YieldTableMeta(BaseModel):
     id: int
     title: str
+    title_original: Optional[str] = None
     country_codes: List[str]
     type: Optional[str] = None
     source: str

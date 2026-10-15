@@ -19,7 +19,8 @@ def test_read_yield_tables_meta():
     assert response.status_code == 200
     assert response.json()[0] == {
         "id": 1,
-        "title": "Fichte Hochgebirge",
+        "title": "Norway spruce high mountains",
+        "title_original": "Fichte Hochgebirge",
         "country_codes": ["AT", "DE"],
         "type": "dgz_100",
         "source": "1975, Julius Marschall: Hilfstafeln für die Forsteinrichtung, Neunte Auflage, Österreichischer Agrarverlag",  # noqa E501
@@ -46,7 +47,8 @@ def test_read_yield_tables_meta():
     }
     assert response.json()[27] == {
         "id": 93,
-        "title": "Tirol Kiefer Suedtirol",
+        "title": "Tyrol Scots pine - South Tyrol",
+        "title_original": "Kiefer - Südtirol",
         "country_codes": ["AT", "DE"],
         "type": "dgz_150",
         "source": "Ertragstafeln für Tirol, Amt der Tiroler Landesregierung",
@@ -78,7 +80,8 @@ def test_read_yield_table_meta():
     assert response.status_code == 200
     assert response.json() == {
         "id": 1,
-        "title": "Fichte Hochgebirge",
+        "title": "Norway spruce high mountains",
+        "title_original": "Fichte Hochgebirge",
         "country_codes": ["AT", "DE"],
         "type": "dgz_100",
         "source": "1975, Julius Marschall: Hilfstafeln für die Forsteinrichtung, Neunte Auflage, Österreichischer Agrarverlag",  # noqa E501

@@ -47,6 +47,10 @@
                 </th>
                 <td class="px-6 py-4 font-mono">
                   <span>{{data.title}}</span>
+                  {% if data.title_original %}
+                  <br />
+                  <span class="text-xs text-gray-500">original: {{data.title_original}}</span>
+                  {% endif %}
                   <br />
                   <a href="/v1/yield-tables/{{data.id}}" class="text-blue-500"
                     >Open yield table</a

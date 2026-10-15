@@ -24,6 +24,7 @@ csv_path_yield_tables = script_location / "data" / "yield_tables.csv"
 class YieldTableMetaCSVRow(TypedDict, total=False):
     id: int
     title: str
+    title_original: Optional[str]
     country_codes: List[str]
     type: Optional[str]
     source: str
@@ -62,6 +63,7 @@ def get_yield_tables_meta() -> List[YieldTableMeta]:
                 {
                     "id": int(row.get("id", 0)),
                     "title": row.get("title", ""),
+                    "title_original": row.get("title_original") or None,
                     "country_codes": (
                         row.get("country_codes", "").split(",")
                         if row.get("country_codes")

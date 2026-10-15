@@ -1,119 +1,119 @@
-id;title;country_codes;type;source;link;yield_class_step;age_step;tree_type
-1;Fichte Hochgebirge;AT,DE;dgz_100;1975, Julius Marschall: Hilfstafeln für die Forsteinrichtung, Neunte Auflage, Österreichischer Agrarverlag;https://www.avbuch-shop.at/landwirtschaft/lehrbuecher/1347/hilfstafeln-fuer-die-forsteinrichtung;1;10;coniferous
-2;Fichte Bayern;AT,DE;dgz_100;1975, Julius Marschall: Hilfstafeln für die Forsteinrichtung, Neunte Auflage, Österreichischer Agrarverlag;https://www.avbuch-shop.at/landwirtschaft/lehrbuecher/1347/hilfstafeln-fuer-die-forsteinrichtung;1;10;coniferous
-3;Fichte Bruck;AT,DE;dgz_100;1975, Julius Marschall: Hilfstafeln für die Forsteinrichtung, Neunte Auflage, Österreichischer Agrarverlag;https://www.avbuch-shop.at/landwirtschaft/lehrbuecher/1347/hilfstafeln-fuer-die-forsteinrichtung;1;10;coniferous
-4;Fichte Weitra;AT,DE;dgz_100;1975, Julius Marschall: Hilfstafeln für die Forsteinrichtung, Neunte Auflage, Österreichischer Agrarverlag;https://www.avbuch-shop.at/landwirtschaft/lehrbuecher/1347/hilfstafeln-fuer-die-forsteinrichtung;1;10;coniferous
-5;Tanne NWD;AT,DE;dgz_100;1975, Julius Marschall: Hilfstafeln für die Forsteinrichtung, Neunte Auflage, Österreichischer Agrarverlag;https://www.avbuch-shop.at/landwirtschaft/lehrbuecher/1347/hilfstafeln-fuer-die-forsteinrichtung;1;10;coniferous
-6;Tanne Württemberg;AT,DE;dgz_100;1975, Julius Marschall: Hilfstafeln für die Forsteinrichtung, Neunte Auflage, Österreichischer Agrarverlag;https://www.avbuch-shop.at/landwirtschaft/lehrbuecher/1347/hilfstafeln-fuer-die-forsteinrichtung;2;10;coniferous
-7;Douglasie BW;AT,DE;dgz_75;1975, Julius Marschall: Hilfstafeln für die Forsteinrichtung, Neunte Auflage, Österreichischer Agrarverlag;https://www.avbuch-shop.at/landwirtschaft/lehrbuecher/1347/hilfstafeln-fuer-die-forsteinrichtung;1;5;coniferous
-8;Laerche Schweiz;AT,DE;dgz_100;1975, Julius Marschall: Hilfstafeln für die Forsteinrichtung, Neunte Auflage, Österreichischer Agrarverlag;https://www.avbuch-shop.at/landwirtschaft/lehrbuecher/1347/hilfstafeln-fuer-die-forsteinrichtung;1;10;coniferous
-9;Kiefer Litschau;AT,DE;dgz_100;1975, Julius Marschall: Hilfstafeln für die Forsteinrichtung, Neunte Auflage, Österreichischer Agrarverlag;https://www.avbuch-shop.at/landwirtschaft/lehrbuecher/1347/hilfstafeln-fuer-die-forsteinrichtung;1;10;coniferous
-10;Buche Braunschweig;AT,DE;dgz_100;1975, Julius Marschall: Hilfstafeln für die Forsteinrichtung, Neunte Auflage, Österreichischer Agrarverlag;https://www.avbuch-shop.at/landwirtschaft/lehrbuecher/1347/hilfstafeln-fuer-die-forsteinrichtung;1;10;deciduous
-11;Eiche Ungarn;AT,DE;dgz_100;1975, Julius Marschall: Hilfstafeln für die Forsteinrichtung, Neunte Auflage, Österreichischer Agrarverlag;https://www.avbuch-shop.at/landwirtschaft/lehrbuecher/1347/hilfstafeln-fuer-die-forsteinrichtung;1;10;deciduous
-12;Esche;AT,DE;dgz_100;unknown;;1;10;deciduous
-13;Europaeische Pappel;AT,DE;dgz_50;unknown;;1;10;deciduous
-14;Hybrid Pappel;AT,DE;dgz_50;unknown;;1;10;deciduous
-15;Hainbuche;AT,DE;dgz_100;unknown;;1;10;deciduous
-16;Robinie;AT,DE;dgz_50;unknown;;1;10;deciduous
-17;Schwarzkiefer;AT,DE;dgz_100;unknown;;1;10;coniferous
-18;Strobe H;AT,DE;dgz_80;unknown;;1;10;coniferous
-19;Erle Schwappach;AT,DE;dgz_100;unknown;;1;10;deciduous
-20;Tirol Zirbe Murau;AT,DE;dgz_200;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10;coniferous
-21;Birke;AT,DE;dgz_100;unknown;;1;10;deciduous
-87;Fichte Oststeiermark Eckmüllner;AT,DE;dgz_100;unknown;;1;10;coniferous
-88;Tirol Fichte Kalk Ertragsniveau nieder;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10;coniferous
-89;Tirol Fichte Kalk Ertragsniveau mittel;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10;coniferous
-90;Tirol Fichte Silikat Ertragsniveau mittel;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10;coniferous
-91;Tirol Fichte Silikat Ertragsniveau hoch;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10;coniferous
-92;Tirol Laerche Suedtirol;AT,DE;dgz_150;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10;coniferous
-93;Tirol Kiefer Suedtirol;AT,DE;dgz_150;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10;coniferous
-94;Tirol Buche;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10;deciduous
-99;Tirol Kiefer Suedtirol;AT,DE,IT;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10;coniferous
-100;Tirol Laerche Suedtirol;AT,DE,IT;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10;coniferous
-101;Tirol Tanne;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10;coniferous
-102;Tirol Zirbe Murau;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;;10;coniferous
-103;Cerny Buche;CZ;Czech relative site index system;1996, Martin Černý, Jan Pařez: Růstové a taxační tabulky hlavních dřevin České republiky: (smrk, borovice, buk, dub). Jílové u Prahy: IFER.;https://katalog.mendelu.cz/records/5b86d7f6-2962-425e-b679-474a975de497;2;10;deciduous
-104;Cerny Eiche;CZ;Czech relative site index system;1996, Martin Černý, Jan Pařez: Růstové a taxační tabulky hlavních dřevin České republiky: (smrk, borovice, buk, dub). Jílové u Prahy: IFER.;https://katalog.mendelu.cz/records/5b86d7f6-2962-425e-b679-474a975de497;2;10;deciduous
-105;Cerny Fichte;CZ;Czech relative site index system;1996, Martin Černý, Jan Pařez: Růstové a taxační tabulky hlavních dřevin České republiky: (smrk, borovice, buk, dub). Jílové u Prahy: IFER.;https://katalog.mendelu.cz/records/5b86d7f6-2962-425e-b679-474a975de497;2;10;coniferous
-106;Cerny Kiefer;CZ;Czech relative site index system;1996, Martin Černý, Jan Pařez: Růstové a taxační tabulky hlavních dřevin České republiky: (smrk, borovice, buk, dub). Jílové u Prahy: IFER.;https://katalog.mendelu.cz/records/5b86d7f6-2962-425e-b679-474a975de497;2;10;coniferous
-120;Lockow Birke Nordostdeutschland;DE;German relative site index system;Forstliche Forschungsanstalt Eberswalde, Fachgebiet Waldwachstum Eberswalde 1996;https://plan-birke.de/app/uploads/2019/01/Sandbirke_1996_Lockow.pdf;1;10;deciduous
-133;Wiedemann Birke Baden-Wuerttemberg;DE;dgz_80;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10;deciduous
-134;Wiedemann Buche Baden-Wuerttemberg;DE;dgz_100;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10;deciduous
-135;Wiedemann Eiche Baden-Wuerttemberg;DE;dgz_100;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10;deciduous
-136;Wiedemann europäische Lärche Baden-Wuerttemberg;DE;dgz_100;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10;coniferous
-137;Wiedemann Erle Baden-Wuerttemberg;DE;dgz_80;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10;deciduous
-138;Wiedemann Esche Baden-Wuerttemberg;DE;dgz_100;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10;deciduous
-139;Wiedemann Fichte Baden-Wuerttemberg;DE;dgz_100;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10;coniferous
-140;Wiedemann japanische Laerche Baden-Wuerttemberg;DE;dgz_60;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10;coniferous
-141;Wiedemann Kiefer Baden-Wuerttemberg;DE;dgz_100;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10;coniferous
-143;Wiedemann Pappel Baden-Wuerttemberg;DE;dgz_50;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;0.5;10;deciduous
-144;Wiedemann Roteiche Baden-Wuerttemberg;DE;dgz_100;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10;deciduous
-145;Larice;RO;dgz_100;Victor Giurgiu, Dorin Draghiciu: Modele matematico-auxologice si tabele de productie pentru arborete;;;5;coniferous
-146;Pin Silvestru;RO;dgz_100;Victor Giurgiu, Dorin Draghiciu: Modele matematico-auxologice si tabele de productie pentru arborete;;;5;coniferous
-147;Fag din samanta;RO;dgz_100;Victor Giurgiu, Dorin Draghiciu: Modele matematico-auxologice si tabele de productie pentru arborete;;;5;deciduous
-148;Mesteacan;RO;dgz_100;Victor Giurgiu, Dorin Draghiciu: Modele matematico-auxologice si tabele de productie pentru arborete;;;5;deciduous
-149;Plop alb si Plop negru;RO;dgz_100;Victor Giurgiu, Dorin Draghiciu: Modele matematico-auxologice si tabele de productie pentru arborete;;;5;deciduous
-150;Salcie din Samanta;RO;dgz_100;Victor Giurgiu, Dorin Draghiciu: Modele matematico-auxologice si tabele de productie pentru arborete;;;2;deciduous
-151;Pin Negru;RO;dgz_100;Victor Giurgiu, Dorin Draghiciu: Modele matematico-auxologice si tabele de productie pentru arborete;;;5;coniferous
-152;Molid (in arealul natural);RO;dgz_100;Victor Giurgiu, Dorin Draghiciu: Modele matematico-auxologice si tabele de productie pentru arborete;;;5;coniferous
-153;Molid (in afara arealului natural);RO;dgz_100;Victor Giurgiu, Dorin Draghiciu: Modele matematico-auxologice si tabele de productie pentru arborete;;;5;coniferous
-154;Brad;RO;dgz_100;Victor Giurgiu, Dorin Draghiciu: Modele matematico-auxologice si tabele de productie pentru arborete;;;5;coniferous
-155;Fag din lastar;RO;dgz_100;Victor Giurgiu, Dorin Draghiciu: Modele matematico-auxologice si tabele de productie pentru arborete;;;5;deciduous
-156;Gorun din Samanta;RO;dgz_100;Victor Giurgiu, Dorin Draghiciu: Modele matematico-auxologice si tabele de productie pentru arborete;;;5;deciduous
-157;Carpen;RO;dgz_100;Victor Giurgiu, Dorin Draghiciu: Modele matematico-auxologice si tabele de productie pentru arborete;;;5;deciduous
-158;Tei Argintiu;RO;dgz_100;Victor Giurgiu, Dorin Draghiciu: Modele matematico-auxologice si tabele de productie pentru arborete;;;5;deciduous
-159;Stejar din lastar;RO;dgz_100;Victor Giurgiu, Dorin Draghiciu: Modele matematico-auxologice si tabele de productie pentru arborete;;;5;deciduous
-160;Salcam din samnta;RO;dgz_100;Victor Giurgiu, Dorin Draghiciu: Modele matematico-auxologice si tabele de productie pentru arborete;;;2;deciduous
-161;Salcam din lastar;RO;dgz_100;Victor Giurgiu, Dorin Draghiciu: Modele matematico-auxologice si tabele de productie pentru arborete;;;2;deciduous
-162;Salcie din lastar;RO;dgz_100;Victor Giurgiu, Dorin Draghiciu: Modele matematico-auxologice si tabele de productie pentru arborete;;;2;deciduous
-163;Gemeine Fichte Sachsen Wenk/Römisch/Gerold;DE;dgz_100;1999, Sächsische Landesanstalt für Forsten: Hilfstafeln zur Sächsischen Forsteinrichtungsdienstanweisung, Auflage 1000, Sächsische Landesanstalt für Forsten;https://www.deutsche-digitale-bibliothek.de/item/SDDDSBUP7OQ7CYU2QZCEMGTDLRLRJQT5;1;10;coniferous
-164;Gemeine Kiefer Sachsen Lembcke/Knapp/Dittmar;DE;dgz_100;1999, Sächsische Landesanstalt für Forsten: Hilfstafeln zur Sächsischen Forsteinrichtungsdienstanweisung, Auflage 1000, Sächsische Landesanstalt für Forsten;https://www.deutsche-digitale-bibliothek.de/item/SDDDSBUP7OQ7CYU2QZCEMGTDLRLRJQT5;1;10;coniferous
-165;Europäische Lärche Sachsen Schober;DE;dgz_100;1999, Sächsische Landesanstalt für Forsten: Hilfstafeln zur Sächsischen Forsteinrichtungsdienstanweisung, Auflage 1000, Sächsische Landesanstalt für Forsten;https://www.deutsche-digitale-bibliothek.de/item/SDDDSBUP7OQ7CYU2QZCEMGTDLRLRJQT5;1;10;deciduous
-166;Japanische Lärche Sachsen Schober;DE;dgz_100;1999, Sächsische Landesanstalt für Forsten: Hilfstafeln zur Sächsischen Forsteinrichtungsdienstanweisung, Auflage 1000, Sächsische Landesanstalt für Forsten;https://www.deutsche-digitale-bibliothek.de/item/SDDDSBUP7OQ7CYU2QZCEMGTDLRLRJQT5;1;10;deciduous
-167;Douglasie Sachsen Bergel;DE;dgz_100;1999, Sächsische Landesanstalt für Forsten: Hilfstafeln zur Sächsischen Forsteinrichtungsdienstanweisung, Auflage 1000, Sächsische Landesanstalt für Forsten;https://www.deutsche-digitale-bibliothek.de/item/SDDDSBUP7OQ7CYU2QZCEMGTDLRLRJQT5;1;10;coniferous
-168;Rotbuche Sachsen Dittmar/Knapp/Lembcke;DE;dgz_100;1999, Sächsische Landesanstalt für Forsten: Hilfstafeln zur Sächsischen Forsteinrichtungsdienstanweisung, Auflage 1000, Sächsische Landesanstalt für Forsten;https://www.deutsche-digitale-bibliothek.de/item/SDDDSBUP7OQ7CYU2QZCEMGTDLRLRJQT5;1;10;deciduous
-169;Eiche Sachsen Erteld;DE;dgz_100;1999, Sächsische Landesanstalt für Forsten: Hilfstafeln zur Sächsischen Forsteinrichtungsdienstanweisung, Auflage 1000, Sächsische Landesanstalt für Forsten;https://www.deutsche-digitale-bibliothek.de/item/SDDDSBUP7OQ7CYU2QZCEMGTDLRLRJQT5;1;10;deciduous
-170;Roteiche Sachsen Bauer;DE;dgz_100;1999, Sächsische Landesanstalt für Forsten: Hilfstafeln zur Sächsischen Forsteinrichtungsdienstanweisung, Auflage 1000, Sächsische Landesanstalt für Forsten;https://www.deutsche-digitale-bibliothek.de/item/SDDDSBUP7OQ7CYU2QZCEMGTDLRLRJQT5;1;10;deciduous
-171;Gemeine Birke Sachsen Lockow;DE;dgz_100;1999, Sächsische Landesanstalt für Forsten: Hilfstafeln zur Sächsischen Forsteinrichtungsdienstanweisung, Auflage 1000, Sächsische Landesanstalt für Forsten;https://www.deutsche-digitale-bibliothek.de/item/SDDDSBUP7OQ7CYU2QZCEMGTDLRLRJQT5;1;10;deciduous
-172;Gemeine Esche Sachsen Wimmenauer;DE;dgz_100;1999, Sächsische Landesanstalt für Forsten: Hilfstafeln zur Sächsischen Forsteinrichtungsdienstanweisung, Auflage 1000, Sächsische Landesanstalt für Forsten;https://www.deutsche-digitale-bibliothek.de/item/SDDDSBUP7OQ7CYU2QZCEMGTDLRLRJQT5;1;10;deciduous
-173;Robinie Sachsen Erteld;DE;dgz_100;1999, Sächsische Landesanstalt für Forsten: Hilfstafeln zur Sächsischen Forsteinrichtungsdienstanweisung, Auflage 1000, Sächsische Landesanstalt für Forsten;https://www.deutsche-digitale-bibliothek.de/item/SDDDSBUP7OQ7CYU2QZCEMGTDLRLRJQT5;1;10;deciduous
-174;Pappel Sachsen Knapp;DE;dgz_100;1999, Sächsische Landesanstalt für Forsten: Hilfstafeln zur Sächsischen Forsteinrichtungsdienstanweisung, Auflage 1000, Sächsische Landesanstalt für Forsten;https://www.deutsche-digitale-bibliothek.de/item/SDDDSBUP7OQ7CYU2QZCEMGTDLRLRJQT5;1;5;deciduous
-175;Roterle Sachsen Lockow;DE;dgz_100;1999, Sächsische Landesanstalt für Forsten: Hilfstafeln zur Sächsischen Forsteinrichtungsdienstanweisung, Auflage 1000, Sächsische Landesanstalt für Forsten;https://www.deutsche-digitale-bibliothek.de/item/SDDDSBUP7OQ7CYU2QZCEMGTDLRLRJQT5;1;10;deciduous
-176;Winterlinde Sachsen Böckmann;DE;dgz_100;1999, Sächsische Landesanstalt für Forsten: Hilfstafeln zur Sächsischen Forsteinrichtungsdienstanweisung, Auflage 1000, Sächsische Landesanstalt für Forsten;https://www.deutsche-digitale-bibliothek.de/item/SDDDSBUP7OQ7CYU2QZCEMGTDLRLRJQT5;1;10;deciduous
-177;Beech Hungary Taeg Sopron;HU;dgz_100;Taeg Sopron;;1;10;deciduous
-178;Oak Hungary Taeg Sopron;HU;dgz_100;Taeg Sopron;;1;10;deciduous
-179;Larch Hungary Taeg Sopron;HU;dgz_100;Taeg Sopron;;1;10;coniferous
-180;Spruce Hungary Taeg Sopron;HU;dgz_100;Taeg Sopron;;1;10;coniferous
-181;Pine Hungary Taeg Sopron;HU;dgz_100;Taeg Sopron;;1;10;coniferous
-182;Robinia Hungary Fatermési Táblák;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;deciduous
-183;Stieleiche Hungary Fatermési Táblák;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;deciduous
-184;Traubeneiche Hungary Fatermési Táblák;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;deciduous
-185;Traubeneiche Sp. Hungary Fatermési Táblák;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;deciduous
-186;Roteiche Hungary Fatermési Táblák;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;deciduous
-187;Buche Hungary Fatermési Táblák;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;10;deciduous
-188;Zerreiche Saat Hungary Fatermési Táblák;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;deciduous
-189;Zerreiche Sp. Hungary Fatermési Táblák;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;deciduous
-190;Esche Hungary Fatermési Táblák;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;deciduous
-191;Hainbuche Hungary Fatermési Táblák;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;deciduous
-192;Birke Hungary Fatermési Táblák;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;deciduous
-193;Schwarznuss Hungary Fatermési Táblák;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;deciduous
-194;Edelkastanie Hungary Fatermési Táblák;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;deciduous
-195;Silberlinde Hungary Fatermési Táblák;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;deciduous
-196;Erle Hungary Fatermési Táblák;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;deciduous
-197;Graupappel Hungary Fatermési Táblák;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;deciduous
-198;Weide Hungary Fatermési Táblák;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;deciduous
-199;Euroamerikanische Pappel Hungary Fatermési Táblák;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;deciduous
-200;Waldkiefer Hungary Fatermési Táblák;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;coniferous
-201;Schwarzkiefer Hungary Fatermési Táblák;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;coniferous
-202;Fichte Hungary Fatermési Táblák;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;coniferous
-203;Lärche Hungary Fatermési Táblák;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;coniferous
-204;Eiche Jüttner;DE;German relative site index system;Ertragstafeln für Eiche. Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung, neubearbeitet von R. Schober. Frankfurt a. M.: J.D. Sauerländers, 2. Aufl. 1975;;1;5;deciduous
-205;Birke Schwappach;DE;German relative site index system;Zeitschrift fuer Forst- u. Jagdwesen;;1;5;deciduous
-206;Birke Tjurin;DE;German relative site index system;"TJURIN. A. W.; NAUMENKO. I. M. (1956): Forstliches Hilfsbuch fuer Waldtaxation. Moskva";;1;10;deciduous
-207;Schwarzerle Mitscherlich;DE;German relative site index system;Unters. ueber Zuwachs und Form der Schwarzerle;;1;5;deciduous
-208;Weisstanne Schmidt;DE;German relative site index system;Die Weisstanne in Ostfriesland, Forstw.Centralblatt 1951;;1;5;coniferous
-209;Strobe Eckstein, E.;DE;German relative site index system;Eckstein 1965;;1;5;coniferous
-210;Waldkiefer Finnland;FI;dgz_100;Instituti Forestalis Fenniae (1960): Metsaentutkimuslaitoksen Julakaisuja;;1;5;coniferous
-211;Gemeine Fichte Finnland;FI;dgz_100;Instituti Forestalis Fenniae (1960): Metsaentutkimuslaitoksen Julakaisuja;;1;5;coniferous
-212;Birke Finnland;FI;dgz_80;Instituti Forestalis Fenniae (1960): Metsaentutkimuslaitoksen Julakaisuja;;1;5;deciduous
-213;Gemeine Kiefer Brandenburg Lembcke/Knapp/Dittmar;DE;German relative site index system;Landesforstanstalt Eberswalde, 2000;https://forst.brandenburg.de/sixcms/media.php/9/kieferetk.pdf;1;5;coniferous
+id;title;country_codes;type;source;link;yield_class_step;age_step;tree_type;title_original
+1;Norway spruce high mountains;AT,DE;dgz_100;1975, Julius Marschall: Hilfstafeln für die Forsteinrichtung, Neunte Auflage, Österreichischer Agrarverlag;https://www.avbuch-shop.at/landwirtschaft/lehrbuecher/1347/hilfstafeln-fuer-die-forsteinrichtung;1;10;coniferous;Fichte Hochgebirge
+2;Norway spruce Bavaria;AT,DE;dgz_100;1975, Julius Marschall: Hilfstafeln für die Forsteinrichtung, Neunte Auflage, Österreichischer Agrarverlag;https://www.avbuch-shop.at/landwirtschaft/lehrbuecher/1347/hilfstafeln-fuer-die-forsteinrichtung;1;10;coniferous;Fichte Bayern
+3;Norway spruce Bruck;AT,DE;dgz_100;1975, Julius Marschall: Hilfstafeln für die Forsteinrichtung, Neunte Auflage, Österreichischer Agrarverlag;https://www.avbuch-shop.at/landwirtschaft/lehrbuecher/1347/hilfstafeln-fuer-die-forsteinrichtung;1;10;coniferous;Fichte Bruck
+4;Norway spruce Weitra;AT,DE;dgz_100;1975, Julius Marschall: Hilfstafeln für die Forsteinrichtung, Neunte Auflage, Österreichischer Agrarverlag;https://www.avbuch-shop.at/landwirtschaft/lehrbuecher/1347/hilfstafeln-fuer-die-forsteinrichtung;1;10;coniferous;Fichte Weitra
+5;Silver fir NWD;AT,DE;dgz_100;1975, Julius Marschall: Hilfstafeln für die Forsteinrichtung, Neunte Auflage, Österreichischer Agrarverlag;https://www.avbuch-shop.at/landwirtschaft/lehrbuecher/1347/hilfstafeln-fuer-die-forsteinrichtung;1;10;coniferous;Tanne NWD
+6;Silver fir Württemberg;AT,DE;dgz_100;1975, Julius Marschall: Hilfstafeln für die Forsteinrichtung, Neunte Auflage, Österreichischer Agrarverlag;https://www.avbuch-shop.at/landwirtschaft/lehrbuecher/1347/hilfstafeln-fuer-die-forsteinrichtung;2;10;coniferous;Tanne Württemberg
+7;Douglas fir BW;AT,DE;dgz_75;1975, Julius Marschall: Hilfstafeln für die Forsteinrichtung, Neunte Auflage, Österreichischer Agrarverlag;https://www.avbuch-shop.at/landwirtschaft/lehrbuecher/1347/hilfstafeln-fuer-die-forsteinrichtung;1;5;coniferous;Douglasie BW
+8;Larch Switzerland;AT,DE;dgz_100;1975, Julius Marschall: Hilfstafeln für die Forsteinrichtung, Neunte Auflage, Österreichischer Agrarverlag;https://www.avbuch-shop.at/landwirtschaft/lehrbuecher/1347/hilfstafeln-fuer-die-forsteinrichtung;1;10;coniferous;Lärche Schweiz
+9;Scots pine Litschau;AT,DE;dgz_100;1975, Julius Marschall: Hilfstafeln für die Forsteinrichtung, Neunte Auflage, Österreichischer Agrarverlag;https://www.avbuch-shop.at/landwirtschaft/lehrbuecher/1347/hilfstafeln-fuer-die-forsteinrichtung;1;10;coniferous;Kiefer Litschau
+10;European beech Braunschweig;AT,DE;dgz_100;1975, Julius Marschall: Hilfstafeln für die Forsteinrichtung, Neunte Auflage, Österreichischer Agrarverlag;https://www.avbuch-shop.at/landwirtschaft/lehrbuecher/1347/hilfstafeln-fuer-die-forsteinrichtung;1;10;deciduous;Buche Braunschweig
+11;Oak Hungary;AT,DE;dgz_100;1975, Julius Marschall: Hilfstafeln für die Forsteinrichtung, Neunte Auflage, Österreichischer Agrarverlag;https://www.avbuch-shop.at/landwirtschaft/lehrbuecher/1347/hilfstafeln-fuer-die-forsteinrichtung;1;10;deciduous;Eiche Ungarn
+12;Ash;AT,DE;dgz_100;unknown;;1;10;deciduous;Esche
+13;European poplar;AT,DE;dgz_50;unknown;;1;10;deciduous;Europäische Pappel
+14;Hybrid poplar;AT,DE;dgz_50;unknown;;1;10;deciduous;Hybrid Pappel
+15;Hornbeam;AT,DE;dgz_100;unknown;;1;10;deciduous;Hainbuche
+16;Black locust;AT,DE;dgz_50;unknown;;1;10;deciduous;Robinie
+17;Black pine;AT,DE;dgz_100;unknown;;1;10;coniferous;Schwarzkiefer
+18;Eastern white pine H;AT,DE;dgz_80;unknown;;1;10;coniferous;Strobe H
+19;Alder Schwappach;AT,DE;dgz_100;unknown;;1;10;deciduous;Erle Schwappach
+20;Tyrol Swiss stone pine - Murau;AT,DE;dgz_200;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10;coniferous;Zirbe - Murau
+21;Birch;AT,DE;dgz_100;unknown;;1;10;deciduous;Birke
+87;Norway spruce East Styria Eckmüllner;AT,DE;dgz_100;unknown;;1;10;coniferous;Fichte Oststeiermark Eckmüllner
+88;Tyrol Norway spruce limestone - low yield level;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10;coniferous;Fichte Kalk - Ertragsniveau nieder
+89;Tyrol Norway spruce limestone - medium yield level;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10;coniferous;Fichte Kalk - Ertragsniveau mittel
+90;Tyrol Norway spruce silicate - medium yield level;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10;coniferous;Fichte Silikat - Ertragsniveau mittel
+91;Tyrol Norway spruce silicate - high yield level;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10;coniferous;Fichte Silikat - Ertragsniveau hoch
+92;Tyrol Larch - South Tyrol;AT,DE;dgz_150;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10;coniferous;Lärche - Südtirol
+93;Tyrol Scots pine - South Tyrol;AT,DE;dgz_150;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10;coniferous;Kiefer - Südtirol
+94;Tyrol European beech;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10;deciduous;Buche
+99;Tyrol Scots pine - South Tyrol;AT,DE,IT;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10;coniferous;Kiefer - Südtirol
+100;Tyrol Larch - South Tyrol;AT,DE,IT;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10;coniferous;Lärche - Südtirol
+101;Tyrol Silver fir;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;1;10;coniferous;Tanne
+102;Tyrol Swiss stone pine - Murau;AT,DE;dgz_100;Ertragstafeln für Tirol, Amt der Tiroler Landesregierung;https://www.tirol.gv.at/umwelt/wald/waldwirtschaft/ertragstafeln-in-tirol/;;10;coniferous;Zirbe - Murau
+103;Černý European beech;CZ;Czech relative site index system;1996, Martin Černý, Jan Pařez: Růstové a taxační tabulky hlavních dřevin České republiky: (smrk, borovice, buk, dub). Jílové u Prahy: IFER.;https://katalog.mendelu.cz/records/5b86d7f6-2962-425e-b679-474a975de497;2;10;deciduous;Černý Buk
+104;Černý Oak;CZ;Czech relative site index system;1996, Martin Černý, Jan Pařez: Růstové a taxační tabulky hlavních dřevin České republiky: (smrk, borovice, buk, dub). Jílové u Prahy: IFER.;https://katalog.mendelu.cz/records/5b86d7f6-2962-425e-b679-474a975de497;2;10;deciduous;Černý Dub
+105;Černý Norway spruce;CZ;Czech relative site index system;1996, Martin Černý, Jan Pařez: Růstové a taxační tabulky hlavních dřevin České republiky: (smrk, borovice, buk, dub). Jílové u Prahy: IFER.;https://katalog.mendelu.cz/records/5b86d7f6-2962-425e-b679-474a975de497;2;10;coniferous;Černý Smrk
+106;Černý Scots pine;CZ;Czech relative site index system;1996, Martin Černý, Jan Pařez: Růstové a taxační tabulky hlavních dřevin České republiky: (smrk, borovice, buk, dub). Jílové u Prahy: IFER.;https://katalog.mendelu.cz/records/5b86d7f6-2962-425e-b679-474a975de497;2;10;coniferous;Černý Borovice
+120;Lockow Birch Northeast Germany;DE;German relative site index system;Forstliche Forschungsanstalt Eberswalde, Fachgebiet Waldwachstum Eberswalde 1996;https://plan-birke.de/app/uploads/2019/01/Sandbirke_1996_Lockow.pdf;1;10;deciduous;Lockow Birke Nordostdeutschland
+133;Wiedemann Birch Baden-Württemberg;DE;dgz_80;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10;deciduous;Wiedemann Birke Baden-Württemberg
+134;Wiedemann European beech Baden-Württemberg;DE;dgz_100;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10;deciduous;Wiedemann Buche Baden-Württemberg
+135;Wiedemann Oak Baden-Württemberg;DE;dgz_100;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10;deciduous;Wiedemann Eiche Baden-Württemberg
+136;Wiedemann European larch Baden-Württemberg;DE;dgz_100;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10;coniferous;Wiedemann Europäische Lärche Baden-Württemberg
+137;Wiedemann Alder Baden-Württemberg;DE;dgz_80;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10;deciduous;Wiedemann Erle Baden-Württemberg
+138;Wiedemann Ash Baden-Württemberg;DE;dgz_100;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10;deciduous;Wiedemann Esche Baden-Württemberg
+139;Wiedemann Norway spruce Baden-Württemberg;DE;dgz_100;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10;coniferous;Wiedemann Fichte Baden-Württemberg
+140;Wiedemann Japanese larch Baden-Württemberg;DE;dgz_60;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10;coniferous;Wiedemann Japanische Lärche Baden-Württemberg
+141;Wiedemann Scots pine Baden-Württemberg;DE;dgz_100;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10;coniferous;Wiedemann Kiefer Baden-Württemberg
+143;Wiedemann Poplar Baden-Württemberg;DE;dgz_50;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;0.5;10;deciduous;Wiedemann Pappel Baden-Württemberg
+144;Wiedemann Red oak Baden-Württemberg;DE;dgz_100;Schober, R. (Hg.): Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung. 4. Aufl., Frankfurt am Main: J. D. Sauerländer`s Verlag, 1995.;https://www.eurobuch.com/buch/isbn/3793907309.html;1;10;deciduous;Wiedemann Roteiche Baden-Württemberg
+145;Larch;RO;dgz_100;Victor Giurgiu, Dorin Draghiciu: Modele matematico-auxologice si tabele de productie pentru arborete;;;5;coniferous;Larice
+146;Scots pine;RO;dgz_100;Victor Giurgiu, Dorin Draghiciu: Modele matematico-auxologice si tabele de productie pentru arborete;;;5;coniferous;Pin silvestru
+147;European beech from seed;RO;dgz_100;Victor Giurgiu, Dorin Draghiciu: Modele matematico-auxologice si tabele de productie pentru arborete;;;5;deciduous;Fag din sămânță
+148;Birch;RO;dgz_100;Victor Giurgiu, Dorin Draghiciu: Modele matematico-auxologice si tabele de productie pentru arborete;;;5;deciduous;Mesteacăn
+149;White and black poplar;RO;dgz_100;Victor Giurgiu, Dorin Draghiciu: Modele matematico-auxologice si tabele de productie pentru arborete;;;5;deciduous;Plop alb și plop negru
+150;Willow from seed;RO;dgz_100;Victor Giurgiu, Dorin Draghiciu: Modele matematico-auxologice si tabele de productie pentru arborete;;;2;deciduous;Salcie din sămânță
+151;Black pine;RO;dgz_100;Victor Giurgiu, Dorin Draghiciu: Modele matematico-auxologice si tabele de productie pentru arborete;;;5;coniferous;Pin negru
+152;Norway spruce (within natural range);RO;dgz_100;Victor Giurgiu, Dorin Draghiciu: Modele matematico-auxologice si tabele de productie pentru arborete;;;5;coniferous;Molid (în arealul natural)
+153;Norway spruce (outside natural range);RO;dgz_100;Victor Giurgiu, Dorin Draghiciu: Modele matematico-auxologice si tabele de productie pentru arborete;;;5;coniferous;Molid (în afara arealului natural)
+154;Silver fir;RO;dgz_100;Victor Giurgiu, Dorin Draghiciu: Modele matematico-auxologice si tabele de productie pentru arborete;;;5;coniferous;Brad
+155;European beech from coppice;RO;dgz_100;Victor Giurgiu, Dorin Draghiciu: Modele matematico-auxologice si tabele de productie pentru arborete;;;5;deciduous;Fag din lăstar
+156;Sessile oak from seed;RO;dgz_100;Victor Giurgiu, Dorin Draghiciu: Modele matematico-auxologice si tabele de productie pentru arborete;;;5;deciduous;Gorun din sămânță
+157;Hornbeam;RO;dgz_100;Victor Giurgiu, Dorin Draghiciu: Modele matematico-auxologice si tabele de productie pentru arborete;;;5;deciduous;Carpen
+158;Silver lime;RO;dgz_100;Victor Giurgiu, Dorin Draghiciu: Modele matematico-auxologice si tabele de productie pentru arborete;;;5;deciduous;Tei argintiu
+159;Pedunculate oak from coppice;RO;dgz_100;Victor Giurgiu, Dorin Draghiciu: Modele matematico-auxologice si tabele de productie pentru arborete;;;5;deciduous;Stejar din lăstar
+160;Black locust from seed;RO;dgz_100;Victor Giurgiu, Dorin Draghiciu: Modele matematico-auxologice si tabele de productie pentru arborete;;;2;deciduous;Salcâm din sămânță
+161;Black locust from coppice;RO;dgz_100;Victor Giurgiu, Dorin Draghiciu: Modele matematico-auxologice si tabele de productie pentru arborete;;;2;deciduous;Salcâm din lăstar
+162;Willow from coppice;RO;dgz_100;Victor Giurgiu, Dorin Draghiciu: Modele matematico-auxologice si tabele de productie pentru arborete;;;2;deciduous;Salcie din lăstar
+163;Norway spruce Saxony Wenk/Römisch/Gerold;DE;dgz_100;1999, Sächsische Landesanstalt für Forsten: Hilfstafeln zur Sächsischen Forsteinrichtungsdienstanweisung, Auflage 1000, Sächsische Landesanstalt für Forsten;https://www.deutsche-digitale-bibliothek.de/item/SDDDSBUP7OQ7CYU2QZCEMGTDLRLRJQT5;1;10;coniferous;Gemeine Fichte Sachsen Wenk/Römisch/Gerold
+164;Scots pine Saxony Lembcke/Knapp/Dittmar;DE;dgz_100;1999, Sächsische Landesanstalt für Forsten: Hilfstafeln zur Sächsischen Forsteinrichtungsdienstanweisung, Auflage 1000, Sächsische Landesanstalt für Forsten;https://www.deutsche-digitale-bibliothek.de/item/SDDDSBUP7OQ7CYU2QZCEMGTDLRLRJQT5;1;10;coniferous;Gemeine Kiefer Sachsen Lembcke/Knapp/Dittmar
+165;European larch Saxony Schober;DE;dgz_100;1999, Sächsische Landesanstalt für Forsten: Hilfstafeln zur Sächsischen Forsteinrichtungsdienstanweisung, Auflage 1000, Sächsische Landesanstalt für Forsten;https://www.deutsche-digitale-bibliothek.de/item/SDDDSBUP7OQ7CYU2QZCEMGTDLRLRJQT5;1;10;deciduous;Europäische Lärche Sachsen Schober
+166;Japanese larch Saxony Schober;DE;dgz_100;1999, Sächsische Landesanstalt für Forsten: Hilfstafeln zur Sächsischen Forsteinrichtungsdienstanweisung, Auflage 1000, Sächsische Landesanstalt für Forsten;https://www.deutsche-digitale-bibliothek.de/item/SDDDSBUP7OQ7CYU2QZCEMGTDLRLRJQT5;1;10;deciduous;Japanische Lärche Sachsen Schober
+167;Douglas fir Saxony Bergel;DE;dgz_100;1999, Sächsische Landesanstalt für Forsten: Hilfstafeln zur Sächsischen Forsteinrichtungsdienstanweisung, Auflage 1000, Sächsische Landesanstalt für Forsten;https://www.deutsche-digitale-bibliothek.de/item/SDDDSBUP7OQ7CYU2QZCEMGTDLRLRJQT5;1;10;coniferous;Douglasie Sachsen Bergel
+168;European beech Saxony Dittmar/Knapp/Lembcke;DE;dgz_100;1999, Sächsische Landesanstalt für Forsten: Hilfstafeln zur Sächsischen Forsteinrichtungsdienstanweisung, Auflage 1000, Sächsische Landesanstalt für Forsten;https://www.deutsche-digitale-bibliothek.de/item/SDDDSBUP7OQ7CYU2QZCEMGTDLRLRJQT5;1;10;deciduous;Rotbuche Sachsen Dittmar/Knapp/Lembcke
+169;Oak Saxony Erteld;DE;dgz_100;1999, Sächsische Landesanstalt für Forsten: Hilfstafeln zur Sächsischen Forsteinrichtungsdienstanweisung, Auflage 1000, Sächsische Landesanstalt für Forsten;https://www.deutsche-digitale-bibliothek.de/item/SDDDSBUP7OQ7CYU2QZCEMGTDLRLRJQT5;1;10;deciduous;Eiche Sachsen Erteld
+170;Red oak Saxony Bauer;DE;dgz_100;1999, Sächsische Landesanstalt für Forsten: Hilfstafeln zur Sächsischen Forsteinrichtungsdienstanweisung, Auflage 1000, Sächsische Landesanstalt für Forsten;https://www.deutsche-digitale-bibliothek.de/item/SDDDSBUP7OQ7CYU2QZCEMGTDLRLRJQT5;1;10;deciduous;Roteiche Sachsen Bauer
+171;Silver birch Saxony Lockow;DE;dgz_100;1999, Sächsische Landesanstalt für Forsten: Hilfstafeln zur Sächsischen Forsteinrichtungsdienstanweisung, Auflage 1000, Sächsische Landesanstalt für Forsten;https://www.deutsche-digitale-bibliothek.de/item/SDDDSBUP7OQ7CYU2QZCEMGTDLRLRJQT5;1;10;deciduous;Gemeine Birke Sachsen Lockow
+172;European ash Saxony Wimmenauer;DE;dgz_100;1999, Sächsische Landesanstalt für Forsten: Hilfstafeln zur Sächsischen Forsteinrichtungsdienstanweisung, Auflage 1000, Sächsische Landesanstalt für Forsten;https://www.deutsche-digitale-bibliothek.de/item/SDDDSBUP7OQ7CYU2QZCEMGTDLRLRJQT5;1;10;deciduous;Gemeine Esche Sachsen Wimmenauer
+173;Black locust Saxony Erteld;DE;dgz_100;1999, Sächsische Landesanstalt für Forsten: Hilfstafeln zur Sächsischen Forsteinrichtungsdienstanweisung, Auflage 1000, Sächsische Landesanstalt für Forsten;https://www.deutsche-digitale-bibliothek.de/item/SDDDSBUP7OQ7CYU2QZCEMGTDLRLRJQT5;1;10;deciduous;Robinie Sachsen Erteld
+174;Poplar Saxony Knapp;DE;dgz_100;1999, Sächsische Landesanstalt für Forsten: Hilfstafeln zur Sächsischen Forsteinrichtungsdienstanweisung, Auflage 1000, Sächsische Landesanstalt für Forsten;https://www.deutsche-digitale-bibliothek.de/item/SDDDSBUP7OQ7CYU2QZCEMGTDLRLRJQT5;1;5;deciduous;Pappel Sachsen Knapp
+175;Black alder Saxony Lockow;DE;dgz_100;1999, Sächsische Landesanstalt für Forsten: Hilfstafeln zur Sächsischen Forsteinrichtungsdienstanweisung, Auflage 1000, Sächsische Landesanstalt für Forsten;https://www.deutsche-digitale-bibliothek.de/item/SDDDSBUP7OQ7CYU2QZCEMGTDLRLRJQT5;1;10;deciduous;Roterle Sachsen Lockow
+176;Small-leaved lime Saxony Böckmann;DE;dgz_100;1999, Sächsische Landesanstalt für Forsten: Hilfstafeln zur Sächsischen Forsteinrichtungsdienstanweisung, Auflage 1000, Sächsische Landesanstalt für Forsten;https://www.deutsche-digitale-bibliothek.de/item/SDDDSBUP7OQ7CYU2QZCEMGTDLRLRJQT5;1;10;deciduous;Winterlinde Sachsen Böckmann
+177;European beech Hungary TAEG Sopron;HU;dgz_100;Taeg Sopron;;1;10;deciduous;Bükk TAEG Sopron
+178;Oak Hungary TAEG Sopron;HU;dgz_100;Taeg Sopron;;1;10;deciduous;Tölgy TAEG Sopron
+179;Larch Hungary TAEG Sopron;HU;dgz_100;Taeg Sopron;;1;10;coniferous;Vörösfenyő TAEG Sopron
+180;Norway spruce Hungary TAEG Sopron;HU;dgz_100;Taeg Sopron;;1;10;coniferous;Lucfenyő TAEG Sopron
+181;Scots pine Hungary TAEG Sopron;HU;dgz_100;Taeg Sopron;;1;10;coniferous;Erdeifenyő TAEG Sopron
+182;Black locust Hungary yield tables;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;deciduous;Akác Fatermési táblák
+183;Pedunculate oak Hungary yield tables;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;deciduous;Kocsányos tölgy Fatermési táblák
+184;Sessile oak Hungary yield tables;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;deciduous;Kocsánytalan tölgy Fatermési táblák
+185;Sessile oak Sp. Hungary yield tables;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;deciduous;Kocsánytalan tölgy Sp. Fatermési táblák
+186;Red oak Hungary yield tables;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;deciduous;Vörös tölgy Fatermési táblák
+187;European beech Hungary yield tables;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;10;deciduous;Bükk Fatermési táblák
+188;Turkey oak from seed Hungary yield tables;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;deciduous;Csertölgy mag Fatermési táblák
+189;Turkey oak Sp. Hungary yield tables;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;deciduous;Csertölgy Sp. Fatermési táblák
+190;Ash Hungary yield tables;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;deciduous;Kőris Fatermési táblák
+191;Hornbeam Hungary yield tables;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;deciduous;Gyertyán Fatermési táblák
+192;Birch Hungary yield tables;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;deciduous;Nyír Fatermési táblák
+193;Black walnut Hungary yield tables;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;deciduous;Fekete dió Fatermési táblák
+194;Sweet chestnut Hungary yield tables;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;deciduous;Szelídgesztenye Fatermési táblák
+195;Silver lime Hungary yield tables;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;deciduous;Ezüsthárs Fatermési táblák
+196;Alder Hungary yield tables;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;deciduous;Éger Fatermési táblák
+197;Grey poplar Hungary yield tables;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;deciduous;Szürke nyár Fatermési táblák
+198;Willow Hungary yield tables;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;deciduous;Fűz Fatermési táblák
+199;Euro-American poplar Hungary yield tables;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;deciduous;Nemesnyár Fatermési táblák
+200;Scots pine Hungary yield tables;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;coniferous;Erdeifenyő Fatermési táblák
+201;Black pine Hungary yield tables;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;coniferous;Feketefenyő Fatermési táblák
+202;Norway spruce Hungary yield tables;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;coniferous;Lucfenyő Fatermési táblák
+203;Larch Hungary yield tables;HU;Hungarian relative site index system;Taeg Sopron Fatermési Táblák;;1;5;coniferous;Vörösfenyő Fatermési táblák
+204;Oak Jüttner;DE;German relative site index system;Ertragstafeln für Eiche. Ertragstafeln wichtiger Baumarten bei verschiedener Durchforstung, neubearbeitet von R. Schober. Frankfurt a. M.: J.D. Sauerländers, 2. Aufl. 1975;;1;5;deciduous;Eiche Jüttner
+205;Birch Schwappach;DE;German relative site index system;Zeitschrift fuer Forst- u. Jagdwesen;;1;5;deciduous;Birke Schwappach
+206;Birch Tjurin;DE;German relative site index system;"TJURIN. A. W.; NAUMENKO. I. M. (1956): Forstliches Hilfsbuch fuer Waldtaxation. Moskva";;1;10;deciduous;Birke Tjurin
+207;Black alder Mitscherlich;DE;German relative site index system;Unters. ueber Zuwachs und Form der Schwarzerle;;1;5;deciduous;Schwarzerle Mitscherlich
+208;Silver fir Schmidt;DE;German relative site index system;Die Weisstanne in Ostfriesland, Forstw.Centralblatt 1951;;1;5;coniferous;Weisstanne Schmidt
+209;Eastern white pine Eckstein;DE;German relative site index system;Eckstein 1965;;1;5;coniferous;Strobe Eckstein
+210;Scots pine Finland;FI;dgz_100;Instituti Forestalis Fenniae (1960): Metsaentutkimuslaitoksen Julakaisuja;;1;5;coniferous;Mänty
+211;Norway spruce Finland;FI;dgz_100;Instituti Forestalis Fenniae (1960): Metsaentutkimuslaitoksen Julakaisuja;;1;5;coniferous;Kuusi
+212;Birch Finland;FI;dgz_80;Instituti Forestalis Fenniae (1960): Metsaentutkimuslaitoksen Julakaisuja;;1;5;deciduous;Koivu
+213;Scots pine Brandenburg Lembcke/Knapp/Dittmar;DE;German relative site index system;Landesforstanstalt Eberswalde, 2000;https://forst.brandenburg.de/sixcms/media.php/9/kieferetk.pdf;1;5;coniferous;Gemeine Kiefer Brandenburg Lembcke/Knapp/Dittmar
