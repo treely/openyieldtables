@@ -90,6 +90,8 @@ def test_yield_table_meta_defaults():
     assert model.link is None
     assert model.yield_class_step is None
     assert model.age_step is None
+    assert model.title_original is None
+    assert model.title_english is None
 
 
 def test_yield_table_valid_data():

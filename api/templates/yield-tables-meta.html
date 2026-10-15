@@ -48,6 +48,14 @@
                 </th>
                 <td class="px-6 py-4 font-mono">
                   <span>{{yield_table_meta.title}}</span>
+                  {% if yield_table_meta.title_original %}
+                  <br />
+                  <span class="text-xs text-gray-500">original: {{yield_table_meta.title_original}}</span>
+                  {% endif %}
+                  {% if yield_table_meta.title_english %}
+                  <br />
+                  <span class="text-xs text-gray-500">english: {{yield_table_meta.title_english}}</span>
+                  {% endif %}
                   <br />
                   <a
                     href="/v1/yield-tables/{{yield_table_meta.id}}"

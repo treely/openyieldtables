@@ -19,6 +19,8 @@ def test_get_yield_tables_meta():
     assert yield_tables_meta[0].model_dump() == {
         "id": 1,
         "title": "Fichte Hochgebirge",
+        "title_original": "Fichte Hochgebirge",
+        "title_english": "Norway spruce high mountains",
         "country_codes": ["AT", "DE"],
         "type": "dgz_100",
         "source": "1975, Julius Marschall: Hilfstafeln für die Forsteinrichtung, Neunte Auflage, Österreichischer Agrarverlag",  # noqa E501
@@ -46,6 +48,8 @@ def test_get_yield_tables_meta():
     assert yield_tables_meta[27].model_dump() == {
         "id": 93,
         "title": "Tirol Kiefer Suedtirol",
+        "title_original": "Kiefer - Südtirol",
+        "title_english": "Tyrol Scots pine - South Tyrol",
         "country_codes": ["AT", "DE"],
         "type": "dgz_150",
         "source": "Ertragstafeln für Tirol, Amt der Tiroler Landesregierung",
@@ -141,6 +145,8 @@ async def test_get_yield_tables_meta_from_df():
     assert yield_tables_meta[0].model_dump() == {
         "id": 1,
         "title": "Fichte Hochgebirge",
+        "title_original": "Fichte Hochgebirge",
+        "title_english": "Norway spruce high mountains",
         "country_codes": ["AT", "DE"],
         "type": "dgz_100",
         "source": "1975, Julius Marschall: Hilfstafeln für die Forsteinrichtung, Neunte Auflage, Österreichischer Agrarverlag",  # noqa E501
@@ -168,6 +174,8 @@ async def test_get_yield_tables_meta_from_df():
     assert yield_tables_meta[27].model_dump() == {
         "id": 93,
         "title": "Tirol Kiefer Suedtirol",
+        "title_original": "Kiefer - Südtirol",
+        "title_english": "Tyrol Scots pine - South Tyrol",
         "country_codes": ["AT", "DE"],
         "type": "dgz_150",
         "source": "Ertragstafeln für Tirol, Amt der Tiroler Landesregierung",
@@ -267,3 +275,36 @@ async def test_get_yield_table_from_df():
         get_yield_table_from_df(
             999, yield_tables_meta_df, yield_tables_data_df
         )
+
+
+def test_get_yield_tables_meta_titles():
+    yield_tables_meta = get_yield_tables_meta()
+
+    for yield_table_meta in yield_tables_meta:
+        assert yield_table_meta.title
+        assert yield_table_meta.title_original
+        assert yield_table_meta.title_english
+
+
+@pytest.mark.asyncio
+async def test_preprocess_yield_tables_meta_without_titles():
+    # Meta data without the optional title columns is still supported
+    manager = DataFrameManager()
+    await manager.load_yield_tables_data()
+    await manager.load_yield_tables_meta()
+    meta_df = await manager.get_yield_tables_meta()
+
+    manager.yield_tables_meta_df = meta_df.drop(
+        columns=["title_original", "title_english", "available_columns"]
+    )
+    manager.yield_tables_meta_df["country_codes"] = (
+        manager.yield_tables_meta_df["country_codes"].apply(",".join)
+    )
+    manager.preprocess_yield_tables_meta()
+
+    yield_tables_meta = get_yield_tables_meta_from_df(
+        manager.yield_tables_meta_df
+    )
+    assert yield_tables_meta[0].title == "Fichte Hochgebirge"
+    assert yield_tables_meta[0].title_original is None
+    assert yield_tables_meta[0].title_english is None

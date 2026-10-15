@@ -11,6 +11,8 @@ The CSV files are structured as follows:
 * `yield_tables_meta.csv`: Contains metadata about the available yield tables.
     - `id`: {{ yield_tables_meta.id }}
     - `title`: {{ yield_tables_meta.title }}
+    - `title_original`: {{ yield_tables_meta.title_original }}
+    - `title_english`: {{ yield_tables_meta.title_english }}
     - `country_codes`: {{ yield_tables_meta.country_codes }}
     - `type`: {{ yield_tables_meta.type }}
     - `source`: {{ yield_tables_meta.source }}

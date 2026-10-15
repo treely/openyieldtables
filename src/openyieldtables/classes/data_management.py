@@ -53,6 +53,10 @@ class DataFrameManager:
             },
             inplace=True,
         )
+        # Support meta data without the optional title columns
+        for column in ("title_original", "title_english"):
+            if column not in self.yield_tables_meta_df.columns:
+                self.yield_tables_meta_df[column] = None
         # Replace other missing data with None
         self.yield_tables_meta_df.replace({np.nan: None}, inplace=True)
         # Apply transformations directly to DataFrame columns

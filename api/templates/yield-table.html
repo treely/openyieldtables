@@ -14,6 +14,13 @@
         >
           {{ data.title }}
         </h1>
+        {% if data.title_english or data.title_original %}
+        <p class="mt-2 text-gray-500">
+          {% if data.title_english %}{{ data.title_english }}{% endif %}
+          {% if data.title_english and data.title_original %}&middot;{% endif %}
+          {% if data.title_original %}{{ data.title_original }}{% endif %}
+        </p>
+        {% endif %}
 
         <div>
           <h2 class="mb-2 mt-10 text-xl font-semibold text-gray-900">
