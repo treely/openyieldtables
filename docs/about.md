@@ -1,6 +1,6 @@
 # About
 
-The `openyieldtables` library is maintained by [Tree.ly](https://tree.ly) and [FMM](https://www.fmm.at/).
+The `openyieldtables` library is maintained by [Pina Earth](https://pina.earth) and [FMM](https://www.fmm.at/).
 
 ## License
 

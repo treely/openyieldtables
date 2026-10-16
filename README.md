@@ -39,5 +39,5 @@ We are happy about every contribution! Please follow our
 
 ## About
 
-`openyieldtables` is maintained by [Tree.ly](https://tree.ly) and
+`openyieldtables` is maintained by [Pina Earth](https://pina.earth) and
 [FMM](https://www.fmm.at/).

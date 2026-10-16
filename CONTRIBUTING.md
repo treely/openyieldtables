@@ -14,7 +14,7 @@ For more information on how to do this, read our
 [developer guide](#development).
 
 If you have any questions, please reach out via any of our support channels on
-our [website](https://tree.ly).
+our websites: [Pina Earth](https://pina.earth), [FMM](https://www.fmm.at/).
 
 ## Upvoting Issues
 
@@ -42,7 +42,7 @@ You don't have to create a detailed bug report or request a new feature to make
 a valuable contribution. Giving us feedback about your experience with
 `openyieldtables` is incredibly valuable as well.
 Please get in touch with us to tell us what you like and don't like about it
-via our websites: [Tree.ly](https://tree.ly), [FMM](https://www.fmm.at/).
+via our websites: [Pina Earth](https://pina.earth), [FMM](https://www.fmm.at/).
 
 ## Development
 
