@@ -33,6 +33,80 @@
           </ul>
         </div>
 
+        {% set chart_columns = data.available_columns | reject("in", ["id",
+        "yield_class", "age"]) | list %} {% if chart_columns %}
+        <div class="mt-10">
+          <div class="mb-4 flex flex-wrap items-center justify-between gap-4">
+            <h2 class="text-xl font-semibold text-gray-900">Growth curves:</h2>
+            <select
+              id="growth-curve-column"
+              class="rounded border border-gray-300 px-3 py-2 font-mono text-sm"
+              aria-label="Column shown in the growth curves"
+            >
+              {% for column in chart_columns %}
+              <option value="{{ column }}" {% if column == "volume_per_ha" %}selected{% endif %}>
+                {{ column }}
+              </option>
+              {% endfor %}
+            </select>
+          </div>
+          <div class="relative h-96">
+            <canvas id="growth-curves"></canvas>
+          </div>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+        <script>
+          (function () {
+            const yieldClasses = {{ data.data.model_dump()["yield_classes"] | tojson }};
+            const docs = {{ docs | tojson }};
+            const select = document.getElementById("growth-curve-column");
+
+            // Light to dark green, the higher the yield class the darker
+            const classValues = yieldClasses.map((y) => y.yield_class);
+            const minClass = Math.min(...classValues);
+            const maxClass = Math.max(...classValues);
+            const color = (yieldClass) => {
+              const t = maxClass > minClass ? (yieldClass - minClass) / (maxClass - minClass) : 1;
+              return `hsl(150, 55%, ${75 - t * 55}%)`;
+            };
+
+            const datasets = (column) =>
+              yieldClasses.map((yieldClass) => ({
+                label: `Yield class ${yieldClass.yield_class}`,
+                data: yieldClass.rows
+                  .filter((row) => row[column] !== null)
+                  .map((row) => ({ x: row.age, y: row[column] })),
+                borderColor: color(yieldClass.yield_class),
+                backgroundColor: color(yieldClass.yield_class),
+                pointRadius: 0,
+                borderWidth: 2,
+                tension: 0.3,
+              }));
+
+            const chart = new Chart(document.getElementById("growth-curves"), {
+              type: "line",
+              data: { datasets: datasets(select.value) },
+              options: {
+                maintainAspectRatio: false,
+                interaction: { mode: "nearest", intersect: false },
+                plugins: { legend: { position: "right" } },
+                scales: {
+                  x: { type: "linear", title: { display: true, text: docs.age } },
+                  y: { title: { display: true, text: docs[select.value] } },
+                },
+              },
+            });
+
+            select.addEventListener("change", () => {
+              chart.data.datasets = datasets(select.value);
+              chart.options.scales.y.title.text = docs[select.value];
+              chart.update();
+            });
+          })();
+        </script>
+        {% endif %}
+
         <div class="mt-10 overflow-x-auto">
           <h2 class="mb-2 text-xl font-semibold text-gray-900">Data:</h2>
 
